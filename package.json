@@ -1,0 +1,11 @@
+{
+  "name": "nube-dark-theme",
+  "displayName": "Nube dark theme",
+  "description": "Nube personalized dark theme",
+  "version": "1.0.1",
+  "publisher": "Nube",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nube-duo/nube-flow"
+  }
+}
