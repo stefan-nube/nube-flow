@@ -53,3 +53,16 @@
     -webkit-text-stroke-color: $val !important;
   }
 }
+
+$durations: 50, 100, 150, 200, 250, 300, 350, 400, 450, 500;
+
+@mixin generate-transitions {
+  @each $duration in $durations {
+    [class*="ht#{$duration}"] {
+      transition-property: all;
+      transition-duration: #{$duration}ms;
+    }
+  }
+}
+
+@include generate-transitions;

@@ -8713,6 +8713,56 @@ a,
   -webkit-text-stroke-color: var(--color--9-9) !important;
 }
 
+[class*=ht50] {
+  transition-property: all;
+  transition-duration: 50ms;
+}
+
+[class*=ht100] {
+  transition-property: all;
+  transition-duration: 100ms;
+}
+
+[class*=ht150] {
+  transition-property: all;
+  transition-duration: 150ms;
+}
+
+[class*=ht200] {
+  transition-property: all;
+  transition-duration: 200ms;
+}
+
+[class*=ht250] {
+  transition-property: all;
+  transition-duration: 250ms;
+}
+
+[class*=ht300] {
+  transition-property: all;
+  transition-duration: 300ms;
+}
+
+[class*=ht350] {
+  transition-property: all;
+  transition-duration: 350ms;
+}
+
+[class*=ht400] {
+  transition-property: all;
+  transition-duration: 400ms;
+}
+
+[class*=ht450] {
+  transition-property: all;
+  transition-duration: 450ms;
+}
+
+[class*=ht500] {
+  transition-property: all;
+  transition-duration: 500ms;
+}
+
 [class*=xs_ed0] {
   display: none;
 }
