@@ -724,47 +724,47 @@
   border-radius: var(--size--10);
 }
 
-[class*=br0-h]:hover {
+[class*=br-h0]:hover {
   border-radius: var(--size--0);
 }
 
-[class*=br1-h]:hover {
+[class*=br-h1]:hover {
   border-radius: var(--size--1);
 }
 
-[class*=br2-h]:hover {
+[class*=br-h2]:hover {
   border-radius: var(--size--2);
 }
 
-[class*=br3-h]:hover {
+[class*=br-h3]:hover {
   border-radius: var(--size--3);
 }
 
-[class*=br4-h]:hover {
+[class*=br-h4]:hover {
   border-radius: var(--size--4);
 }
 
-[class*=br5-h]:hover {
+[class*=br-h5]:hover {
   border-radius: var(--size--5);
 }
 
-[class*=br6-h]:hover {
+[class*=br-h6]:hover {
   border-radius: var(--size--6);
 }
 
-[class*=br7-h]:hover {
+[class*=br-h7]:hover {
   border-radius: var(--size--7);
 }
 
-[class*=br8-h]:hover {
+[class*=br-h8]:hover {
   border-radius: var(--size--8);
 }
 
-[class*=br9-h]:hover {
+[class*=br-h9]:hover {
   border-radius: var(--size--9);
 }
 
-[class*=br10-h]:hover {
+[class*=br-h10]:hover {
   border-radius: var(--size--10);
 }
 

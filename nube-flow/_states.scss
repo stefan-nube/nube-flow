@@ -1,55 +1,55 @@
 @use "variables" as v;
 
 @each $key, $val in v.$colors {
-  [class*="bg#{$key}-h"]:hover {
+  [class*="bg-h#{$key}"]:hover {
     background: $val !important;
   }
-  [class*="bc#{$key}-h"]:hover {
+  [class*="bc-h#{$key}"]:hover {
     border-color: $val !important;
   }
-  [class*="oc#{$key}-h"]:hover {
+  [class*="oc-h#{$key}"]:hover {
     outline-color: $val !important;
   }
-  [class*="fc#{$key}-h"]:hover {
+  [class*="fc-h#{$key}"]:hover {
     color: $val !important;
   }
-  [class*="sc#{$key}-h"]:hover {
+  [class*="sc-h#{$key}"]:hover {
     -webkit-text-stroke-color: $val !important;
   }
 }
 
 @each $key, $val in v.$colors {
-  [class*="bg#{$key}-a"]:active {
+  [class*="bg-a#{$key}"]:active {
     background: $val !important;
   }
-  [class*="bc#{$key}-a"]:active {
+  [class*="bc-a#{$key}"]:active {
     border-color: $val !important;
   }
-  [class*="oc#{$key}-a"]:active {
+  [class*="oc-a#{$key}"]:active {
     outline-color: $val !important;
   }
-  [class*="fc#{$key}-a"]:active {
+  [class*="fc-a#{$key}"]:active {
     color: $val !important;
   }
-  [class*="sc#{$key}-a"]:active {
+  [class*="sc-a#{$key}"]:active {
     -webkit-text-stroke-color: $val !important;
   }
 }
 
 @each $key, $val in v.$colors {
-  [class*="bg#{$key}-f"]:focus {
+  [class*="bg-f#{$key}"]:focus {
     background: $val !important;
   }
-  [class*="bc#{$key}-f"]:focus {
+  [class*="bc-f#{$key}"]:focus {
     border-color: $val !important;
   }
-  [class*="oc#{$key}-f"]:focus {
+  [class*="oc-f#{$key}"]:focus {
     outline-color: $val !important;
   }
-  [class*="fc#{$key}-f"]:focus {
+  [class*="fc-f#{$key}"]:focus {
     color: $val !important;
   }
-  [class*="sc#{$key}-f"]:focus {
+  [class*="sc-f#{$key}"]:focus {
     -webkit-text-stroke-color: $val !important;
   }
 }

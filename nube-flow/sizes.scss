@@ -114,7 +114,7 @@ $properties-br: (
 
 @each $property, $prefix in $properties-br {
   @each $k, $v in v.$size {
-    [class*="#{$prefix}#{$k}-h"]:hover {
+    [class*="#{$prefix}-h#{$k}"]:hover {
       #{$property}: $v;
     }
   }
