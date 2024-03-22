@@ -2,7 +2,7 @@
 
 @each $key, $val in v.$font {
   [class*="--x#{$key}"] {
-    background: $val;
+    font-size: $val;
   }
 }
 
