@@ -1,0 +1,9289 @@
+* {
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.page {
+  overflow: clip;
+}
+
+html,
+body {
+  overscroll-behavior: none;
+}
+
+.w-richtext > :first-child {
+  margin-top: 0;
+}
+
+.w-richtext > :last-child,
+.w-richtext ol li:last-child,
+.w-richtext ul li:last-child {
+  margin-bottom: 0;
+}
+
+p,
+label {
+  margin-bottom: 0;
+}
+
+p {
+  line-height: inherit;
+}
+
+a,
+.w-tab-link,
+.w-nav-link,
+.w-dropdown-btn,
+.w-dropdown-toggle,
+.w-dropdown-link,
+.w-nav-brand {
+  color: inherit;
+  text-decoration: inherit;
+  font-size: inherit;
+}
+
+[class*=bg0-0] {
+  background: var(--color--0-0) !important;
+}
+
+[class*=bc0-0] {
+  border-color: var(--color--0-0) !important;
+}
+
+[class*=oc0-0] {
+  outline-color: var(--color--0-0) !important;
+}
+
+[class*=fc0-0] {
+  color: var(--color--0-0) !important;
+}
+
+[class*=sc0-0] {
+  -webkit-text-stroke-color: var(--color--0-0) !important;
+}
+
+[class*=bg0-1] {
+  background: var(--color--0-1) !important;
+}
+
+[class*=bc0-1] {
+  border-color: var(--color--0-1) !important;
+}
+
+[class*=oc0-1] {
+  outline-color: var(--color--0-1) !important;
+}
+
+[class*=fc0-1] {
+  color: var(--color--0-1) !important;
+}
+
+[class*=sc0-1] {
+  -webkit-text-stroke-color: var(--color--0-1) !important;
+}
+
+[class*=bg0-2] {
+  background: var(--color--0-2) !important;
+}
+
+[class*=bc0-2] {
+  border-color: var(--color--0-2) !important;
+}
+
+[class*=oc0-2] {
+  outline-color: var(--color--0-2) !important;
+}
+
+[class*=fc0-2] {
+  color: var(--color--0-2) !important;
+}
+
+[class*=sc0-2] {
+  -webkit-text-stroke-color: var(--color--0-2) !important;
+}
+
+[class*=bg0-3] {
+  background: var(--color--0-3) !important;
+}
+
+[class*=bc0-3] {
+  border-color: var(--color--0-3) !important;
+}
+
+[class*=oc0-3] {
+  outline-color: var(--color--0-3) !important;
+}
+
+[class*=fc0-3] {
+  color: var(--color--0-3) !important;
+}
+
+[class*=sc0-3] {
+  -webkit-text-stroke-color: var(--color--0-3) !important;
+}
+
+[class*=bg0-4] {
+  background: var(--color--0-4) !important;
+}
+
+[class*=bc0-4] {
+  border-color: var(--color--0-4) !important;
+}
+
+[class*=oc0-4] {
+  outline-color: var(--color--0-4) !important;
+}
+
+[class*=fc0-4] {
+  color: var(--color--0-4) !important;
+}
+
+[class*=sc0-4] {
+  -webkit-text-stroke-color: var(--color--0-4) !important;
+}
+
+[class*=bg0-5] {
+  background: var(--color--0-5) !important;
+}
+
+[class*=bc0-5] {
+  border-color: var(--color--0-5) !important;
+}
+
+[class*=oc0-5] {
+  outline-color: var(--color--0-5) !important;
+}
+
+[class*=fc0-5] {
+  color: var(--color--0-5) !important;
+}
+
+[class*=sc0-5] {
+  -webkit-text-stroke-color: var(--color--0-5) !important;
+}
+
+[class*=bg0-6] {
+  background: var(--color--0-6) !important;
+}
+
+[class*=bc0-6] {
+  border-color: var(--color--0-6) !important;
+}
+
+[class*=oc0-6] {
+  outline-color: var(--color--0-6) !important;
+}
+
+[class*=fc0-6] {
+  color: var(--color--0-6) !important;
+}
+
+[class*=sc0-6] {
+  -webkit-text-stroke-color: var(--color--0-6) !important;
+}
+
+[class*=bg0-7] {
+  background: var(--color--0-7) !important;
+}
+
+[class*=bc0-7] {
+  border-color: var(--color--0-7) !important;
+}
+
+[class*=oc0-7] {
+  outline-color: var(--color--0-7) !important;
+}
+
+[class*=fc0-7] {
+  color: var(--color--0-7) !important;
+}
+
+[class*=sc0-7] {
+  -webkit-text-stroke-color: var(--color--0-7) !important;
+}
+
+[class*=bg0-8] {
+  background: var(--color--0-8) !important;
+}
+
+[class*=bc0-8] {
+  border-color: var(--color--0-8) !important;
+}
+
+[class*=oc0-8] {
+  outline-color: var(--color--0-8) !important;
+}
+
+[class*=fc0-8] {
+  color: var(--color--0-8) !important;
+}
+
+[class*=sc0-8] {
+  -webkit-text-stroke-color: var(--color--0-8) !important;
+}
+
+[class*=bg0-9] {
+  background: var(--color--0-9) !important;
+}
+
+[class*=bc0-9] {
+  border-color: var(--color--0-9) !important;
+}
+
+[class*=oc0-9] {
+  outline-color: var(--color--0-9) !important;
+}
+
+[class*=fc0-9] {
+  color: var(--color--0-9) !important;
+}
+
+[class*=sc0-9] {
+  -webkit-text-stroke-color: var(--color--0-9) !important;
+}
+
+[class*=bg1-0] {
+  background: var(--color--1-0) !important;
+}
+
+[class*=bc1-0] {
+  border-color: var(--color--1-0) !important;
+}
+
+[class*=oc1-0] {
+  outline-color: var(--color--1-0) !important;
+}
+
+[class*=fc1-0] {
+  color: var(--color--1-0) !important;
+}
+
+[class*=sc1-0] {
+  -webkit-text-stroke-color: var(--color--1-0) !important;
+}
+
+[class*=bg1-1] {
+  background: var(--color--1-1) !important;
+}
+
+[class*=bc1-1] {
+  border-color: var(--color--1-1) !important;
+}
+
+[class*=oc1-1] {
+  outline-color: var(--color--1-1) !important;
+}
+
+[class*=fc1-1] {
+  color: var(--color--1-1) !important;
+}
+
+[class*=sc1-1] {
+  -webkit-text-stroke-color: var(--color--1-1) !important;
+}
+
+[class*=bg1-2] {
+  background: var(--color--1-2) !important;
+}
+
+[class*=bc1-2] {
+  border-color: var(--color--1-2) !important;
+}
+
+[class*=oc1-2] {
+  outline-color: var(--color--1-2) !important;
+}
+
+[class*=fc1-2] {
+  color: var(--color--1-2) !important;
+}
+
+[class*=sc1-2] {
+  -webkit-text-stroke-color: var(--color--1-2) !important;
+}
+
+[class*=bg1-3] {
+  background: var(--color--1-3) !important;
+}
+
+[class*=bc1-3] {
+  border-color: var(--color--1-3) !important;
+}
+
+[class*=oc1-3] {
+  outline-color: var(--color--1-3) !important;
+}
+
+[class*=fc1-3] {
+  color: var(--color--1-3) !important;
+}
+
+[class*=sc1-3] {
+  -webkit-text-stroke-color: var(--color--1-3) !important;
+}
+
+[class*=bg1-4] {
+  background: var(--color--1-4) !important;
+}
+
+[class*=bc1-4] {
+  border-color: var(--color--1-4) !important;
+}
+
+[class*=oc1-4] {
+  outline-color: var(--color--1-4) !important;
+}
+
+[class*=fc1-4] {
+  color: var(--color--1-4) !important;
+}
+
+[class*=sc1-4] {
+  -webkit-text-stroke-color: var(--color--1-4) !important;
+}
+
+[class*=bg1-5] {
+  background: var(--color--1-5) !important;
+}
+
+[class*=bc1-5] {
+  border-color: var(--color--1-5) !important;
+}
+
+[class*=oc1-5] {
+  outline-color: var(--color--1-5) !important;
+}
+
+[class*=fc1-5] {
+  color: var(--color--1-5) !important;
+}
+
+[class*=sc1-5] {
+  -webkit-text-stroke-color: var(--color--1-5) !important;
+}
+
+[class*=bg1-6] {
+  background: var(--color--1-6) !important;
+}
+
+[class*=bc1-6] {
+  border-color: var(--color--1-6) !important;
+}
+
+[class*=oc1-6] {
+  outline-color: var(--color--1-6) !important;
+}
+
+[class*=fc1-6] {
+  color: var(--color--1-6) !important;
+}
+
+[class*=sc1-6] {
+  -webkit-text-stroke-color: var(--color--1-6) !important;
+}
+
+[class*=bg1-7] {
+  background: var(--color--1-7) !important;
+}
+
+[class*=bc1-7] {
+  border-color: var(--color--1-7) !important;
+}
+
+[class*=oc1-7] {
+  outline-color: var(--color--1-7) !important;
+}
+
+[class*=fc1-7] {
+  color: var(--color--1-7) !important;
+}
+
+[class*=sc1-7] {
+  -webkit-text-stroke-color: var(--color--1-7) !important;
+}
+
+[class*=bg1-8] {
+  background: var(--color--1-8) !important;
+}
+
+[class*=bc1-8] {
+  border-color: var(--color--1-8) !important;
+}
+
+[class*=oc1-8] {
+  outline-color: var(--color--1-8) !important;
+}
+
+[class*=fc1-8] {
+  color: var(--color--1-8) !important;
+}
+
+[class*=sc1-8] {
+  -webkit-text-stroke-color: var(--color--1-8) !important;
+}
+
+[class*=bg1-9] {
+  background: var(--color--1-9) !important;
+}
+
+[class*=bc1-9] {
+  border-color: var(--color--1-9) !important;
+}
+
+[class*=oc1-9] {
+  outline-color: var(--color--1-9) !important;
+}
+
+[class*=fc1-9] {
+  color: var(--color--1-9) !important;
+}
+
+[class*=sc1-9] {
+  -webkit-text-stroke-color: var(--color--1-9) !important;
+}
+
+[class*=bg2-0] {
+  background: var(--color--2-0) !important;
+}
+
+[class*=bc2-0] {
+  border-color: var(--color--2-0) !important;
+}
+
+[class*=oc2-0] {
+  outline-color: var(--color--2-0) !important;
+}
+
+[class*=fc2-0] {
+  color: var(--color--2-0) !important;
+}
+
+[class*=sc2-0] {
+  -webkit-text-stroke-color: var(--color--2-0) !important;
+}
+
+[class*=bg2-1] {
+  background: var(--color--2-1) !important;
+}
+
+[class*=bc2-1] {
+  border-color: var(--color--2-1) !important;
+}
+
+[class*=oc2-1] {
+  outline-color: var(--color--2-1) !important;
+}
+
+[class*=fc2-1] {
+  color: var(--color--2-1) !important;
+}
+
+[class*=sc2-1] {
+  -webkit-text-stroke-color: var(--color--2-1) !important;
+}
+
+[class*=bg2-2] {
+  background: var(--color--2-2) !important;
+}
+
+[class*=bc2-2] {
+  border-color: var(--color--2-2) !important;
+}
+
+[class*=oc2-2] {
+  outline-color: var(--color--2-2) !important;
+}
+
+[class*=fc2-2] {
+  color: var(--color--2-2) !important;
+}
+
+[class*=sc2-2] {
+  -webkit-text-stroke-color: var(--color--2-2) !important;
+}
+
+[class*=bg2-3] {
+  background: var(--color--2-3) !important;
+}
+
+[class*=bc2-3] {
+  border-color: var(--color--2-3) !important;
+}
+
+[class*=oc2-3] {
+  outline-color: var(--color--2-3) !important;
+}
+
+[class*=fc2-3] {
+  color: var(--color--2-3) !important;
+}
+
+[class*=sc2-3] {
+  -webkit-text-stroke-color: var(--color--2-3) !important;
+}
+
+[class*=bg2-4] {
+  background: var(--color--2-4) !important;
+}
+
+[class*=bc2-4] {
+  border-color: var(--color--2-4) !important;
+}
+
+[class*=oc2-4] {
+  outline-color: var(--color--2-4) !important;
+}
+
+[class*=fc2-4] {
+  color: var(--color--2-4) !important;
+}
+
+[class*=sc2-4] {
+  -webkit-text-stroke-color: var(--color--2-4) !important;
+}
+
+[class*=bg2-5] {
+  background: var(--color--2-5) !important;
+}
+
+[class*=bc2-5] {
+  border-color: var(--color--2-5) !important;
+}
+
+[class*=oc2-5] {
+  outline-color: var(--color--2-5) !important;
+}
+
+[class*=fc2-5] {
+  color: var(--color--2-5) !important;
+}
+
+[class*=sc2-5] {
+  -webkit-text-stroke-color: var(--color--2-5) !important;
+}
+
+[class*=bg2-6] {
+  background: var(--color--2-6) !important;
+}
+
+[class*=bc2-6] {
+  border-color: var(--color--2-6) !important;
+}
+
+[class*=oc2-6] {
+  outline-color: var(--color--2-6) !important;
+}
+
+[class*=fc2-6] {
+  color: var(--color--2-6) !important;
+}
+
+[class*=sc2-6] {
+  -webkit-text-stroke-color: var(--color--2-6) !important;
+}
+
+[class*=bg2-7] {
+  background: var(--color--2-7) !important;
+}
+
+[class*=bc2-7] {
+  border-color: var(--color--2-7) !important;
+}
+
+[class*=oc2-7] {
+  outline-color: var(--color--2-7) !important;
+}
+
+[class*=fc2-7] {
+  color: var(--color--2-7) !important;
+}
+
+[class*=sc2-7] {
+  -webkit-text-stroke-color: var(--color--2-7) !important;
+}
+
+[class*=bg2-8] {
+  background: var(--color--2-8) !important;
+}
+
+[class*=bc2-8] {
+  border-color: var(--color--2-8) !important;
+}
+
+[class*=oc2-8] {
+  outline-color: var(--color--2-8) !important;
+}
+
+[class*=fc2-8] {
+  color: var(--color--2-8) !important;
+}
+
+[class*=sc2-8] {
+  -webkit-text-stroke-color: var(--color--2-8) !important;
+}
+
+[class*=bg2-9] {
+  background: var(--color--2-9) !important;
+}
+
+[class*=bc2-9] {
+  border-color: var(--color--2-9) !important;
+}
+
+[class*=oc2-9] {
+  outline-color: var(--color--2-9) !important;
+}
+
+[class*=fc2-9] {
+  color: var(--color--2-9) !important;
+}
+
+[class*=sc2-9] {
+  -webkit-text-stroke-color: var(--color--2-9) !important;
+}
+
+[class*=bg3-0] {
+  background: var(--color--3-0) !important;
+}
+
+[class*=bc3-0] {
+  border-color: var(--color--3-0) !important;
+}
+
+[class*=oc3-0] {
+  outline-color: var(--color--3-0) !important;
+}
+
+[class*=fc3-0] {
+  color: var(--color--3-0) !important;
+}
+
+[class*=sc3-0] {
+  -webkit-text-stroke-color: var(--color--3-0) !important;
+}
+
+[class*=bg3-1] {
+  background: var(--color--3-1) !important;
+}
+
+[class*=bc3-1] {
+  border-color: var(--color--3-1) !important;
+}
+
+[class*=oc3-1] {
+  outline-color: var(--color--3-1) !important;
+}
+
+[class*=fc3-1] {
+  color: var(--color--3-1) !important;
+}
+
+[class*=sc3-1] {
+  -webkit-text-stroke-color: var(--color--3-1) !important;
+}
+
+[class*=bg3-2] {
+  background: var(--color--3-2) !important;
+}
+
+[class*=bc3-2] {
+  border-color: var(--color--3-2) !important;
+}
+
+[class*=oc3-2] {
+  outline-color: var(--color--3-2) !important;
+}
+
+[class*=fc3-2] {
+  color: var(--color--3-2) !important;
+}
+
+[class*=sc3-2] {
+  -webkit-text-stroke-color: var(--color--3-2) !important;
+}
+
+[class*=bg3-3] {
+  background: var(--color--3-3) !important;
+}
+
+[class*=bc3-3] {
+  border-color: var(--color--3-3) !important;
+}
+
+[class*=oc3-3] {
+  outline-color: var(--color--3-3) !important;
+}
+
+[class*=fc3-3] {
+  color: var(--color--3-3) !important;
+}
+
+[class*=sc3-3] {
+  -webkit-text-stroke-color: var(--color--3-3) !important;
+}
+
+[class*=bg3-4] {
+  background: var(--color--3-4) !important;
+}
+
+[class*=bc3-4] {
+  border-color: var(--color--3-4) !important;
+}
+
+[class*=oc3-4] {
+  outline-color: var(--color--3-4) !important;
+}
+
+[class*=fc3-4] {
+  color: var(--color--3-4) !important;
+}
+
+[class*=sc3-4] {
+  -webkit-text-stroke-color: var(--color--3-4) !important;
+}
+
+[class*=bg3-5] {
+  background: var(--color--3-5) !important;
+}
+
+[class*=bc3-5] {
+  border-color: var(--color--3-5) !important;
+}
+
+[class*=oc3-5] {
+  outline-color: var(--color--3-5) !important;
+}
+
+[class*=fc3-5] {
+  color: var(--color--3-5) !important;
+}
+
+[class*=sc3-5] {
+  -webkit-text-stroke-color: var(--color--3-5) !important;
+}
+
+[class*=bg3-6] {
+  background: var(--color--3-6) !important;
+}
+
+[class*=bc3-6] {
+  border-color: var(--color--3-6) !important;
+}
+
+[class*=oc3-6] {
+  outline-color: var(--color--3-6) !important;
+}
+
+[class*=fc3-6] {
+  color: var(--color--3-6) !important;
+}
+
+[class*=sc3-6] {
+  -webkit-text-stroke-color: var(--color--3-6) !important;
+}
+
+[class*=bg3-7] {
+  background: var(--color--3-7) !important;
+}
+
+[class*=bc3-7] {
+  border-color: var(--color--3-7) !important;
+}
+
+[class*=oc3-7] {
+  outline-color: var(--color--3-7) !important;
+}
+
+[class*=fc3-7] {
+  color: var(--color--3-7) !important;
+}
+
+[class*=sc3-7] {
+  -webkit-text-stroke-color: var(--color--3-7) !important;
+}
+
+[class*=bg3-8] {
+  background: var(--color--3-8) !important;
+}
+
+[class*=bc3-8] {
+  border-color: var(--color--3-8) !important;
+}
+
+[class*=oc3-8] {
+  outline-color: var(--color--3-8) !important;
+}
+
+[class*=fc3-8] {
+  color: var(--color--3-8) !important;
+}
+
+[class*=sc3-8] {
+  -webkit-text-stroke-color: var(--color--3-8) !important;
+}
+
+[class*=bg3-9] {
+  background: var(--color--3-9) !important;
+}
+
+[class*=bc3-9] {
+  border-color: var(--color--3-9) !important;
+}
+
+[class*=oc3-9] {
+  outline-color: var(--color--3-9) !important;
+}
+
+[class*=fc3-9] {
+  color: var(--color--3-9) !important;
+}
+
+[class*=sc3-9] {
+  -webkit-text-stroke-color: var(--color--3-9) !important;
+}
+
+[class*=bg4-0] {
+  background: var(--color--4-0) !important;
+}
+
+[class*=bc4-0] {
+  border-color: var(--color--4-0) !important;
+}
+
+[class*=oc4-0] {
+  outline-color: var(--color--4-0) !important;
+}
+
+[class*=fc4-0] {
+  color: var(--color--4-0) !important;
+}
+
+[class*=sc4-0] {
+  -webkit-text-stroke-color: var(--color--4-0) !important;
+}
+
+[class*=bg4-1] {
+  background: var(--color--4-1) !important;
+}
+
+[class*=bc4-1] {
+  border-color: var(--color--4-1) !important;
+}
+
+[class*=oc4-1] {
+  outline-color: var(--color--4-1) !important;
+}
+
+[class*=fc4-1] {
+  color: var(--color--4-1) !important;
+}
+
+[class*=sc4-1] {
+  -webkit-text-stroke-color: var(--color--4-1) !important;
+}
+
+[class*=bg4-2] {
+  background: var(--color--4-2) !important;
+}
+
+[class*=bc4-2] {
+  border-color: var(--color--4-2) !important;
+}
+
+[class*=oc4-2] {
+  outline-color: var(--color--4-2) !important;
+}
+
+[class*=fc4-2] {
+  color: var(--color--4-2) !important;
+}
+
+[class*=sc4-2] {
+  -webkit-text-stroke-color: var(--color--4-2) !important;
+}
+
+[class*=bg4-3] {
+  background: var(--color--4-3) !important;
+}
+
+[class*=bc4-3] {
+  border-color: var(--color--4-3) !important;
+}
+
+[class*=oc4-3] {
+  outline-color: var(--color--4-3) !important;
+}
+
+[class*=fc4-3] {
+  color: var(--color--4-3) !important;
+}
+
+[class*=sc4-3] {
+  -webkit-text-stroke-color: var(--color--4-3) !important;
+}
+
+[class*=bg4-4] {
+  background: var(--color--4-4) !important;
+}
+
+[class*=bc4-4] {
+  border-color: var(--color--4-4) !important;
+}
+
+[class*=oc4-4] {
+  outline-color: var(--color--4-4) !important;
+}
+
+[class*=fc4-4] {
+  color: var(--color--4-4) !important;
+}
+
+[class*=sc4-4] {
+  -webkit-text-stroke-color: var(--color--4-4) !important;
+}
+
+[class*=bg4-5] {
+  background: var(--color--4-5) !important;
+}
+
+[class*=bc4-5] {
+  border-color: var(--color--4-5) !important;
+}
+
+[class*=oc4-5] {
+  outline-color: var(--color--4-5) !important;
+}
+
+[class*=fc4-5] {
+  color: var(--color--4-5) !important;
+}
+
+[class*=sc4-5] {
+  -webkit-text-stroke-color: var(--color--4-5) !important;
+}
+
+[class*=bg4-6] {
+  background: var(--color--4-6) !important;
+}
+
+[class*=bc4-6] {
+  border-color: var(--color--4-6) !important;
+}
+
+[class*=oc4-6] {
+  outline-color: var(--color--4-6) !important;
+}
+
+[class*=fc4-6] {
+  color: var(--color--4-6) !important;
+}
+
+[class*=sc4-6] {
+  -webkit-text-stroke-color: var(--color--4-6) !important;
+}
+
+[class*=bg4-7] {
+  background: var(--color--4-7) !important;
+}
+
+[class*=bc4-7] {
+  border-color: var(--color--4-7) !important;
+}
+
+[class*=oc4-7] {
+  outline-color: var(--color--4-7) !important;
+}
+
+[class*=fc4-7] {
+  color: var(--color--4-7) !important;
+}
+
+[class*=sc4-7] {
+  -webkit-text-stroke-color: var(--color--4-7) !important;
+}
+
+[class*=bg4-8] {
+  background: var(--color--4-8) !important;
+}
+
+[class*=bc4-8] {
+  border-color: var(--color--4-8) !important;
+}
+
+[class*=oc4-8] {
+  outline-color: var(--color--4-8) !important;
+}
+
+[class*=fc4-8] {
+  color: var(--color--4-8) !important;
+}
+
+[class*=sc4-8] {
+  -webkit-text-stroke-color: var(--color--4-8) !important;
+}
+
+[class*=bg4-9] {
+  background: var(--color--4-9) !important;
+}
+
+[class*=bc4-9] {
+  border-color: var(--color--4-9) !important;
+}
+
+[class*=oc4-9] {
+  outline-color: var(--color--4-9) !important;
+}
+
+[class*=fc4-9] {
+  color: var(--color--4-9) !important;
+}
+
+[class*=sc4-9] {
+  -webkit-text-stroke-color: var(--color--4-9) !important;
+}
+
+[class*=bg5-0] {
+  background: var(--color--5-0) !important;
+}
+
+[class*=bc5-0] {
+  border-color: var(--color--5-0) !important;
+}
+
+[class*=oc5-0] {
+  outline-color: var(--color--5-0) !important;
+}
+
+[class*=fc5-0] {
+  color: var(--color--5-0) !important;
+}
+
+[class*=sc5-0] {
+  -webkit-text-stroke-color: var(--color--5-0) !important;
+}
+
+[class*=bg5-1] {
+  background: var(--color--5-1) !important;
+}
+
+[class*=bc5-1] {
+  border-color: var(--color--5-1) !important;
+}
+
+[class*=oc5-1] {
+  outline-color: var(--color--5-1) !important;
+}
+
+[class*=fc5-1] {
+  color: var(--color--5-1) !important;
+}
+
+[class*=sc5-1] {
+  -webkit-text-stroke-color: var(--color--5-1) !important;
+}
+
+[class*=bg5-2] {
+  background: var(--color--5-2) !important;
+}
+
+[class*=bc5-2] {
+  border-color: var(--color--5-2) !important;
+}
+
+[class*=oc5-2] {
+  outline-color: var(--color--5-2) !important;
+}
+
+[class*=fc5-2] {
+  color: var(--color--5-2) !important;
+}
+
+[class*=sc5-2] {
+  -webkit-text-stroke-color: var(--color--5-2) !important;
+}
+
+[class*=bg5-3] {
+  background: var(--color--5-3) !important;
+}
+
+[class*=bc5-3] {
+  border-color: var(--color--5-3) !important;
+}
+
+[class*=oc5-3] {
+  outline-color: var(--color--5-3) !important;
+}
+
+[class*=fc5-3] {
+  color: var(--color--5-3) !important;
+}
+
+[class*=sc5-3] {
+  -webkit-text-stroke-color: var(--color--5-3) !important;
+}
+
+[class*=bg5-4] {
+  background: var(--color--5-4) !important;
+}
+
+[class*=bc5-4] {
+  border-color: var(--color--5-4) !important;
+}
+
+[class*=oc5-4] {
+  outline-color: var(--color--5-4) !important;
+}
+
+[class*=fc5-4] {
+  color: var(--color--5-4) !important;
+}
+
+[class*=sc5-4] {
+  -webkit-text-stroke-color: var(--color--5-4) !important;
+}
+
+[class*=bg5-5] {
+  background: var(--color--5-5) !important;
+}
+
+[class*=bc5-5] {
+  border-color: var(--color--5-5) !important;
+}
+
+[class*=oc5-5] {
+  outline-color: var(--color--5-5) !important;
+}
+
+[class*=fc5-5] {
+  color: var(--color--5-5) !important;
+}
+
+[class*=sc5-5] {
+  -webkit-text-stroke-color: var(--color--5-5) !important;
+}
+
+[class*=bg5-6] {
+  background: var(--color--5-6) !important;
+}
+
+[class*=bc5-6] {
+  border-color: var(--color--5-6) !important;
+}
+
+[class*=oc5-6] {
+  outline-color: var(--color--5-6) !important;
+}
+
+[class*=fc5-6] {
+  color: var(--color--5-6) !important;
+}
+
+[class*=sc5-6] {
+  -webkit-text-stroke-color: var(--color--5-6) !important;
+}
+
+[class*=bg5-7] {
+  background: var(--color--5-7) !important;
+}
+
+[class*=bc5-7] {
+  border-color: var(--color--5-7) !important;
+}
+
+[class*=oc5-7] {
+  outline-color: var(--color--5-7) !important;
+}
+
+[class*=fc5-7] {
+  color: var(--color--5-7) !important;
+}
+
+[class*=sc5-7] {
+  -webkit-text-stroke-color: var(--color--5-7) !important;
+}
+
+[class*=bg5-8] {
+  background: var(--color--5-8) !important;
+}
+
+[class*=bc5-8] {
+  border-color: var(--color--5-8) !important;
+}
+
+[class*=oc5-8] {
+  outline-color: var(--color--5-8) !important;
+}
+
+[class*=fc5-8] {
+  color: var(--color--5-8) !important;
+}
+
+[class*=sc5-8] {
+  -webkit-text-stroke-color: var(--color--5-8) !important;
+}
+
+[class*=bg5-9] {
+  background: var(--color--5-9) !important;
+}
+
+[class*=bc5-9] {
+  border-color: var(--color--5-9) !important;
+}
+
+[class*=oc5-9] {
+  outline-color: var(--color--5-9) !important;
+}
+
+[class*=fc5-9] {
+  color: var(--color--5-9) !important;
+}
+
+[class*=sc5-9] {
+  -webkit-text-stroke-color: var(--color--5-9) !important;
+}
+
+[class*=bg6-0] {
+  background: var(--color--6-0) !important;
+}
+
+[class*=bc6-0] {
+  border-color: var(--color--6-0) !important;
+}
+
+[class*=oc6-0] {
+  outline-color: var(--color--6-0) !important;
+}
+
+[class*=fc6-0] {
+  color: var(--color--6-0) !important;
+}
+
+[class*=sc6-0] {
+  -webkit-text-stroke-color: var(--color--6-0) !important;
+}
+
+[class*=bg6-1] {
+  background: var(--color--6-1) !important;
+}
+
+[class*=bc6-1] {
+  border-color: var(--color--6-1) !important;
+}
+
+[class*=oc6-1] {
+  outline-color: var(--color--6-1) !important;
+}
+
+[class*=fc6-1] {
+  color: var(--color--6-1) !important;
+}
+
+[class*=sc6-1] {
+  -webkit-text-stroke-color: var(--color--6-1) !important;
+}
+
+[class*=bg6-2] {
+  background: var(--color--6-2) !important;
+}
+
+[class*=bc6-2] {
+  border-color: var(--color--6-2) !important;
+}
+
+[class*=oc6-2] {
+  outline-color: var(--color--6-2) !important;
+}
+
+[class*=fc6-2] {
+  color: var(--color--6-2) !important;
+}
+
+[class*=sc6-2] {
+  -webkit-text-stroke-color: var(--color--6-2) !important;
+}
+
+[class*=bg6-3] {
+  background: var(--color--6-3) !important;
+}
+
+[class*=bc6-3] {
+  border-color: var(--color--6-3) !important;
+}
+
+[class*=oc6-3] {
+  outline-color: var(--color--6-3) !important;
+}
+
+[class*=fc6-3] {
+  color: var(--color--6-3) !important;
+}
+
+[class*=sc6-3] {
+  -webkit-text-stroke-color: var(--color--6-3) !important;
+}
+
+[class*=bg6-4] {
+  background: var(--color--6-4) !important;
+}
+
+[class*=bc6-4] {
+  border-color: var(--color--6-4) !important;
+}
+
+[class*=oc6-4] {
+  outline-color: var(--color--6-4) !important;
+}
+
+[class*=fc6-4] {
+  color: var(--color--6-4) !important;
+}
+
+[class*=sc6-4] {
+  -webkit-text-stroke-color: var(--color--6-4) !important;
+}
+
+[class*=bg6-5] {
+  background: var(--color--6-5) !important;
+}
+
+[class*=bc6-5] {
+  border-color: var(--color--6-5) !important;
+}
+
+[class*=oc6-5] {
+  outline-color: var(--color--6-5) !important;
+}
+
+[class*=fc6-5] {
+  color: var(--color--6-5) !important;
+}
+
+[class*=sc6-5] {
+  -webkit-text-stroke-color: var(--color--6-5) !important;
+}
+
+[class*=bg6-6] {
+  background: var(--color--6-6) !important;
+}
+
+[class*=bc6-6] {
+  border-color: var(--color--6-6) !important;
+}
+
+[class*=oc6-6] {
+  outline-color: var(--color--6-6) !important;
+}
+
+[class*=fc6-6] {
+  color: var(--color--6-6) !important;
+}
+
+[class*=sc6-6] {
+  -webkit-text-stroke-color: var(--color--6-6) !important;
+}
+
+[class*=bg6-7] {
+  background: var(--color--6-7) !important;
+}
+
+[class*=bc6-7] {
+  border-color: var(--color--6-7) !important;
+}
+
+[class*=oc6-7] {
+  outline-color: var(--color--6-7) !important;
+}
+
+[class*=fc6-7] {
+  color: var(--color--6-7) !important;
+}
+
+[class*=sc6-7] {
+  -webkit-text-stroke-color: var(--color--6-7) !important;
+}
+
+[class*=bg6-8] {
+  background: var(--color--6-8) !important;
+}
+
+[class*=bc6-8] {
+  border-color: var(--color--6-8) !important;
+}
+
+[class*=oc6-8] {
+  outline-color: var(--color--6-8) !important;
+}
+
+[class*=fc6-8] {
+  color: var(--color--6-8) !important;
+}
+
+[class*=sc6-8] {
+  -webkit-text-stroke-color: var(--color--6-8) !important;
+}
+
+[class*=bg6-9] {
+  background: var(--color--6-9) !important;
+}
+
+[class*=bc6-9] {
+  border-color: var(--color--6-9) !important;
+}
+
+[class*=oc6-9] {
+  outline-color: var(--color--6-9) !important;
+}
+
+[class*=fc6-9] {
+  color: var(--color--6-9) !important;
+}
+
+[class*=sc6-9] {
+  -webkit-text-stroke-color: var(--color--6-9) !important;
+}
+
+[class*=bg7-0] {
+  background: var(--color--7-0) !important;
+}
+
+[class*=bc7-0] {
+  border-color: var(--color--7-0) !important;
+}
+
+[class*=oc7-0] {
+  outline-color: var(--color--7-0) !important;
+}
+
+[class*=fc7-0] {
+  color: var(--color--7-0) !important;
+}
+
+[class*=sc7-0] {
+  -webkit-text-stroke-color: var(--color--7-0) !important;
+}
+
+[class*=bg7-1] {
+  background: var(--color--7-1) !important;
+}
+
+[class*=bc7-1] {
+  border-color: var(--color--7-1) !important;
+}
+
+[class*=oc7-1] {
+  outline-color: var(--color--7-1) !important;
+}
+
+[class*=fc7-1] {
+  color: var(--color--7-1) !important;
+}
+
+[class*=sc7-1] {
+  -webkit-text-stroke-color: var(--color--7-1) !important;
+}
+
+[class*=bg7-2] {
+  background: var(--color--7-2) !important;
+}
+
+[class*=bc7-2] {
+  border-color: var(--color--7-2) !important;
+}
+
+[class*=oc7-2] {
+  outline-color: var(--color--7-2) !important;
+}
+
+[class*=fc7-2] {
+  color: var(--color--7-2) !important;
+}
+
+[class*=sc7-2] {
+  -webkit-text-stroke-color: var(--color--7-2) !important;
+}
+
+[class*=bg7-3] {
+  background: var(--color--7-3) !important;
+}
+
+[class*=bc7-3] {
+  border-color: var(--color--7-3) !important;
+}
+
+[class*=oc7-3] {
+  outline-color: var(--color--7-3) !important;
+}
+
+[class*=fc7-3] {
+  color: var(--color--7-3) !important;
+}
+
+[class*=sc7-3] {
+  -webkit-text-stroke-color: var(--color--7-3) !important;
+}
+
+[class*=bg7-4] {
+  background: var(--color--7-4) !important;
+}
+
+[class*=bc7-4] {
+  border-color: var(--color--7-4) !important;
+}
+
+[class*=oc7-4] {
+  outline-color: var(--color--7-4) !important;
+}
+
+[class*=fc7-4] {
+  color: var(--color--7-4) !important;
+}
+
+[class*=sc7-4] {
+  -webkit-text-stroke-color: var(--color--7-4) !important;
+}
+
+[class*=bg7-5] {
+  background: var(--color--7-5) !important;
+}
+
+[class*=bc7-5] {
+  border-color: var(--color--7-5) !important;
+}
+
+[class*=oc7-5] {
+  outline-color: var(--color--7-5) !important;
+}
+
+[class*=fc7-5] {
+  color: var(--color--7-5) !important;
+}
+
+[class*=sc7-5] {
+  -webkit-text-stroke-color: var(--color--7-5) !important;
+}
+
+[class*=bg7-6] {
+  background: var(--color--7-6) !important;
+}
+
+[class*=bc7-6] {
+  border-color: var(--color--7-6) !important;
+}
+
+[class*=oc7-6] {
+  outline-color: var(--color--7-6) !important;
+}
+
+[class*=fc7-6] {
+  color: var(--color--7-6) !important;
+}
+
+[class*=sc7-6] {
+  -webkit-text-stroke-color: var(--color--7-6) !important;
+}
+
+[class*=bg7-7] {
+  background: var(--color--7-7) !important;
+}
+
+[class*=bc7-7] {
+  border-color: var(--color--7-7) !important;
+}
+
+[class*=oc7-7] {
+  outline-color: var(--color--7-7) !important;
+}
+
+[class*=fc7-7] {
+  color: var(--color--7-7) !important;
+}
+
+[class*=sc7-7] {
+  -webkit-text-stroke-color: var(--color--7-7) !important;
+}
+
+[class*=bg7-8] {
+  background: var(--color--7-8) !important;
+}
+
+[class*=bc7-8] {
+  border-color: var(--color--7-8) !important;
+}
+
+[class*=oc7-8] {
+  outline-color: var(--color--7-8) !important;
+}
+
+[class*=fc7-8] {
+  color: var(--color--7-8) !important;
+}
+
+[class*=sc7-8] {
+  -webkit-text-stroke-color: var(--color--7-8) !important;
+}
+
+[class*=bg7-9] {
+  background: var(--color--7-9) !important;
+}
+
+[class*=bc7-9] {
+  border-color: var(--color--7-9) !important;
+}
+
+[class*=oc7-9] {
+  outline-color: var(--color--7-9) !important;
+}
+
+[class*=fc7-9] {
+  color: var(--color--7-9) !important;
+}
+
+[class*=sc7-9] {
+  -webkit-text-stroke-color: var(--color--7-9) !important;
+}
+
+[class*=bg8-0] {
+  background: var(--color--8-0) !important;
+}
+
+[class*=bc8-0] {
+  border-color: var(--color--8-0) !important;
+}
+
+[class*=oc8-0] {
+  outline-color: var(--color--8-0) !important;
+}
+
+[class*=fc8-0] {
+  color: var(--color--8-0) !important;
+}
+
+[class*=sc8-0] {
+  -webkit-text-stroke-color: var(--color--8-0) !important;
+}
+
+[class*=bg8-1] {
+  background: var(--color--8-1) !important;
+}
+
+[class*=bc8-1] {
+  border-color: var(--color--8-1) !important;
+}
+
+[class*=oc8-1] {
+  outline-color: var(--color--8-1) !important;
+}
+
+[class*=fc8-1] {
+  color: var(--color--8-1) !important;
+}
+
+[class*=sc8-1] {
+  -webkit-text-stroke-color: var(--color--8-1) !important;
+}
+
+[class*=bg8-2] {
+  background: var(--color--8-2) !important;
+}
+
+[class*=bc8-2] {
+  border-color: var(--color--8-2) !important;
+}
+
+[class*=oc8-2] {
+  outline-color: var(--color--8-2) !important;
+}
+
+[class*=fc8-2] {
+  color: var(--color--8-2) !important;
+}
+
+[class*=sc8-2] {
+  -webkit-text-stroke-color: var(--color--8-2) !important;
+}
+
+[class*=bg8-3] {
+  background: var(--color--8-3) !important;
+}
+
+[class*=bc8-3] {
+  border-color: var(--color--8-3) !important;
+}
+
+[class*=oc8-3] {
+  outline-color: var(--color--8-3) !important;
+}
+
+[class*=fc8-3] {
+  color: var(--color--8-3) !important;
+}
+
+[class*=sc8-3] {
+  -webkit-text-stroke-color: var(--color--8-3) !important;
+}
+
+[class*=bg8-4] {
+  background: var(--color--8-4) !important;
+}
+
+[class*=bc8-4] {
+  border-color: var(--color--8-4) !important;
+}
+
+[class*=oc8-4] {
+  outline-color: var(--color--8-4) !important;
+}
+
+[class*=fc8-4] {
+  color: var(--color--8-4) !important;
+}
+
+[class*=sc8-4] {
+  -webkit-text-stroke-color: var(--color--8-4) !important;
+}
+
+[class*=bg8-5] {
+  background: var(--color--8-5) !important;
+}
+
+[class*=bc8-5] {
+  border-color: var(--color--8-5) !important;
+}
+
+[class*=oc8-5] {
+  outline-color: var(--color--8-5) !important;
+}
+
+[class*=fc8-5] {
+  color: var(--color--8-5) !important;
+}
+
+[class*=sc8-5] {
+  -webkit-text-stroke-color: var(--color--8-5) !important;
+}
+
+[class*=bg8-6] {
+  background: var(--color--8-6) !important;
+}
+
+[class*=bc8-6] {
+  border-color: var(--color--8-6) !important;
+}
+
+[class*=oc8-6] {
+  outline-color: var(--color--8-6) !important;
+}
+
+[class*=fc8-6] {
+  color: var(--color--8-6) !important;
+}
+
+[class*=sc8-6] {
+  -webkit-text-stroke-color: var(--color--8-6) !important;
+}
+
+[class*=bg8-7] {
+  background: var(--color--8-7) !important;
+}
+
+[class*=bc8-7] {
+  border-color: var(--color--8-7) !important;
+}
+
+[class*=oc8-7] {
+  outline-color: var(--color--8-7) !important;
+}
+
+[class*=fc8-7] {
+  color: var(--color--8-7) !important;
+}
+
+[class*=sc8-7] {
+  -webkit-text-stroke-color: var(--color--8-7) !important;
+}
+
+[class*=bg8-8] {
+  background: var(--color--8-8) !important;
+}
+
+[class*=bc8-8] {
+  border-color: var(--color--8-8) !important;
+}
+
+[class*=oc8-8] {
+  outline-color: var(--color--8-8) !important;
+}
+
+[class*=fc8-8] {
+  color: var(--color--8-8) !important;
+}
+
+[class*=sc8-8] {
+  -webkit-text-stroke-color: var(--color--8-8) !important;
+}
+
+[class*=bg8-9] {
+  background: var(--color--8-9) !important;
+}
+
+[class*=bc8-9] {
+  border-color: var(--color--8-9) !important;
+}
+
+[class*=oc8-9] {
+  outline-color: var(--color--8-9) !important;
+}
+
+[class*=fc8-9] {
+  color: var(--color--8-9) !important;
+}
+
+[class*=sc8-9] {
+  -webkit-text-stroke-color: var(--color--8-9) !important;
+}
+
+[class*=bg9-0] {
+  background: var(--color--9-0) !important;
+}
+
+[class*=bc9-0] {
+  border-color: var(--color--9-0) !important;
+}
+
+[class*=oc9-0] {
+  outline-color: var(--color--9-0) !important;
+}
+
+[class*=fc9-0] {
+  color: var(--color--9-0) !important;
+}
+
+[class*=sc9-0] {
+  -webkit-text-stroke-color: var(--color--9-0) !important;
+}
+
+[class*=bg9-1] {
+  background: var(--color--9-1) !important;
+}
+
+[class*=bc9-1] {
+  border-color: var(--color--9-1) !important;
+}
+
+[class*=oc9-1] {
+  outline-color: var(--color--9-1) !important;
+}
+
+[class*=fc9-1] {
+  color: var(--color--9-1) !important;
+}
+
+[class*=sc9-1] {
+  -webkit-text-stroke-color: var(--color--9-1) !important;
+}
+
+[class*=bg9-2] {
+  background: var(--color--9-2) !important;
+}
+
+[class*=bc9-2] {
+  border-color: var(--color--9-2) !important;
+}
+
+[class*=oc9-2] {
+  outline-color: var(--color--9-2) !important;
+}
+
+[class*=fc9-2] {
+  color: var(--color--9-2) !important;
+}
+
+[class*=sc9-2] {
+  -webkit-text-stroke-color: var(--color--9-2) !important;
+}
+
+[class*=bg9-3] {
+  background: var(--color--9-3) !important;
+}
+
+[class*=bc9-3] {
+  border-color: var(--color--9-3) !important;
+}
+
+[class*=oc9-3] {
+  outline-color: var(--color--9-3) !important;
+}
+
+[class*=fc9-3] {
+  color: var(--color--9-3) !important;
+}
+
+[class*=sc9-3] {
+  -webkit-text-stroke-color: var(--color--9-3) !important;
+}
+
+[class*=bg9-4] {
+  background: var(--color--9-4) !important;
+}
+
+[class*=bc9-4] {
+  border-color: var(--color--9-4) !important;
+}
+
+[class*=oc9-4] {
+  outline-color: var(--color--9-4) !important;
+}
+
+[class*=fc9-4] {
+  color: var(--color--9-4) !important;
+}
+
+[class*=sc9-4] {
+  -webkit-text-stroke-color: var(--color--9-4) !important;
+}
+
+[class*=bg9-5] {
+  background: var(--color--9-5) !important;
+}
+
+[class*=bc9-5] {
+  border-color: var(--color--9-5) !important;
+}
+
+[class*=oc9-5] {
+  outline-color: var(--color--9-5) !important;
+}
+
+[class*=fc9-5] {
+  color: var(--color--9-5) !important;
+}
+
+[class*=sc9-5] {
+  -webkit-text-stroke-color: var(--color--9-5) !important;
+}
+
+[class*=bg9-6] {
+  background: var(--color--9-6) !important;
+}
+
+[class*=bc9-6] {
+  border-color: var(--color--9-6) !important;
+}
+
+[class*=oc9-6] {
+  outline-color: var(--color--9-6) !important;
+}
+
+[class*=fc9-6] {
+  color: var(--color--9-6) !important;
+}
+
+[class*=sc9-6] {
+  -webkit-text-stroke-color: var(--color--9-6) !important;
+}
+
+[class*=bg9-7] {
+  background: var(--color--9-7) !important;
+}
+
+[class*=bc9-7] {
+  border-color: var(--color--9-7) !important;
+}
+
+[class*=oc9-7] {
+  outline-color: var(--color--9-7) !important;
+}
+
+[class*=fc9-7] {
+  color: var(--color--9-7) !important;
+}
+
+[class*=sc9-7] {
+  -webkit-text-stroke-color: var(--color--9-7) !important;
+}
+
+[class*=bg9-8] {
+  background: var(--color--9-8) !important;
+}
+
+[class*=bc9-8] {
+  border-color: var(--color--9-8) !important;
+}
+
+[class*=oc9-8] {
+  outline-color: var(--color--9-8) !important;
+}
+
+[class*=fc9-8] {
+  color: var(--color--9-8) !important;
+}
+
+[class*=sc9-8] {
+  -webkit-text-stroke-color: var(--color--9-8) !important;
+}
+
+[class*=bg9-9] {
+  background: var(--color--9-9) !important;
+}
+
+[class*=bc9-9] {
+  border-color: var(--color--9-9) !important;
+}
+
+[class*=oc9-9] {
+  outline-color: var(--color--9-9) !important;
+}
+
+[class*=fc9-9] {
+  color: var(--color--9-9) !important;
+}
+
+[class*=sc9-9] {
+  -webkit-text-stroke-color: var(--color--9-9) !important;
+}
+
+.ico-12 {
+  height: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ico-12-12 {
+  height: 0.75rem;
+  width: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ico-16 {
+  height: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ico-16-16 {
+  height: 1rem;
+  width: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ico-20 {
+  height: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ico-20-20 {
+  height: 1.25rem;
+  width: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ico-24 {
+  height: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ico-24-24 {
+  height: 1.5rem;
+  width: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ico-32 {
+  height: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ico-32-32 {
+  height: 2rem;
+  width: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ico-40 {
+  height: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ico-40-40 {
+  height: 2.5rem;
+  width: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ico-48 {
+  height: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ico-48-48 {
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ico-56 {
+  height: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ico-56-56 {
+  height: 3.5rem;
+  width: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ico-64 {
+  height: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ico-64-64 {
+  height: 4rem;
+  width: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ico-72 {
+  height: 4.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ico-72-72 {
+  height: 4.5rem;
+  width: 4.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ico-80 {
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ico-80-80 {
+  height: 5rem;
+  width: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ico-xs {
+  height: 0.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ico-xs-xs {
+  height: 0.5em;
+  width: 0.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ico-s {
+  height: 0.75em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ico-s-s {
+  height: 0.75em;
+  width: 0.75em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ico-m {
+  height: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ico-m-m {
+  height: 1em;
+  width: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ico-l {
+  height: 1.25em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ico-l-l {
+  height: 1.25em;
+  width: 1.25em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ico-xl {
+  height: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ico-xl-xl {
+  height: 1.5em;
+  width: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+[class*=xs_fd0] {
+  flex-direction: column;
+  display: flex;
+}
+
+[class*=xs_fd1] {
+  flex-direction: row;
+  display: flex;
+}
+
+[class*=xs_fd2] {
+  flex-direction: column-reverse;
+  display: flex;
+}
+
+[class*=xs_fd3] {
+  flex-direction: row-reverse;
+  display: flex;
+}
+
+[class*=xs_fj0] {
+  justify-content: start;
+  display: flex;
+}
+
+[class*=xs_fj1] {
+  justify-content: center;
+  display: flex;
+}
+
+[class*=xs_fj2] {
+  justify-content: end;
+  display: flex;
+}
+
+[class*=xs_fj3] {
+  justify-content: space-between;
+  display: flex;
+}
+
+[class*=xs_fj4] {
+  justify-content: space-around;
+  display: flex;
+}
+
+[class*=xs_fa0] {
+  align-items: start;
+  display: flex;
+}
+
+[class*=xs_fa1] {
+  align-items: center;
+  display: flex;
+}
+
+[class*=xs_fa2] {
+  align-items: end;
+  display: flex;
+}
+
+[class*=xs_fa3] {
+  align-items: stretch;
+  display: flex;
+}
+
+[class*=xs_fa4] {
+  align-items: baseline;
+  display: flex;
+}
+
+[class*=xs_fw0] {
+  flex-wrap: nowrap;
+  display: flex;
+}
+
+[class*=xs_fw1] {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+[class*=xs_fw2] {
+  flex-wrap: wrap-reverse;
+  display: flex;
+}
+
+[class*=xs_fac0] {
+  align-content: flex-start;
+  display: flex;
+}
+
+[class*=xs_fac1] {
+  align-content: center;
+  display: flex;
+}
+
+[class*=xs_fac2] {
+  align-content: flex-end;
+  display: flex;
+}
+
+[class*=xs_fac3] {
+  align-content: stretch;
+  display: flex;
+}
+
+[class*=xs_fac4] {
+  align-content: space-between;
+  display: flex;
+}
+
+[class*=xs_fac5] {
+  align-content: space-around;
+  display: flex;
+}
+
+@media (min-width: 480px) {
+  [class*=sm_fd0] {
+    flex-direction: column;
+    display: flex;
+  }
+  [class*=sm_fd1] {
+    flex-direction: row;
+    display: flex;
+  }
+  [class*=sm_fd2] {
+    flex-direction: column-reverse;
+    display: flex;
+  }
+  [class*=sm_fd3] {
+    flex-direction: row-reverse;
+    display: flex;
+  }
+  [class*=sm_fj0] {
+    justify-content: start;
+    display: flex;
+  }
+  [class*=sm_fj1] {
+    justify-content: center;
+    display: flex;
+  }
+  [class*=sm_fj2] {
+    justify-content: end;
+    display: flex;
+  }
+  [class*=sm_fj3] {
+    justify-content: space-between;
+    display: flex;
+  }
+  [class*=sm_fj4] {
+    justify-content: space-around;
+    display: flex;
+  }
+  [class*=sm_fa0] {
+    align-items: start;
+    display: flex;
+  }
+  [class*=sm_fa1] {
+    align-items: center;
+    display: flex;
+  }
+  [class*=sm_fa2] {
+    align-items: end;
+    display: flex;
+  }
+  [class*=sm_fa3] {
+    align-items: stretch;
+    display: flex;
+  }
+  [class*=sm_fa4] {
+    align-items: baseline;
+    display: flex;
+  }
+  [class*=sm_fw0] {
+    flex-wrap: nowrap;
+    display: flex;
+  }
+  [class*=sm_fw1] {
+    flex-wrap: wrap;
+    display: flex;
+  }
+  [class*=sm_fw2] {
+    flex-wrap: wrap-reverse;
+    display: flex;
+  }
+  [class*=sm_fac0] {
+    align-content: flex-start;
+    display: flex;
+  }
+  [class*=sm_fac1] {
+    align-content: center;
+    display: flex;
+  }
+  [class*=sm_fac2] {
+    align-content: flex-end;
+    display: flex;
+  }
+  [class*=sm_fac3] {
+    align-content: stretch;
+    display: flex;
+  }
+  [class*=sm_fac4] {
+    align-content: space-between;
+    display: flex;
+  }
+  [class*=sm_fac5] {
+    align-content: space-around;
+    display: flex;
+  }
+}
+@media (min-width: 768px) {
+  [class*=md_fd0] {
+    flex-direction: column;
+    display: flex;
+  }
+  [class*=md_fd1] {
+    flex-direction: row;
+    display: flex;
+  }
+  [class*=md_fd2] {
+    flex-direction: column-reverse;
+    display: flex;
+  }
+  [class*=md_fd3] {
+    flex-direction: row-reverse;
+    display: flex;
+  }
+  [class*=md_fj0] {
+    justify-content: start;
+    display: flex;
+  }
+  [class*=md_fj1] {
+    justify-content: center;
+    display: flex;
+  }
+  [class*=md_fj2] {
+    justify-content: end;
+    display: flex;
+  }
+  [class*=md_fj3] {
+    justify-content: space-between;
+    display: flex;
+  }
+  [class*=md_fj4] {
+    justify-content: space-around;
+    display: flex;
+  }
+  [class*=md_fa0] {
+    align-items: start;
+    display: flex;
+  }
+  [class*=md_fa1] {
+    align-items: center;
+    display: flex;
+  }
+  [class*=md_fa2] {
+    align-items: end;
+    display: flex;
+  }
+  [class*=md_fa3] {
+    align-items: stretch;
+    display: flex;
+  }
+  [class*=md_fa4] {
+    align-items: baseline;
+    display: flex;
+  }
+  [class*=md_fw0] {
+    flex-wrap: nowrap;
+    display: flex;
+  }
+  [class*=md_fw1] {
+    flex-wrap: wrap;
+    display: flex;
+  }
+  [class*=md_fw2] {
+    flex-wrap: wrap-reverse;
+    display: flex;
+  }
+  [class*=md_fac0] {
+    align-content: flex-start;
+    display: flex;
+  }
+  [class*=md_fac1] {
+    align-content: center;
+    display: flex;
+  }
+  [class*=md_fac2] {
+    align-content: flex-end;
+    display: flex;
+  }
+  [class*=md_fac3] {
+    align-content: stretch;
+    display: flex;
+  }
+  [class*=md_fac4] {
+    align-content: space-between;
+    display: flex;
+  }
+  [class*=md_fac5] {
+    align-content: space-around;
+    display: flex;
+  }
+}
+@media (min-width: 992px) {
+  [class*=lg_fd0] {
+    flex-direction: column;
+    display: flex;
+  }
+  [class*=lg_fd1] {
+    flex-direction: row;
+    display: flex;
+  }
+  [class*=lg_fd2] {
+    flex-direction: column-reverse;
+    display: flex;
+  }
+  [class*=lg_fd3] {
+    flex-direction: row-reverse;
+    display: flex;
+  }
+  [class*=lg_fj0] {
+    justify-content: start;
+    display: flex;
+  }
+  [class*=lg_fj1] {
+    justify-content: center;
+    display: flex;
+  }
+  [class*=lg_fj2] {
+    justify-content: end;
+    display: flex;
+  }
+  [class*=lg_fj3] {
+    justify-content: space-between;
+    display: flex;
+  }
+  [class*=lg_fj4] {
+    justify-content: space-around;
+    display: flex;
+  }
+  [class*=lg_fa0] {
+    align-items: start;
+    display: flex;
+  }
+  [class*=lg_fa1] {
+    align-items: center;
+    display: flex;
+  }
+  [class*=lg_fa2] {
+    align-items: end;
+    display: flex;
+  }
+  [class*=lg_fa3] {
+    align-items: stretch;
+    display: flex;
+  }
+  [class*=lg_fa4] {
+    align-items: baseline;
+    display: flex;
+  }
+  [class*=lg_fw0] {
+    flex-wrap: nowrap;
+    display: flex;
+  }
+  [class*=lg_fw1] {
+    flex-wrap: wrap;
+    display: flex;
+  }
+  [class*=lg_fw2] {
+    flex-wrap: wrap-reverse;
+    display: flex;
+  }
+  [class*=lg_fac0] {
+    align-content: flex-start;
+    display: flex;
+  }
+  [class*=lg_fac1] {
+    align-content: center;
+    display: flex;
+  }
+  [class*=lg_fac2] {
+    align-content: flex-end;
+    display: flex;
+  }
+  [class*=lg_fac3] {
+    align-content: stretch;
+    display: flex;
+  }
+  [class*=lg_fac4] {
+    align-content: space-between;
+    display: flex;
+  }
+  [class*=lg_fac5] {
+    align-content: space-around;
+    display: flex;
+  }
+}
+[class*=bg0-0-h]:hover {
+  background: var(--color--0-0) !important;
+}
+
+[class*=bc0-0-h]:hover {
+  border-color: var(--color--0-0) !important;
+}
+
+[class*=oc0-0-h]:hover {
+  outline-color: var(--color--0-0) !important;
+}
+
+[class*=fc0-0-h]:hover {
+  color: var(--color--0-0) !important;
+}
+
+[class*=sc0-0-h]:hover {
+  -webkit-text-stroke-color: var(--color--0-0) !important;
+}
+
+[class*=bg0-1-h]:hover {
+  background: var(--color--0-1) !important;
+}
+
+[class*=bc0-1-h]:hover {
+  border-color: var(--color--0-1) !important;
+}
+
+[class*=oc0-1-h]:hover {
+  outline-color: var(--color--0-1) !important;
+}
+
+[class*=fc0-1-h]:hover {
+  color: var(--color--0-1) !important;
+}
+
+[class*=sc0-1-h]:hover {
+  -webkit-text-stroke-color: var(--color--0-1) !important;
+}
+
+[class*=bg0-2-h]:hover {
+  background: var(--color--0-2) !important;
+}
+
+[class*=bc0-2-h]:hover {
+  border-color: var(--color--0-2) !important;
+}
+
+[class*=oc0-2-h]:hover {
+  outline-color: var(--color--0-2) !important;
+}
+
+[class*=fc0-2-h]:hover {
+  color: var(--color--0-2) !important;
+}
+
+[class*=sc0-2-h]:hover {
+  -webkit-text-stroke-color: var(--color--0-2) !important;
+}
+
+[class*=bg0-3-h]:hover {
+  background: var(--color--0-3) !important;
+}
+
+[class*=bc0-3-h]:hover {
+  border-color: var(--color--0-3) !important;
+}
+
+[class*=oc0-3-h]:hover {
+  outline-color: var(--color--0-3) !important;
+}
+
+[class*=fc0-3-h]:hover {
+  color: var(--color--0-3) !important;
+}
+
+[class*=sc0-3-h]:hover {
+  -webkit-text-stroke-color: var(--color--0-3) !important;
+}
+
+[class*=bg0-4-h]:hover {
+  background: var(--color--0-4) !important;
+}
+
+[class*=bc0-4-h]:hover {
+  border-color: var(--color--0-4) !important;
+}
+
+[class*=oc0-4-h]:hover {
+  outline-color: var(--color--0-4) !important;
+}
+
+[class*=fc0-4-h]:hover {
+  color: var(--color--0-4) !important;
+}
+
+[class*=sc0-4-h]:hover {
+  -webkit-text-stroke-color: var(--color--0-4) !important;
+}
+
+[class*=bg0-5-h]:hover {
+  background: var(--color--0-5) !important;
+}
+
+[class*=bc0-5-h]:hover {
+  border-color: var(--color--0-5) !important;
+}
+
+[class*=oc0-5-h]:hover {
+  outline-color: var(--color--0-5) !important;
+}
+
+[class*=fc0-5-h]:hover {
+  color: var(--color--0-5) !important;
+}
+
+[class*=sc0-5-h]:hover {
+  -webkit-text-stroke-color: var(--color--0-5) !important;
+}
+
+[class*=bg0-6-h]:hover {
+  background: var(--color--0-6) !important;
+}
+
+[class*=bc0-6-h]:hover {
+  border-color: var(--color--0-6) !important;
+}
+
+[class*=oc0-6-h]:hover {
+  outline-color: var(--color--0-6) !important;
+}
+
+[class*=fc0-6-h]:hover {
+  color: var(--color--0-6) !important;
+}
+
+[class*=sc0-6-h]:hover {
+  -webkit-text-stroke-color: var(--color--0-6) !important;
+}
+
+[class*=bg0-7-h]:hover {
+  background: var(--color--0-7) !important;
+}
+
+[class*=bc0-7-h]:hover {
+  border-color: var(--color--0-7) !important;
+}
+
+[class*=oc0-7-h]:hover {
+  outline-color: var(--color--0-7) !important;
+}
+
+[class*=fc0-7-h]:hover {
+  color: var(--color--0-7) !important;
+}
+
+[class*=sc0-7-h]:hover {
+  -webkit-text-stroke-color: var(--color--0-7) !important;
+}
+
+[class*=bg0-8-h]:hover {
+  background: var(--color--0-8) !important;
+}
+
+[class*=bc0-8-h]:hover {
+  border-color: var(--color--0-8) !important;
+}
+
+[class*=oc0-8-h]:hover {
+  outline-color: var(--color--0-8) !important;
+}
+
+[class*=fc0-8-h]:hover {
+  color: var(--color--0-8) !important;
+}
+
+[class*=sc0-8-h]:hover {
+  -webkit-text-stroke-color: var(--color--0-8) !important;
+}
+
+[class*=bg0-9-h]:hover {
+  background: var(--color--0-9) !important;
+}
+
+[class*=bc0-9-h]:hover {
+  border-color: var(--color--0-9) !important;
+}
+
+[class*=oc0-9-h]:hover {
+  outline-color: var(--color--0-9) !important;
+}
+
+[class*=fc0-9-h]:hover {
+  color: var(--color--0-9) !important;
+}
+
+[class*=sc0-9-h]:hover {
+  -webkit-text-stroke-color: var(--color--0-9) !important;
+}
+
+[class*=bg1-0-h]:hover {
+  background: var(--color--1-0) !important;
+}
+
+[class*=bc1-0-h]:hover {
+  border-color: var(--color--1-0) !important;
+}
+
+[class*=oc1-0-h]:hover {
+  outline-color: var(--color--1-0) !important;
+}
+
+[class*=fc1-0-h]:hover {
+  color: var(--color--1-0) !important;
+}
+
+[class*=sc1-0-h]:hover {
+  -webkit-text-stroke-color: var(--color--1-0) !important;
+}
+
+[class*=bg1-1-h]:hover {
+  background: var(--color--1-1) !important;
+}
+
+[class*=bc1-1-h]:hover {
+  border-color: var(--color--1-1) !important;
+}
+
+[class*=oc1-1-h]:hover {
+  outline-color: var(--color--1-1) !important;
+}
+
+[class*=fc1-1-h]:hover {
+  color: var(--color--1-1) !important;
+}
+
+[class*=sc1-1-h]:hover {
+  -webkit-text-stroke-color: var(--color--1-1) !important;
+}
+
+[class*=bg1-2-h]:hover {
+  background: var(--color--1-2) !important;
+}
+
+[class*=bc1-2-h]:hover {
+  border-color: var(--color--1-2) !important;
+}
+
+[class*=oc1-2-h]:hover {
+  outline-color: var(--color--1-2) !important;
+}
+
+[class*=fc1-2-h]:hover {
+  color: var(--color--1-2) !important;
+}
+
+[class*=sc1-2-h]:hover {
+  -webkit-text-stroke-color: var(--color--1-2) !important;
+}
+
+[class*=bg1-3-h]:hover {
+  background: var(--color--1-3) !important;
+}
+
+[class*=bc1-3-h]:hover {
+  border-color: var(--color--1-3) !important;
+}
+
+[class*=oc1-3-h]:hover {
+  outline-color: var(--color--1-3) !important;
+}
+
+[class*=fc1-3-h]:hover {
+  color: var(--color--1-3) !important;
+}
+
+[class*=sc1-3-h]:hover {
+  -webkit-text-stroke-color: var(--color--1-3) !important;
+}
+
+[class*=bg1-4-h]:hover {
+  background: var(--color--1-4) !important;
+}
+
+[class*=bc1-4-h]:hover {
+  border-color: var(--color--1-4) !important;
+}
+
+[class*=oc1-4-h]:hover {
+  outline-color: var(--color--1-4) !important;
+}
+
+[class*=fc1-4-h]:hover {
+  color: var(--color--1-4) !important;
+}
+
+[class*=sc1-4-h]:hover {
+  -webkit-text-stroke-color: var(--color--1-4) !important;
+}
+
+[class*=bg1-5-h]:hover {
+  background: var(--color--1-5) !important;
+}
+
+[class*=bc1-5-h]:hover {
+  border-color: var(--color--1-5) !important;
+}
+
+[class*=oc1-5-h]:hover {
+  outline-color: var(--color--1-5) !important;
+}
+
+[class*=fc1-5-h]:hover {
+  color: var(--color--1-5) !important;
+}
+
+[class*=sc1-5-h]:hover {
+  -webkit-text-stroke-color: var(--color--1-5) !important;
+}
+
+[class*=bg1-6-h]:hover {
+  background: var(--color--1-6) !important;
+}
+
+[class*=bc1-6-h]:hover {
+  border-color: var(--color--1-6) !important;
+}
+
+[class*=oc1-6-h]:hover {
+  outline-color: var(--color--1-6) !important;
+}
+
+[class*=fc1-6-h]:hover {
+  color: var(--color--1-6) !important;
+}
+
+[class*=sc1-6-h]:hover {
+  -webkit-text-stroke-color: var(--color--1-6) !important;
+}
+
+[class*=bg1-7-h]:hover {
+  background: var(--color--1-7) !important;
+}
+
+[class*=bc1-7-h]:hover {
+  border-color: var(--color--1-7) !important;
+}
+
+[class*=oc1-7-h]:hover {
+  outline-color: var(--color--1-7) !important;
+}
+
+[class*=fc1-7-h]:hover {
+  color: var(--color--1-7) !important;
+}
+
+[class*=sc1-7-h]:hover {
+  -webkit-text-stroke-color: var(--color--1-7) !important;
+}
+
+[class*=bg1-8-h]:hover {
+  background: var(--color--1-8) !important;
+}
+
+[class*=bc1-8-h]:hover {
+  border-color: var(--color--1-8) !important;
+}
+
+[class*=oc1-8-h]:hover {
+  outline-color: var(--color--1-8) !important;
+}
+
+[class*=fc1-8-h]:hover {
+  color: var(--color--1-8) !important;
+}
+
+[class*=sc1-8-h]:hover {
+  -webkit-text-stroke-color: var(--color--1-8) !important;
+}
+
+[class*=bg1-9-h]:hover {
+  background: var(--color--1-9) !important;
+}
+
+[class*=bc1-9-h]:hover {
+  border-color: var(--color--1-9) !important;
+}
+
+[class*=oc1-9-h]:hover {
+  outline-color: var(--color--1-9) !important;
+}
+
+[class*=fc1-9-h]:hover {
+  color: var(--color--1-9) !important;
+}
+
+[class*=sc1-9-h]:hover {
+  -webkit-text-stroke-color: var(--color--1-9) !important;
+}
+
+[class*=bg2-0-h]:hover {
+  background: var(--color--2-0) !important;
+}
+
+[class*=bc2-0-h]:hover {
+  border-color: var(--color--2-0) !important;
+}
+
+[class*=oc2-0-h]:hover {
+  outline-color: var(--color--2-0) !important;
+}
+
+[class*=fc2-0-h]:hover {
+  color: var(--color--2-0) !important;
+}
+
+[class*=sc2-0-h]:hover {
+  -webkit-text-stroke-color: var(--color--2-0) !important;
+}
+
+[class*=bg2-1-h]:hover {
+  background: var(--color--2-1) !important;
+}
+
+[class*=bc2-1-h]:hover {
+  border-color: var(--color--2-1) !important;
+}
+
+[class*=oc2-1-h]:hover {
+  outline-color: var(--color--2-1) !important;
+}
+
+[class*=fc2-1-h]:hover {
+  color: var(--color--2-1) !important;
+}
+
+[class*=sc2-1-h]:hover {
+  -webkit-text-stroke-color: var(--color--2-1) !important;
+}
+
+[class*=bg2-2-h]:hover {
+  background: var(--color--2-2) !important;
+}
+
+[class*=bc2-2-h]:hover {
+  border-color: var(--color--2-2) !important;
+}
+
+[class*=oc2-2-h]:hover {
+  outline-color: var(--color--2-2) !important;
+}
+
+[class*=fc2-2-h]:hover {
+  color: var(--color--2-2) !important;
+}
+
+[class*=sc2-2-h]:hover {
+  -webkit-text-stroke-color: var(--color--2-2) !important;
+}
+
+[class*=bg2-3-h]:hover {
+  background: var(--color--2-3) !important;
+}
+
+[class*=bc2-3-h]:hover {
+  border-color: var(--color--2-3) !important;
+}
+
+[class*=oc2-3-h]:hover {
+  outline-color: var(--color--2-3) !important;
+}
+
+[class*=fc2-3-h]:hover {
+  color: var(--color--2-3) !important;
+}
+
+[class*=sc2-3-h]:hover {
+  -webkit-text-stroke-color: var(--color--2-3) !important;
+}
+
+[class*=bg2-4-h]:hover {
+  background: var(--color--2-4) !important;
+}
+
+[class*=bc2-4-h]:hover {
+  border-color: var(--color--2-4) !important;
+}
+
+[class*=oc2-4-h]:hover {
+  outline-color: var(--color--2-4) !important;
+}
+
+[class*=fc2-4-h]:hover {
+  color: var(--color--2-4) !important;
+}
+
+[class*=sc2-4-h]:hover {
+  -webkit-text-stroke-color: var(--color--2-4) !important;
+}
+
+[class*=bg2-5-h]:hover {
+  background: var(--color--2-5) !important;
+}
+
+[class*=bc2-5-h]:hover {
+  border-color: var(--color--2-5) !important;
+}
+
+[class*=oc2-5-h]:hover {
+  outline-color: var(--color--2-5) !important;
+}
+
+[class*=fc2-5-h]:hover {
+  color: var(--color--2-5) !important;
+}
+
+[class*=sc2-5-h]:hover {
+  -webkit-text-stroke-color: var(--color--2-5) !important;
+}
+
+[class*=bg2-6-h]:hover {
+  background: var(--color--2-6) !important;
+}
+
+[class*=bc2-6-h]:hover {
+  border-color: var(--color--2-6) !important;
+}
+
+[class*=oc2-6-h]:hover {
+  outline-color: var(--color--2-6) !important;
+}
+
+[class*=fc2-6-h]:hover {
+  color: var(--color--2-6) !important;
+}
+
+[class*=sc2-6-h]:hover {
+  -webkit-text-stroke-color: var(--color--2-6) !important;
+}
+
+[class*=bg2-7-h]:hover {
+  background: var(--color--2-7) !important;
+}
+
+[class*=bc2-7-h]:hover {
+  border-color: var(--color--2-7) !important;
+}
+
+[class*=oc2-7-h]:hover {
+  outline-color: var(--color--2-7) !important;
+}
+
+[class*=fc2-7-h]:hover {
+  color: var(--color--2-7) !important;
+}
+
+[class*=sc2-7-h]:hover {
+  -webkit-text-stroke-color: var(--color--2-7) !important;
+}
+
+[class*=bg2-8-h]:hover {
+  background: var(--color--2-8) !important;
+}
+
+[class*=bc2-8-h]:hover {
+  border-color: var(--color--2-8) !important;
+}
+
+[class*=oc2-8-h]:hover {
+  outline-color: var(--color--2-8) !important;
+}
+
+[class*=fc2-8-h]:hover {
+  color: var(--color--2-8) !important;
+}
+
+[class*=sc2-8-h]:hover {
+  -webkit-text-stroke-color: var(--color--2-8) !important;
+}
+
+[class*=bg2-9-h]:hover {
+  background: var(--color--2-9) !important;
+}
+
+[class*=bc2-9-h]:hover {
+  border-color: var(--color--2-9) !important;
+}
+
+[class*=oc2-9-h]:hover {
+  outline-color: var(--color--2-9) !important;
+}
+
+[class*=fc2-9-h]:hover {
+  color: var(--color--2-9) !important;
+}
+
+[class*=sc2-9-h]:hover {
+  -webkit-text-stroke-color: var(--color--2-9) !important;
+}
+
+[class*=bg3-0-h]:hover {
+  background: var(--color--3-0) !important;
+}
+
+[class*=bc3-0-h]:hover {
+  border-color: var(--color--3-0) !important;
+}
+
+[class*=oc3-0-h]:hover {
+  outline-color: var(--color--3-0) !important;
+}
+
+[class*=fc3-0-h]:hover {
+  color: var(--color--3-0) !important;
+}
+
+[class*=sc3-0-h]:hover {
+  -webkit-text-stroke-color: var(--color--3-0) !important;
+}
+
+[class*=bg3-1-h]:hover {
+  background: var(--color--3-1) !important;
+}
+
+[class*=bc3-1-h]:hover {
+  border-color: var(--color--3-1) !important;
+}
+
+[class*=oc3-1-h]:hover {
+  outline-color: var(--color--3-1) !important;
+}
+
+[class*=fc3-1-h]:hover {
+  color: var(--color--3-1) !important;
+}
+
+[class*=sc3-1-h]:hover {
+  -webkit-text-stroke-color: var(--color--3-1) !important;
+}
+
+[class*=bg3-2-h]:hover {
+  background: var(--color--3-2) !important;
+}
+
+[class*=bc3-2-h]:hover {
+  border-color: var(--color--3-2) !important;
+}
+
+[class*=oc3-2-h]:hover {
+  outline-color: var(--color--3-2) !important;
+}
+
+[class*=fc3-2-h]:hover {
+  color: var(--color--3-2) !important;
+}
+
+[class*=sc3-2-h]:hover {
+  -webkit-text-stroke-color: var(--color--3-2) !important;
+}
+
+[class*=bg3-3-h]:hover {
+  background: var(--color--3-3) !important;
+}
+
+[class*=bc3-3-h]:hover {
+  border-color: var(--color--3-3) !important;
+}
+
+[class*=oc3-3-h]:hover {
+  outline-color: var(--color--3-3) !important;
+}
+
+[class*=fc3-3-h]:hover {
+  color: var(--color--3-3) !important;
+}
+
+[class*=sc3-3-h]:hover {
+  -webkit-text-stroke-color: var(--color--3-3) !important;
+}
+
+[class*=bg3-4-h]:hover {
+  background: var(--color--3-4) !important;
+}
+
+[class*=bc3-4-h]:hover {
+  border-color: var(--color--3-4) !important;
+}
+
+[class*=oc3-4-h]:hover {
+  outline-color: var(--color--3-4) !important;
+}
+
+[class*=fc3-4-h]:hover {
+  color: var(--color--3-4) !important;
+}
+
+[class*=sc3-4-h]:hover {
+  -webkit-text-stroke-color: var(--color--3-4) !important;
+}
+
+[class*=bg3-5-h]:hover {
+  background: var(--color--3-5) !important;
+}
+
+[class*=bc3-5-h]:hover {
+  border-color: var(--color--3-5) !important;
+}
+
+[class*=oc3-5-h]:hover {
+  outline-color: var(--color--3-5) !important;
+}
+
+[class*=fc3-5-h]:hover {
+  color: var(--color--3-5) !important;
+}
+
+[class*=sc3-5-h]:hover {
+  -webkit-text-stroke-color: var(--color--3-5) !important;
+}
+
+[class*=bg3-6-h]:hover {
+  background: var(--color--3-6) !important;
+}
+
+[class*=bc3-6-h]:hover {
+  border-color: var(--color--3-6) !important;
+}
+
+[class*=oc3-6-h]:hover {
+  outline-color: var(--color--3-6) !important;
+}
+
+[class*=fc3-6-h]:hover {
+  color: var(--color--3-6) !important;
+}
+
+[class*=sc3-6-h]:hover {
+  -webkit-text-stroke-color: var(--color--3-6) !important;
+}
+
+[class*=bg3-7-h]:hover {
+  background: var(--color--3-7) !important;
+}
+
+[class*=bc3-7-h]:hover {
+  border-color: var(--color--3-7) !important;
+}
+
+[class*=oc3-7-h]:hover {
+  outline-color: var(--color--3-7) !important;
+}
+
+[class*=fc3-7-h]:hover {
+  color: var(--color--3-7) !important;
+}
+
+[class*=sc3-7-h]:hover {
+  -webkit-text-stroke-color: var(--color--3-7) !important;
+}
+
+[class*=bg3-8-h]:hover {
+  background: var(--color--3-8) !important;
+}
+
+[class*=bc3-8-h]:hover {
+  border-color: var(--color--3-8) !important;
+}
+
+[class*=oc3-8-h]:hover {
+  outline-color: var(--color--3-8) !important;
+}
+
+[class*=fc3-8-h]:hover {
+  color: var(--color--3-8) !important;
+}
+
+[class*=sc3-8-h]:hover {
+  -webkit-text-stroke-color: var(--color--3-8) !important;
+}
+
+[class*=bg3-9-h]:hover {
+  background: var(--color--3-9) !important;
+}
+
+[class*=bc3-9-h]:hover {
+  border-color: var(--color--3-9) !important;
+}
+
+[class*=oc3-9-h]:hover {
+  outline-color: var(--color--3-9) !important;
+}
+
+[class*=fc3-9-h]:hover {
+  color: var(--color--3-9) !important;
+}
+
+[class*=sc3-9-h]:hover {
+  -webkit-text-stroke-color: var(--color--3-9) !important;
+}
+
+[class*=bg4-0-h]:hover {
+  background: var(--color--4-0) !important;
+}
+
+[class*=bc4-0-h]:hover {
+  border-color: var(--color--4-0) !important;
+}
+
+[class*=oc4-0-h]:hover {
+  outline-color: var(--color--4-0) !important;
+}
+
+[class*=fc4-0-h]:hover {
+  color: var(--color--4-0) !important;
+}
+
+[class*=sc4-0-h]:hover {
+  -webkit-text-stroke-color: var(--color--4-0) !important;
+}
+
+[class*=bg4-1-h]:hover {
+  background: var(--color--4-1) !important;
+}
+
+[class*=bc4-1-h]:hover {
+  border-color: var(--color--4-1) !important;
+}
+
+[class*=oc4-1-h]:hover {
+  outline-color: var(--color--4-1) !important;
+}
+
+[class*=fc4-1-h]:hover {
+  color: var(--color--4-1) !important;
+}
+
+[class*=sc4-1-h]:hover {
+  -webkit-text-stroke-color: var(--color--4-1) !important;
+}
+
+[class*=bg4-2-h]:hover {
+  background: var(--color--4-2) !important;
+}
+
+[class*=bc4-2-h]:hover {
+  border-color: var(--color--4-2) !important;
+}
+
+[class*=oc4-2-h]:hover {
+  outline-color: var(--color--4-2) !important;
+}
+
+[class*=fc4-2-h]:hover {
+  color: var(--color--4-2) !important;
+}
+
+[class*=sc4-2-h]:hover {
+  -webkit-text-stroke-color: var(--color--4-2) !important;
+}
+
+[class*=bg4-3-h]:hover {
+  background: var(--color--4-3) !important;
+}
+
+[class*=bc4-3-h]:hover {
+  border-color: var(--color--4-3) !important;
+}
+
+[class*=oc4-3-h]:hover {
+  outline-color: var(--color--4-3) !important;
+}
+
+[class*=fc4-3-h]:hover {
+  color: var(--color--4-3) !important;
+}
+
+[class*=sc4-3-h]:hover {
+  -webkit-text-stroke-color: var(--color--4-3) !important;
+}
+
+[class*=bg4-4-h]:hover {
+  background: var(--color--4-4) !important;
+}
+
+[class*=bc4-4-h]:hover {
+  border-color: var(--color--4-4) !important;
+}
+
+[class*=oc4-4-h]:hover {
+  outline-color: var(--color--4-4) !important;
+}
+
+[class*=fc4-4-h]:hover {
+  color: var(--color--4-4) !important;
+}
+
+[class*=sc4-4-h]:hover {
+  -webkit-text-stroke-color: var(--color--4-4) !important;
+}
+
+[class*=bg4-5-h]:hover {
+  background: var(--color--4-5) !important;
+}
+
+[class*=bc4-5-h]:hover {
+  border-color: var(--color--4-5) !important;
+}
+
+[class*=oc4-5-h]:hover {
+  outline-color: var(--color--4-5) !important;
+}
+
+[class*=fc4-5-h]:hover {
+  color: var(--color--4-5) !important;
+}
+
+[class*=sc4-5-h]:hover {
+  -webkit-text-stroke-color: var(--color--4-5) !important;
+}
+
+[class*=bg4-6-h]:hover {
+  background: var(--color--4-6) !important;
+}
+
+[class*=bc4-6-h]:hover {
+  border-color: var(--color--4-6) !important;
+}
+
+[class*=oc4-6-h]:hover {
+  outline-color: var(--color--4-6) !important;
+}
+
+[class*=fc4-6-h]:hover {
+  color: var(--color--4-6) !important;
+}
+
+[class*=sc4-6-h]:hover {
+  -webkit-text-stroke-color: var(--color--4-6) !important;
+}
+
+[class*=bg4-7-h]:hover {
+  background: var(--color--4-7) !important;
+}
+
+[class*=bc4-7-h]:hover {
+  border-color: var(--color--4-7) !important;
+}
+
+[class*=oc4-7-h]:hover {
+  outline-color: var(--color--4-7) !important;
+}
+
+[class*=fc4-7-h]:hover {
+  color: var(--color--4-7) !important;
+}
+
+[class*=sc4-7-h]:hover {
+  -webkit-text-stroke-color: var(--color--4-7) !important;
+}
+
+[class*=bg4-8-h]:hover {
+  background: var(--color--4-8) !important;
+}
+
+[class*=bc4-8-h]:hover {
+  border-color: var(--color--4-8) !important;
+}
+
+[class*=oc4-8-h]:hover {
+  outline-color: var(--color--4-8) !important;
+}
+
+[class*=fc4-8-h]:hover {
+  color: var(--color--4-8) !important;
+}
+
+[class*=sc4-8-h]:hover {
+  -webkit-text-stroke-color: var(--color--4-8) !important;
+}
+
+[class*=bg4-9-h]:hover {
+  background: var(--color--4-9) !important;
+}
+
+[class*=bc4-9-h]:hover {
+  border-color: var(--color--4-9) !important;
+}
+
+[class*=oc4-9-h]:hover {
+  outline-color: var(--color--4-9) !important;
+}
+
+[class*=fc4-9-h]:hover {
+  color: var(--color--4-9) !important;
+}
+
+[class*=sc4-9-h]:hover {
+  -webkit-text-stroke-color: var(--color--4-9) !important;
+}
+
+[class*=bg5-0-h]:hover {
+  background: var(--color--5-0) !important;
+}
+
+[class*=bc5-0-h]:hover {
+  border-color: var(--color--5-0) !important;
+}
+
+[class*=oc5-0-h]:hover {
+  outline-color: var(--color--5-0) !important;
+}
+
+[class*=fc5-0-h]:hover {
+  color: var(--color--5-0) !important;
+}
+
+[class*=sc5-0-h]:hover {
+  -webkit-text-stroke-color: var(--color--5-0) !important;
+}
+
+[class*=bg5-1-h]:hover {
+  background: var(--color--5-1) !important;
+}
+
+[class*=bc5-1-h]:hover {
+  border-color: var(--color--5-1) !important;
+}
+
+[class*=oc5-1-h]:hover {
+  outline-color: var(--color--5-1) !important;
+}
+
+[class*=fc5-1-h]:hover {
+  color: var(--color--5-1) !important;
+}
+
+[class*=sc5-1-h]:hover {
+  -webkit-text-stroke-color: var(--color--5-1) !important;
+}
+
+[class*=bg5-2-h]:hover {
+  background: var(--color--5-2) !important;
+}
+
+[class*=bc5-2-h]:hover {
+  border-color: var(--color--5-2) !important;
+}
+
+[class*=oc5-2-h]:hover {
+  outline-color: var(--color--5-2) !important;
+}
+
+[class*=fc5-2-h]:hover {
+  color: var(--color--5-2) !important;
+}
+
+[class*=sc5-2-h]:hover {
+  -webkit-text-stroke-color: var(--color--5-2) !important;
+}
+
+[class*=bg5-3-h]:hover {
+  background: var(--color--5-3) !important;
+}
+
+[class*=bc5-3-h]:hover {
+  border-color: var(--color--5-3) !important;
+}
+
+[class*=oc5-3-h]:hover {
+  outline-color: var(--color--5-3) !important;
+}
+
+[class*=fc5-3-h]:hover {
+  color: var(--color--5-3) !important;
+}
+
+[class*=sc5-3-h]:hover {
+  -webkit-text-stroke-color: var(--color--5-3) !important;
+}
+
+[class*=bg5-4-h]:hover {
+  background: var(--color--5-4) !important;
+}
+
+[class*=bc5-4-h]:hover {
+  border-color: var(--color--5-4) !important;
+}
+
+[class*=oc5-4-h]:hover {
+  outline-color: var(--color--5-4) !important;
+}
+
+[class*=fc5-4-h]:hover {
+  color: var(--color--5-4) !important;
+}
+
+[class*=sc5-4-h]:hover {
+  -webkit-text-stroke-color: var(--color--5-4) !important;
+}
+
+[class*=bg5-5-h]:hover {
+  background: var(--color--5-5) !important;
+}
+
+[class*=bc5-5-h]:hover {
+  border-color: var(--color--5-5) !important;
+}
+
+[class*=oc5-5-h]:hover {
+  outline-color: var(--color--5-5) !important;
+}
+
+[class*=fc5-5-h]:hover {
+  color: var(--color--5-5) !important;
+}
+
+[class*=sc5-5-h]:hover {
+  -webkit-text-stroke-color: var(--color--5-5) !important;
+}
+
+[class*=bg5-6-h]:hover {
+  background: var(--color--5-6) !important;
+}
+
+[class*=bc5-6-h]:hover {
+  border-color: var(--color--5-6) !important;
+}
+
+[class*=oc5-6-h]:hover {
+  outline-color: var(--color--5-6) !important;
+}
+
+[class*=fc5-6-h]:hover {
+  color: var(--color--5-6) !important;
+}
+
+[class*=sc5-6-h]:hover {
+  -webkit-text-stroke-color: var(--color--5-6) !important;
+}
+
+[class*=bg5-7-h]:hover {
+  background: var(--color--5-7) !important;
+}
+
+[class*=bc5-7-h]:hover {
+  border-color: var(--color--5-7) !important;
+}
+
+[class*=oc5-7-h]:hover {
+  outline-color: var(--color--5-7) !important;
+}
+
+[class*=fc5-7-h]:hover {
+  color: var(--color--5-7) !important;
+}
+
+[class*=sc5-7-h]:hover {
+  -webkit-text-stroke-color: var(--color--5-7) !important;
+}
+
+[class*=bg5-8-h]:hover {
+  background: var(--color--5-8) !important;
+}
+
+[class*=bc5-8-h]:hover {
+  border-color: var(--color--5-8) !important;
+}
+
+[class*=oc5-8-h]:hover {
+  outline-color: var(--color--5-8) !important;
+}
+
+[class*=fc5-8-h]:hover {
+  color: var(--color--5-8) !important;
+}
+
+[class*=sc5-8-h]:hover {
+  -webkit-text-stroke-color: var(--color--5-8) !important;
+}
+
+[class*=bg5-9-h]:hover {
+  background: var(--color--5-9) !important;
+}
+
+[class*=bc5-9-h]:hover {
+  border-color: var(--color--5-9) !important;
+}
+
+[class*=oc5-9-h]:hover {
+  outline-color: var(--color--5-9) !important;
+}
+
+[class*=fc5-9-h]:hover {
+  color: var(--color--5-9) !important;
+}
+
+[class*=sc5-9-h]:hover {
+  -webkit-text-stroke-color: var(--color--5-9) !important;
+}
+
+[class*=bg6-0-h]:hover {
+  background: var(--color--6-0) !important;
+}
+
+[class*=bc6-0-h]:hover {
+  border-color: var(--color--6-0) !important;
+}
+
+[class*=oc6-0-h]:hover {
+  outline-color: var(--color--6-0) !important;
+}
+
+[class*=fc6-0-h]:hover {
+  color: var(--color--6-0) !important;
+}
+
+[class*=sc6-0-h]:hover {
+  -webkit-text-stroke-color: var(--color--6-0) !important;
+}
+
+[class*=bg6-1-h]:hover {
+  background: var(--color--6-1) !important;
+}
+
+[class*=bc6-1-h]:hover {
+  border-color: var(--color--6-1) !important;
+}
+
+[class*=oc6-1-h]:hover {
+  outline-color: var(--color--6-1) !important;
+}
+
+[class*=fc6-1-h]:hover {
+  color: var(--color--6-1) !important;
+}
+
+[class*=sc6-1-h]:hover {
+  -webkit-text-stroke-color: var(--color--6-1) !important;
+}
+
+[class*=bg6-2-h]:hover {
+  background: var(--color--6-2) !important;
+}
+
+[class*=bc6-2-h]:hover {
+  border-color: var(--color--6-2) !important;
+}
+
+[class*=oc6-2-h]:hover {
+  outline-color: var(--color--6-2) !important;
+}
+
+[class*=fc6-2-h]:hover {
+  color: var(--color--6-2) !important;
+}
+
+[class*=sc6-2-h]:hover {
+  -webkit-text-stroke-color: var(--color--6-2) !important;
+}
+
+[class*=bg6-3-h]:hover {
+  background: var(--color--6-3) !important;
+}
+
+[class*=bc6-3-h]:hover {
+  border-color: var(--color--6-3) !important;
+}
+
+[class*=oc6-3-h]:hover {
+  outline-color: var(--color--6-3) !important;
+}
+
+[class*=fc6-3-h]:hover {
+  color: var(--color--6-3) !important;
+}
+
+[class*=sc6-3-h]:hover {
+  -webkit-text-stroke-color: var(--color--6-3) !important;
+}
+
+[class*=bg6-4-h]:hover {
+  background: var(--color--6-4) !important;
+}
+
+[class*=bc6-4-h]:hover {
+  border-color: var(--color--6-4) !important;
+}
+
+[class*=oc6-4-h]:hover {
+  outline-color: var(--color--6-4) !important;
+}
+
+[class*=fc6-4-h]:hover {
+  color: var(--color--6-4) !important;
+}
+
+[class*=sc6-4-h]:hover {
+  -webkit-text-stroke-color: var(--color--6-4) !important;
+}
+
+[class*=bg6-5-h]:hover {
+  background: var(--color--6-5) !important;
+}
+
+[class*=bc6-5-h]:hover {
+  border-color: var(--color--6-5) !important;
+}
+
+[class*=oc6-5-h]:hover {
+  outline-color: var(--color--6-5) !important;
+}
+
+[class*=fc6-5-h]:hover {
+  color: var(--color--6-5) !important;
+}
+
+[class*=sc6-5-h]:hover {
+  -webkit-text-stroke-color: var(--color--6-5) !important;
+}
+
+[class*=bg6-6-h]:hover {
+  background: var(--color--6-6) !important;
+}
+
+[class*=bc6-6-h]:hover {
+  border-color: var(--color--6-6) !important;
+}
+
+[class*=oc6-6-h]:hover {
+  outline-color: var(--color--6-6) !important;
+}
+
+[class*=fc6-6-h]:hover {
+  color: var(--color--6-6) !important;
+}
+
+[class*=sc6-6-h]:hover {
+  -webkit-text-stroke-color: var(--color--6-6) !important;
+}
+
+[class*=bg6-7-h]:hover {
+  background: var(--color--6-7) !important;
+}
+
+[class*=bc6-7-h]:hover {
+  border-color: var(--color--6-7) !important;
+}
+
+[class*=oc6-7-h]:hover {
+  outline-color: var(--color--6-7) !important;
+}
+
+[class*=fc6-7-h]:hover {
+  color: var(--color--6-7) !important;
+}
+
+[class*=sc6-7-h]:hover {
+  -webkit-text-stroke-color: var(--color--6-7) !important;
+}
+
+[class*=bg6-8-h]:hover {
+  background: var(--color--6-8) !important;
+}
+
+[class*=bc6-8-h]:hover {
+  border-color: var(--color--6-8) !important;
+}
+
+[class*=oc6-8-h]:hover {
+  outline-color: var(--color--6-8) !important;
+}
+
+[class*=fc6-8-h]:hover {
+  color: var(--color--6-8) !important;
+}
+
+[class*=sc6-8-h]:hover {
+  -webkit-text-stroke-color: var(--color--6-8) !important;
+}
+
+[class*=bg6-9-h]:hover {
+  background: var(--color--6-9) !important;
+}
+
+[class*=bc6-9-h]:hover {
+  border-color: var(--color--6-9) !important;
+}
+
+[class*=oc6-9-h]:hover {
+  outline-color: var(--color--6-9) !important;
+}
+
+[class*=fc6-9-h]:hover {
+  color: var(--color--6-9) !important;
+}
+
+[class*=sc6-9-h]:hover {
+  -webkit-text-stroke-color: var(--color--6-9) !important;
+}
+
+[class*=bg7-0-h]:hover {
+  background: var(--color--7-0) !important;
+}
+
+[class*=bc7-0-h]:hover {
+  border-color: var(--color--7-0) !important;
+}
+
+[class*=oc7-0-h]:hover {
+  outline-color: var(--color--7-0) !important;
+}
+
+[class*=fc7-0-h]:hover {
+  color: var(--color--7-0) !important;
+}
+
+[class*=sc7-0-h]:hover {
+  -webkit-text-stroke-color: var(--color--7-0) !important;
+}
+
+[class*=bg7-1-h]:hover {
+  background: var(--color--7-1) !important;
+}
+
+[class*=bc7-1-h]:hover {
+  border-color: var(--color--7-1) !important;
+}
+
+[class*=oc7-1-h]:hover {
+  outline-color: var(--color--7-1) !important;
+}
+
+[class*=fc7-1-h]:hover {
+  color: var(--color--7-1) !important;
+}
+
+[class*=sc7-1-h]:hover {
+  -webkit-text-stroke-color: var(--color--7-1) !important;
+}
+
+[class*=bg7-2-h]:hover {
+  background: var(--color--7-2) !important;
+}
+
+[class*=bc7-2-h]:hover {
+  border-color: var(--color--7-2) !important;
+}
+
+[class*=oc7-2-h]:hover {
+  outline-color: var(--color--7-2) !important;
+}
+
+[class*=fc7-2-h]:hover {
+  color: var(--color--7-2) !important;
+}
+
+[class*=sc7-2-h]:hover {
+  -webkit-text-stroke-color: var(--color--7-2) !important;
+}
+
+[class*=bg7-3-h]:hover {
+  background: var(--color--7-3) !important;
+}
+
+[class*=bc7-3-h]:hover {
+  border-color: var(--color--7-3) !important;
+}
+
+[class*=oc7-3-h]:hover {
+  outline-color: var(--color--7-3) !important;
+}
+
+[class*=fc7-3-h]:hover {
+  color: var(--color--7-3) !important;
+}
+
+[class*=sc7-3-h]:hover {
+  -webkit-text-stroke-color: var(--color--7-3) !important;
+}
+
+[class*=bg7-4-h]:hover {
+  background: var(--color--7-4) !important;
+}
+
+[class*=bc7-4-h]:hover {
+  border-color: var(--color--7-4) !important;
+}
+
+[class*=oc7-4-h]:hover {
+  outline-color: var(--color--7-4) !important;
+}
+
+[class*=fc7-4-h]:hover {
+  color: var(--color--7-4) !important;
+}
+
+[class*=sc7-4-h]:hover {
+  -webkit-text-stroke-color: var(--color--7-4) !important;
+}
+
+[class*=bg7-5-h]:hover {
+  background: var(--color--7-5) !important;
+}
+
+[class*=bc7-5-h]:hover {
+  border-color: var(--color--7-5) !important;
+}
+
+[class*=oc7-5-h]:hover {
+  outline-color: var(--color--7-5) !important;
+}
+
+[class*=fc7-5-h]:hover {
+  color: var(--color--7-5) !important;
+}
+
+[class*=sc7-5-h]:hover {
+  -webkit-text-stroke-color: var(--color--7-5) !important;
+}
+
+[class*=bg7-6-h]:hover {
+  background: var(--color--7-6) !important;
+}
+
+[class*=bc7-6-h]:hover {
+  border-color: var(--color--7-6) !important;
+}
+
+[class*=oc7-6-h]:hover {
+  outline-color: var(--color--7-6) !important;
+}
+
+[class*=fc7-6-h]:hover {
+  color: var(--color--7-6) !important;
+}
+
+[class*=sc7-6-h]:hover {
+  -webkit-text-stroke-color: var(--color--7-6) !important;
+}
+
+[class*=bg7-7-h]:hover {
+  background: var(--color--7-7) !important;
+}
+
+[class*=bc7-7-h]:hover {
+  border-color: var(--color--7-7) !important;
+}
+
+[class*=oc7-7-h]:hover {
+  outline-color: var(--color--7-7) !important;
+}
+
+[class*=fc7-7-h]:hover {
+  color: var(--color--7-7) !important;
+}
+
+[class*=sc7-7-h]:hover {
+  -webkit-text-stroke-color: var(--color--7-7) !important;
+}
+
+[class*=bg7-8-h]:hover {
+  background: var(--color--7-8) !important;
+}
+
+[class*=bc7-8-h]:hover {
+  border-color: var(--color--7-8) !important;
+}
+
+[class*=oc7-8-h]:hover {
+  outline-color: var(--color--7-8) !important;
+}
+
+[class*=fc7-8-h]:hover {
+  color: var(--color--7-8) !important;
+}
+
+[class*=sc7-8-h]:hover {
+  -webkit-text-stroke-color: var(--color--7-8) !important;
+}
+
+[class*=bg7-9-h]:hover {
+  background: var(--color--7-9) !important;
+}
+
+[class*=bc7-9-h]:hover {
+  border-color: var(--color--7-9) !important;
+}
+
+[class*=oc7-9-h]:hover {
+  outline-color: var(--color--7-9) !important;
+}
+
+[class*=fc7-9-h]:hover {
+  color: var(--color--7-9) !important;
+}
+
+[class*=sc7-9-h]:hover {
+  -webkit-text-stroke-color: var(--color--7-9) !important;
+}
+
+[class*=bg8-0-h]:hover {
+  background: var(--color--8-0) !important;
+}
+
+[class*=bc8-0-h]:hover {
+  border-color: var(--color--8-0) !important;
+}
+
+[class*=oc8-0-h]:hover {
+  outline-color: var(--color--8-0) !important;
+}
+
+[class*=fc8-0-h]:hover {
+  color: var(--color--8-0) !important;
+}
+
+[class*=sc8-0-h]:hover {
+  -webkit-text-stroke-color: var(--color--8-0) !important;
+}
+
+[class*=bg8-1-h]:hover {
+  background: var(--color--8-1) !important;
+}
+
+[class*=bc8-1-h]:hover {
+  border-color: var(--color--8-1) !important;
+}
+
+[class*=oc8-1-h]:hover {
+  outline-color: var(--color--8-1) !important;
+}
+
+[class*=fc8-1-h]:hover {
+  color: var(--color--8-1) !important;
+}
+
+[class*=sc8-1-h]:hover {
+  -webkit-text-stroke-color: var(--color--8-1) !important;
+}
+
+[class*=bg8-2-h]:hover {
+  background: var(--color--8-2) !important;
+}
+
+[class*=bc8-2-h]:hover {
+  border-color: var(--color--8-2) !important;
+}
+
+[class*=oc8-2-h]:hover {
+  outline-color: var(--color--8-2) !important;
+}
+
+[class*=fc8-2-h]:hover {
+  color: var(--color--8-2) !important;
+}
+
+[class*=sc8-2-h]:hover {
+  -webkit-text-stroke-color: var(--color--8-2) !important;
+}
+
+[class*=bg8-3-h]:hover {
+  background: var(--color--8-3) !important;
+}
+
+[class*=bc8-3-h]:hover {
+  border-color: var(--color--8-3) !important;
+}
+
+[class*=oc8-3-h]:hover {
+  outline-color: var(--color--8-3) !important;
+}
+
+[class*=fc8-3-h]:hover {
+  color: var(--color--8-3) !important;
+}
+
+[class*=sc8-3-h]:hover {
+  -webkit-text-stroke-color: var(--color--8-3) !important;
+}
+
+[class*=bg8-4-h]:hover {
+  background: var(--color--8-4) !important;
+}
+
+[class*=bc8-4-h]:hover {
+  border-color: var(--color--8-4) !important;
+}
+
+[class*=oc8-4-h]:hover {
+  outline-color: var(--color--8-4) !important;
+}
+
+[class*=fc8-4-h]:hover {
+  color: var(--color--8-4) !important;
+}
+
+[class*=sc8-4-h]:hover {
+  -webkit-text-stroke-color: var(--color--8-4) !important;
+}
+
+[class*=bg8-5-h]:hover {
+  background: var(--color--8-5) !important;
+}
+
+[class*=bc8-5-h]:hover {
+  border-color: var(--color--8-5) !important;
+}
+
+[class*=oc8-5-h]:hover {
+  outline-color: var(--color--8-5) !important;
+}
+
+[class*=fc8-5-h]:hover {
+  color: var(--color--8-5) !important;
+}
+
+[class*=sc8-5-h]:hover {
+  -webkit-text-stroke-color: var(--color--8-5) !important;
+}
+
+[class*=bg8-6-h]:hover {
+  background: var(--color--8-6) !important;
+}
+
+[class*=bc8-6-h]:hover {
+  border-color: var(--color--8-6) !important;
+}
+
+[class*=oc8-6-h]:hover {
+  outline-color: var(--color--8-6) !important;
+}
+
+[class*=fc8-6-h]:hover {
+  color: var(--color--8-6) !important;
+}
+
+[class*=sc8-6-h]:hover {
+  -webkit-text-stroke-color: var(--color--8-6) !important;
+}
+
+[class*=bg8-7-h]:hover {
+  background: var(--color--8-7) !important;
+}
+
+[class*=bc8-7-h]:hover {
+  border-color: var(--color--8-7) !important;
+}
+
+[class*=oc8-7-h]:hover {
+  outline-color: var(--color--8-7) !important;
+}
+
+[class*=fc8-7-h]:hover {
+  color: var(--color--8-7) !important;
+}
+
+[class*=sc8-7-h]:hover {
+  -webkit-text-stroke-color: var(--color--8-7) !important;
+}
+
+[class*=bg8-8-h]:hover {
+  background: var(--color--8-8) !important;
+}
+
+[class*=bc8-8-h]:hover {
+  border-color: var(--color--8-8) !important;
+}
+
+[class*=oc8-8-h]:hover {
+  outline-color: var(--color--8-8) !important;
+}
+
+[class*=fc8-8-h]:hover {
+  color: var(--color--8-8) !important;
+}
+
+[class*=sc8-8-h]:hover {
+  -webkit-text-stroke-color: var(--color--8-8) !important;
+}
+
+[class*=bg8-9-h]:hover {
+  background: var(--color--8-9) !important;
+}
+
+[class*=bc8-9-h]:hover {
+  border-color: var(--color--8-9) !important;
+}
+
+[class*=oc8-9-h]:hover {
+  outline-color: var(--color--8-9) !important;
+}
+
+[class*=fc8-9-h]:hover {
+  color: var(--color--8-9) !important;
+}
+
+[class*=sc8-9-h]:hover {
+  -webkit-text-stroke-color: var(--color--8-9) !important;
+}
+
+[class*=bg9-0-h]:hover {
+  background: var(--color--9-0) !important;
+}
+
+[class*=bc9-0-h]:hover {
+  border-color: var(--color--9-0) !important;
+}
+
+[class*=oc9-0-h]:hover {
+  outline-color: var(--color--9-0) !important;
+}
+
+[class*=fc9-0-h]:hover {
+  color: var(--color--9-0) !important;
+}
+
+[class*=sc9-0-h]:hover {
+  -webkit-text-stroke-color: var(--color--9-0) !important;
+}
+
+[class*=bg9-1-h]:hover {
+  background: var(--color--9-1) !important;
+}
+
+[class*=bc9-1-h]:hover {
+  border-color: var(--color--9-1) !important;
+}
+
+[class*=oc9-1-h]:hover {
+  outline-color: var(--color--9-1) !important;
+}
+
+[class*=fc9-1-h]:hover {
+  color: var(--color--9-1) !important;
+}
+
+[class*=sc9-1-h]:hover {
+  -webkit-text-stroke-color: var(--color--9-1) !important;
+}
+
+[class*=bg9-2-h]:hover {
+  background: var(--color--9-2) !important;
+}
+
+[class*=bc9-2-h]:hover {
+  border-color: var(--color--9-2) !important;
+}
+
+[class*=oc9-2-h]:hover {
+  outline-color: var(--color--9-2) !important;
+}
+
+[class*=fc9-2-h]:hover {
+  color: var(--color--9-2) !important;
+}
+
+[class*=sc9-2-h]:hover {
+  -webkit-text-stroke-color: var(--color--9-2) !important;
+}
+
+[class*=bg9-3-h]:hover {
+  background: var(--color--9-3) !important;
+}
+
+[class*=bc9-3-h]:hover {
+  border-color: var(--color--9-3) !important;
+}
+
+[class*=oc9-3-h]:hover {
+  outline-color: var(--color--9-3) !important;
+}
+
+[class*=fc9-3-h]:hover {
+  color: var(--color--9-3) !important;
+}
+
+[class*=sc9-3-h]:hover {
+  -webkit-text-stroke-color: var(--color--9-3) !important;
+}
+
+[class*=bg9-4-h]:hover {
+  background: var(--color--9-4) !important;
+}
+
+[class*=bc9-4-h]:hover {
+  border-color: var(--color--9-4) !important;
+}
+
+[class*=oc9-4-h]:hover {
+  outline-color: var(--color--9-4) !important;
+}
+
+[class*=fc9-4-h]:hover {
+  color: var(--color--9-4) !important;
+}
+
+[class*=sc9-4-h]:hover {
+  -webkit-text-stroke-color: var(--color--9-4) !important;
+}
+
+[class*=bg9-5-h]:hover {
+  background: var(--color--9-5) !important;
+}
+
+[class*=bc9-5-h]:hover {
+  border-color: var(--color--9-5) !important;
+}
+
+[class*=oc9-5-h]:hover {
+  outline-color: var(--color--9-5) !important;
+}
+
+[class*=fc9-5-h]:hover {
+  color: var(--color--9-5) !important;
+}
+
+[class*=sc9-5-h]:hover {
+  -webkit-text-stroke-color: var(--color--9-5) !important;
+}
+
+[class*=bg9-6-h]:hover {
+  background: var(--color--9-6) !important;
+}
+
+[class*=bc9-6-h]:hover {
+  border-color: var(--color--9-6) !important;
+}
+
+[class*=oc9-6-h]:hover {
+  outline-color: var(--color--9-6) !important;
+}
+
+[class*=fc9-6-h]:hover {
+  color: var(--color--9-6) !important;
+}
+
+[class*=sc9-6-h]:hover {
+  -webkit-text-stroke-color: var(--color--9-6) !important;
+}
+
+[class*=bg9-7-h]:hover {
+  background: var(--color--9-7) !important;
+}
+
+[class*=bc9-7-h]:hover {
+  border-color: var(--color--9-7) !important;
+}
+
+[class*=oc9-7-h]:hover {
+  outline-color: var(--color--9-7) !important;
+}
+
+[class*=fc9-7-h]:hover {
+  color: var(--color--9-7) !important;
+}
+
+[class*=sc9-7-h]:hover {
+  -webkit-text-stroke-color: var(--color--9-7) !important;
+}
+
+[class*=bg9-8-h]:hover {
+  background: var(--color--9-8) !important;
+}
+
+[class*=bc9-8-h]:hover {
+  border-color: var(--color--9-8) !important;
+}
+
+[class*=oc9-8-h]:hover {
+  outline-color: var(--color--9-8) !important;
+}
+
+[class*=fc9-8-h]:hover {
+  color: var(--color--9-8) !important;
+}
+
+[class*=sc9-8-h]:hover {
+  -webkit-text-stroke-color: var(--color--9-8) !important;
+}
+
+[class*=bg9-9-h]:hover {
+  background: var(--color--9-9) !important;
+}
+
+[class*=bc9-9-h]:hover {
+  border-color: var(--color--9-9) !important;
+}
+
+[class*=oc9-9-h]:hover {
+  outline-color: var(--color--9-9) !important;
+}
+
+[class*=fc9-9-h]:hover {
+  color: var(--color--9-9) !important;
+}
+
+[class*=sc9-9-h]:hover {
+  -webkit-text-stroke-color: var(--color--9-9) !important;
+}
+
+[class*=bg0-0-a]:active {
+  background: var(--color--0-0) !important;
+}
+
+[class*=bc0-0-a]:active {
+  border-color: var(--color--0-0) !important;
+}
+
+[class*=oc0-0-a]:active {
+  outline-color: var(--color--0-0) !important;
+}
+
+[class*=fc0-0-a]:active {
+  color: var(--color--0-0) !important;
+}
+
+[class*=sc0-0-a]:active {
+  -webkit-text-stroke-color: var(--color--0-0) !important;
+}
+
+[class*=bg0-1-a]:active {
+  background: var(--color--0-1) !important;
+}
+
+[class*=bc0-1-a]:active {
+  border-color: var(--color--0-1) !important;
+}
+
+[class*=oc0-1-a]:active {
+  outline-color: var(--color--0-1) !important;
+}
+
+[class*=fc0-1-a]:active {
+  color: var(--color--0-1) !important;
+}
+
+[class*=sc0-1-a]:active {
+  -webkit-text-stroke-color: var(--color--0-1) !important;
+}
+
+[class*=bg0-2-a]:active {
+  background: var(--color--0-2) !important;
+}
+
+[class*=bc0-2-a]:active {
+  border-color: var(--color--0-2) !important;
+}
+
+[class*=oc0-2-a]:active {
+  outline-color: var(--color--0-2) !important;
+}
+
+[class*=fc0-2-a]:active {
+  color: var(--color--0-2) !important;
+}
+
+[class*=sc0-2-a]:active {
+  -webkit-text-stroke-color: var(--color--0-2) !important;
+}
+
+[class*=bg0-3-a]:active {
+  background: var(--color--0-3) !important;
+}
+
+[class*=bc0-3-a]:active {
+  border-color: var(--color--0-3) !important;
+}
+
+[class*=oc0-3-a]:active {
+  outline-color: var(--color--0-3) !important;
+}
+
+[class*=fc0-3-a]:active {
+  color: var(--color--0-3) !important;
+}
+
+[class*=sc0-3-a]:active {
+  -webkit-text-stroke-color: var(--color--0-3) !important;
+}
+
+[class*=bg0-4-a]:active {
+  background: var(--color--0-4) !important;
+}
+
+[class*=bc0-4-a]:active {
+  border-color: var(--color--0-4) !important;
+}
+
+[class*=oc0-4-a]:active {
+  outline-color: var(--color--0-4) !important;
+}
+
+[class*=fc0-4-a]:active {
+  color: var(--color--0-4) !important;
+}
+
+[class*=sc0-4-a]:active {
+  -webkit-text-stroke-color: var(--color--0-4) !important;
+}
+
+[class*=bg0-5-a]:active {
+  background: var(--color--0-5) !important;
+}
+
+[class*=bc0-5-a]:active {
+  border-color: var(--color--0-5) !important;
+}
+
+[class*=oc0-5-a]:active {
+  outline-color: var(--color--0-5) !important;
+}
+
+[class*=fc0-5-a]:active {
+  color: var(--color--0-5) !important;
+}
+
+[class*=sc0-5-a]:active {
+  -webkit-text-stroke-color: var(--color--0-5) !important;
+}
+
+[class*=bg0-6-a]:active {
+  background: var(--color--0-6) !important;
+}
+
+[class*=bc0-6-a]:active {
+  border-color: var(--color--0-6) !important;
+}
+
+[class*=oc0-6-a]:active {
+  outline-color: var(--color--0-6) !important;
+}
+
+[class*=fc0-6-a]:active {
+  color: var(--color--0-6) !important;
+}
+
+[class*=sc0-6-a]:active {
+  -webkit-text-stroke-color: var(--color--0-6) !important;
+}
+
+[class*=bg0-7-a]:active {
+  background: var(--color--0-7) !important;
+}
+
+[class*=bc0-7-a]:active {
+  border-color: var(--color--0-7) !important;
+}
+
+[class*=oc0-7-a]:active {
+  outline-color: var(--color--0-7) !important;
+}
+
+[class*=fc0-7-a]:active {
+  color: var(--color--0-7) !important;
+}
+
+[class*=sc0-7-a]:active {
+  -webkit-text-stroke-color: var(--color--0-7) !important;
+}
+
+[class*=bg0-8-a]:active {
+  background: var(--color--0-8) !important;
+}
+
+[class*=bc0-8-a]:active {
+  border-color: var(--color--0-8) !important;
+}
+
+[class*=oc0-8-a]:active {
+  outline-color: var(--color--0-8) !important;
+}
+
+[class*=fc0-8-a]:active {
+  color: var(--color--0-8) !important;
+}
+
+[class*=sc0-8-a]:active {
+  -webkit-text-stroke-color: var(--color--0-8) !important;
+}
+
+[class*=bg0-9-a]:active {
+  background: var(--color--0-9) !important;
+}
+
+[class*=bc0-9-a]:active {
+  border-color: var(--color--0-9) !important;
+}
+
+[class*=oc0-9-a]:active {
+  outline-color: var(--color--0-9) !important;
+}
+
+[class*=fc0-9-a]:active {
+  color: var(--color--0-9) !important;
+}
+
+[class*=sc0-9-a]:active {
+  -webkit-text-stroke-color: var(--color--0-9) !important;
+}
+
+[class*=bg1-0-a]:active {
+  background: var(--color--1-0) !important;
+}
+
+[class*=bc1-0-a]:active {
+  border-color: var(--color--1-0) !important;
+}
+
+[class*=oc1-0-a]:active {
+  outline-color: var(--color--1-0) !important;
+}
+
+[class*=fc1-0-a]:active {
+  color: var(--color--1-0) !important;
+}
+
+[class*=sc1-0-a]:active {
+  -webkit-text-stroke-color: var(--color--1-0) !important;
+}
+
+[class*=bg1-1-a]:active {
+  background: var(--color--1-1) !important;
+}
+
+[class*=bc1-1-a]:active {
+  border-color: var(--color--1-1) !important;
+}
+
+[class*=oc1-1-a]:active {
+  outline-color: var(--color--1-1) !important;
+}
+
+[class*=fc1-1-a]:active {
+  color: var(--color--1-1) !important;
+}
+
+[class*=sc1-1-a]:active {
+  -webkit-text-stroke-color: var(--color--1-1) !important;
+}
+
+[class*=bg1-2-a]:active {
+  background: var(--color--1-2) !important;
+}
+
+[class*=bc1-2-a]:active {
+  border-color: var(--color--1-2) !important;
+}
+
+[class*=oc1-2-a]:active {
+  outline-color: var(--color--1-2) !important;
+}
+
+[class*=fc1-2-a]:active {
+  color: var(--color--1-2) !important;
+}
+
+[class*=sc1-2-a]:active {
+  -webkit-text-stroke-color: var(--color--1-2) !important;
+}
+
+[class*=bg1-3-a]:active {
+  background: var(--color--1-3) !important;
+}
+
+[class*=bc1-3-a]:active {
+  border-color: var(--color--1-3) !important;
+}
+
+[class*=oc1-3-a]:active {
+  outline-color: var(--color--1-3) !important;
+}
+
+[class*=fc1-3-a]:active {
+  color: var(--color--1-3) !important;
+}
+
+[class*=sc1-3-a]:active {
+  -webkit-text-stroke-color: var(--color--1-3) !important;
+}
+
+[class*=bg1-4-a]:active {
+  background: var(--color--1-4) !important;
+}
+
+[class*=bc1-4-a]:active {
+  border-color: var(--color--1-4) !important;
+}
+
+[class*=oc1-4-a]:active {
+  outline-color: var(--color--1-4) !important;
+}
+
+[class*=fc1-4-a]:active {
+  color: var(--color--1-4) !important;
+}
+
+[class*=sc1-4-a]:active {
+  -webkit-text-stroke-color: var(--color--1-4) !important;
+}
+
+[class*=bg1-5-a]:active {
+  background: var(--color--1-5) !important;
+}
+
+[class*=bc1-5-a]:active {
+  border-color: var(--color--1-5) !important;
+}
+
+[class*=oc1-5-a]:active {
+  outline-color: var(--color--1-5) !important;
+}
+
+[class*=fc1-5-a]:active {
+  color: var(--color--1-5) !important;
+}
+
+[class*=sc1-5-a]:active {
+  -webkit-text-stroke-color: var(--color--1-5) !important;
+}
+
+[class*=bg1-6-a]:active {
+  background: var(--color--1-6) !important;
+}
+
+[class*=bc1-6-a]:active {
+  border-color: var(--color--1-6) !important;
+}
+
+[class*=oc1-6-a]:active {
+  outline-color: var(--color--1-6) !important;
+}
+
+[class*=fc1-6-a]:active {
+  color: var(--color--1-6) !important;
+}
+
+[class*=sc1-6-a]:active {
+  -webkit-text-stroke-color: var(--color--1-6) !important;
+}
+
+[class*=bg1-7-a]:active {
+  background: var(--color--1-7) !important;
+}
+
+[class*=bc1-7-a]:active {
+  border-color: var(--color--1-7) !important;
+}
+
+[class*=oc1-7-a]:active {
+  outline-color: var(--color--1-7) !important;
+}
+
+[class*=fc1-7-a]:active {
+  color: var(--color--1-7) !important;
+}
+
+[class*=sc1-7-a]:active {
+  -webkit-text-stroke-color: var(--color--1-7) !important;
+}
+
+[class*=bg1-8-a]:active {
+  background: var(--color--1-8) !important;
+}
+
+[class*=bc1-8-a]:active {
+  border-color: var(--color--1-8) !important;
+}
+
+[class*=oc1-8-a]:active {
+  outline-color: var(--color--1-8) !important;
+}
+
+[class*=fc1-8-a]:active {
+  color: var(--color--1-8) !important;
+}
+
+[class*=sc1-8-a]:active {
+  -webkit-text-stroke-color: var(--color--1-8) !important;
+}
+
+[class*=bg1-9-a]:active {
+  background: var(--color--1-9) !important;
+}
+
+[class*=bc1-9-a]:active {
+  border-color: var(--color--1-9) !important;
+}
+
+[class*=oc1-9-a]:active {
+  outline-color: var(--color--1-9) !important;
+}
+
+[class*=fc1-9-a]:active {
+  color: var(--color--1-9) !important;
+}
+
+[class*=sc1-9-a]:active {
+  -webkit-text-stroke-color: var(--color--1-9) !important;
+}
+
+[class*=bg2-0-a]:active {
+  background: var(--color--2-0) !important;
+}
+
+[class*=bc2-0-a]:active {
+  border-color: var(--color--2-0) !important;
+}
+
+[class*=oc2-0-a]:active {
+  outline-color: var(--color--2-0) !important;
+}
+
+[class*=fc2-0-a]:active {
+  color: var(--color--2-0) !important;
+}
+
+[class*=sc2-0-a]:active {
+  -webkit-text-stroke-color: var(--color--2-0) !important;
+}
+
+[class*=bg2-1-a]:active {
+  background: var(--color--2-1) !important;
+}
+
+[class*=bc2-1-a]:active {
+  border-color: var(--color--2-1) !important;
+}
+
+[class*=oc2-1-a]:active {
+  outline-color: var(--color--2-1) !important;
+}
+
+[class*=fc2-1-a]:active {
+  color: var(--color--2-1) !important;
+}
+
+[class*=sc2-1-a]:active {
+  -webkit-text-stroke-color: var(--color--2-1) !important;
+}
+
+[class*=bg2-2-a]:active {
+  background: var(--color--2-2) !important;
+}
+
+[class*=bc2-2-a]:active {
+  border-color: var(--color--2-2) !important;
+}
+
+[class*=oc2-2-a]:active {
+  outline-color: var(--color--2-2) !important;
+}
+
+[class*=fc2-2-a]:active {
+  color: var(--color--2-2) !important;
+}
+
+[class*=sc2-2-a]:active {
+  -webkit-text-stroke-color: var(--color--2-2) !important;
+}
+
+[class*=bg2-3-a]:active {
+  background: var(--color--2-3) !important;
+}
+
+[class*=bc2-3-a]:active {
+  border-color: var(--color--2-3) !important;
+}
+
+[class*=oc2-3-a]:active {
+  outline-color: var(--color--2-3) !important;
+}
+
+[class*=fc2-3-a]:active {
+  color: var(--color--2-3) !important;
+}
+
+[class*=sc2-3-a]:active {
+  -webkit-text-stroke-color: var(--color--2-3) !important;
+}
+
+[class*=bg2-4-a]:active {
+  background: var(--color--2-4) !important;
+}
+
+[class*=bc2-4-a]:active {
+  border-color: var(--color--2-4) !important;
+}
+
+[class*=oc2-4-a]:active {
+  outline-color: var(--color--2-4) !important;
+}
+
+[class*=fc2-4-a]:active {
+  color: var(--color--2-4) !important;
+}
+
+[class*=sc2-4-a]:active {
+  -webkit-text-stroke-color: var(--color--2-4) !important;
+}
+
+[class*=bg2-5-a]:active {
+  background: var(--color--2-5) !important;
+}
+
+[class*=bc2-5-a]:active {
+  border-color: var(--color--2-5) !important;
+}
+
+[class*=oc2-5-a]:active {
+  outline-color: var(--color--2-5) !important;
+}
+
+[class*=fc2-5-a]:active {
+  color: var(--color--2-5) !important;
+}
+
+[class*=sc2-5-a]:active {
+  -webkit-text-stroke-color: var(--color--2-5) !important;
+}
+
+[class*=bg2-6-a]:active {
+  background: var(--color--2-6) !important;
+}
+
+[class*=bc2-6-a]:active {
+  border-color: var(--color--2-6) !important;
+}
+
+[class*=oc2-6-a]:active {
+  outline-color: var(--color--2-6) !important;
+}
+
+[class*=fc2-6-a]:active {
+  color: var(--color--2-6) !important;
+}
+
+[class*=sc2-6-a]:active {
+  -webkit-text-stroke-color: var(--color--2-6) !important;
+}
+
+[class*=bg2-7-a]:active {
+  background: var(--color--2-7) !important;
+}
+
+[class*=bc2-7-a]:active {
+  border-color: var(--color--2-7) !important;
+}
+
+[class*=oc2-7-a]:active {
+  outline-color: var(--color--2-7) !important;
+}
+
+[class*=fc2-7-a]:active {
+  color: var(--color--2-7) !important;
+}
+
+[class*=sc2-7-a]:active {
+  -webkit-text-stroke-color: var(--color--2-7) !important;
+}
+
+[class*=bg2-8-a]:active {
+  background: var(--color--2-8) !important;
+}
+
+[class*=bc2-8-a]:active {
+  border-color: var(--color--2-8) !important;
+}
+
+[class*=oc2-8-a]:active {
+  outline-color: var(--color--2-8) !important;
+}
+
+[class*=fc2-8-a]:active {
+  color: var(--color--2-8) !important;
+}
+
+[class*=sc2-8-a]:active {
+  -webkit-text-stroke-color: var(--color--2-8) !important;
+}
+
+[class*=bg2-9-a]:active {
+  background: var(--color--2-9) !important;
+}
+
+[class*=bc2-9-a]:active {
+  border-color: var(--color--2-9) !important;
+}
+
+[class*=oc2-9-a]:active {
+  outline-color: var(--color--2-9) !important;
+}
+
+[class*=fc2-9-a]:active {
+  color: var(--color--2-9) !important;
+}
+
+[class*=sc2-9-a]:active {
+  -webkit-text-stroke-color: var(--color--2-9) !important;
+}
+
+[class*=bg3-0-a]:active {
+  background: var(--color--3-0) !important;
+}
+
+[class*=bc3-0-a]:active {
+  border-color: var(--color--3-0) !important;
+}
+
+[class*=oc3-0-a]:active {
+  outline-color: var(--color--3-0) !important;
+}
+
+[class*=fc3-0-a]:active {
+  color: var(--color--3-0) !important;
+}
+
+[class*=sc3-0-a]:active {
+  -webkit-text-stroke-color: var(--color--3-0) !important;
+}
+
+[class*=bg3-1-a]:active {
+  background: var(--color--3-1) !important;
+}
+
+[class*=bc3-1-a]:active {
+  border-color: var(--color--3-1) !important;
+}
+
+[class*=oc3-1-a]:active {
+  outline-color: var(--color--3-1) !important;
+}
+
+[class*=fc3-1-a]:active {
+  color: var(--color--3-1) !important;
+}
+
+[class*=sc3-1-a]:active {
+  -webkit-text-stroke-color: var(--color--3-1) !important;
+}
+
+[class*=bg3-2-a]:active {
+  background: var(--color--3-2) !important;
+}
+
+[class*=bc3-2-a]:active {
+  border-color: var(--color--3-2) !important;
+}
+
+[class*=oc3-2-a]:active {
+  outline-color: var(--color--3-2) !important;
+}
+
+[class*=fc3-2-a]:active {
+  color: var(--color--3-2) !important;
+}
+
+[class*=sc3-2-a]:active {
+  -webkit-text-stroke-color: var(--color--3-2) !important;
+}
+
+[class*=bg3-3-a]:active {
+  background: var(--color--3-3) !important;
+}
+
+[class*=bc3-3-a]:active {
+  border-color: var(--color--3-3) !important;
+}
+
+[class*=oc3-3-a]:active {
+  outline-color: var(--color--3-3) !important;
+}
+
+[class*=fc3-3-a]:active {
+  color: var(--color--3-3) !important;
+}
+
+[class*=sc3-3-a]:active {
+  -webkit-text-stroke-color: var(--color--3-3) !important;
+}
+
+[class*=bg3-4-a]:active {
+  background: var(--color--3-4) !important;
+}
+
+[class*=bc3-4-a]:active {
+  border-color: var(--color--3-4) !important;
+}
+
+[class*=oc3-4-a]:active {
+  outline-color: var(--color--3-4) !important;
+}
+
+[class*=fc3-4-a]:active {
+  color: var(--color--3-4) !important;
+}
+
+[class*=sc3-4-a]:active {
+  -webkit-text-stroke-color: var(--color--3-4) !important;
+}
+
+[class*=bg3-5-a]:active {
+  background: var(--color--3-5) !important;
+}
+
+[class*=bc3-5-a]:active {
+  border-color: var(--color--3-5) !important;
+}
+
+[class*=oc3-5-a]:active {
+  outline-color: var(--color--3-5) !important;
+}
+
+[class*=fc3-5-a]:active {
+  color: var(--color--3-5) !important;
+}
+
+[class*=sc3-5-a]:active {
+  -webkit-text-stroke-color: var(--color--3-5) !important;
+}
+
+[class*=bg3-6-a]:active {
+  background: var(--color--3-6) !important;
+}
+
+[class*=bc3-6-a]:active {
+  border-color: var(--color--3-6) !important;
+}
+
+[class*=oc3-6-a]:active {
+  outline-color: var(--color--3-6) !important;
+}
+
+[class*=fc3-6-a]:active {
+  color: var(--color--3-6) !important;
+}
+
+[class*=sc3-6-a]:active {
+  -webkit-text-stroke-color: var(--color--3-6) !important;
+}
+
+[class*=bg3-7-a]:active {
+  background: var(--color--3-7) !important;
+}
+
+[class*=bc3-7-a]:active {
+  border-color: var(--color--3-7) !important;
+}
+
+[class*=oc3-7-a]:active {
+  outline-color: var(--color--3-7) !important;
+}
+
+[class*=fc3-7-a]:active {
+  color: var(--color--3-7) !important;
+}
+
+[class*=sc3-7-a]:active {
+  -webkit-text-stroke-color: var(--color--3-7) !important;
+}
+
+[class*=bg3-8-a]:active {
+  background: var(--color--3-8) !important;
+}
+
+[class*=bc3-8-a]:active {
+  border-color: var(--color--3-8) !important;
+}
+
+[class*=oc3-8-a]:active {
+  outline-color: var(--color--3-8) !important;
+}
+
+[class*=fc3-8-a]:active {
+  color: var(--color--3-8) !important;
+}
+
+[class*=sc3-8-a]:active {
+  -webkit-text-stroke-color: var(--color--3-8) !important;
+}
+
+[class*=bg3-9-a]:active {
+  background: var(--color--3-9) !important;
+}
+
+[class*=bc3-9-a]:active {
+  border-color: var(--color--3-9) !important;
+}
+
+[class*=oc3-9-a]:active {
+  outline-color: var(--color--3-9) !important;
+}
+
+[class*=fc3-9-a]:active {
+  color: var(--color--3-9) !important;
+}
+
+[class*=sc3-9-a]:active {
+  -webkit-text-stroke-color: var(--color--3-9) !important;
+}
+
+[class*=bg4-0-a]:active {
+  background: var(--color--4-0) !important;
+}
+
+[class*=bc4-0-a]:active {
+  border-color: var(--color--4-0) !important;
+}
+
+[class*=oc4-0-a]:active {
+  outline-color: var(--color--4-0) !important;
+}
+
+[class*=fc4-0-a]:active {
+  color: var(--color--4-0) !important;
+}
+
+[class*=sc4-0-a]:active {
+  -webkit-text-stroke-color: var(--color--4-0) !important;
+}
+
+[class*=bg4-1-a]:active {
+  background: var(--color--4-1) !important;
+}
+
+[class*=bc4-1-a]:active {
+  border-color: var(--color--4-1) !important;
+}
+
+[class*=oc4-1-a]:active {
+  outline-color: var(--color--4-1) !important;
+}
+
+[class*=fc4-1-a]:active {
+  color: var(--color--4-1) !important;
+}
+
+[class*=sc4-1-a]:active {
+  -webkit-text-stroke-color: var(--color--4-1) !important;
+}
+
+[class*=bg4-2-a]:active {
+  background: var(--color--4-2) !important;
+}
+
+[class*=bc4-2-a]:active {
+  border-color: var(--color--4-2) !important;
+}
+
+[class*=oc4-2-a]:active {
+  outline-color: var(--color--4-2) !important;
+}
+
+[class*=fc4-2-a]:active {
+  color: var(--color--4-2) !important;
+}
+
+[class*=sc4-2-a]:active {
+  -webkit-text-stroke-color: var(--color--4-2) !important;
+}
+
+[class*=bg4-3-a]:active {
+  background: var(--color--4-3) !important;
+}
+
+[class*=bc4-3-a]:active {
+  border-color: var(--color--4-3) !important;
+}
+
+[class*=oc4-3-a]:active {
+  outline-color: var(--color--4-3) !important;
+}
+
+[class*=fc4-3-a]:active {
+  color: var(--color--4-3) !important;
+}
+
+[class*=sc4-3-a]:active {
+  -webkit-text-stroke-color: var(--color--4-3) !important;
+}
+
+[class*=bg4-4-a]:active {
+  background: var(--color--4-4) !important;
+}
+
+[class*=bc4-4-a]:active {
+  border-color: var(--color--4-4) !important;
+}
+
+[class*=oc4-4-a]:active {
+  outline-color: var(--color--4-4) !important;
+}
+
+[class*=fc4-4-a]:active {
+  color: var(--color--4-4) !important;
+}
+
+[class*=sc4-4-a]:active {
+  -webkit-text-stroke-color: var(--color--4-4) !important;
+}
+
+[class*=bg4-5-a]:active {
+  background: var(--color--4-5) !important;
+}
+
+[class*=bc4-5-a]:active {
+  border-color: var(--color--4-5) !important;
+}
+
+[class*=oc4-5-a]:active {
+  outline-color: var(--color--4-5) !important;
+}
+
+[class*=fc4-5-a]:active {
+  color: var(--color--4-5) !important;
+}
+
+[class*=sc4-5-a]:active {
+  -webkit-text-stroke-color: var(--color--4-5) !important;
+}
+
+[class*=bg4-6-a]:active {
+  background: var(--color--4-6) !important;
+}
+
+[class*=bc4-6-a]:active {
+  border-color: var(--color--4-6) !important;
+}
+
+[class*=oc4-6-a]:active {
+  outline-color: var(--color--4-6) !important;
+}
+
+[class*=fc4-6-a]:active {
+  color: var(--color--4-6) !important;
+}
+
+[class*=sc4-6-a]:active {
+  -webkit-text-stroke-color: var(--color--4-6) !important;
+}
+
+[class*=bg4-7-a]:active {
+  background: var(--color--4-7) !important;
+}
+
+[class*=bc4-7-a]:active {
+  border-color: var(--color--4-7) !important;
+}
+
+[class*=oc4-7-a]:active {
+  outline-color: var(--color--4-7) !important;
+}
+
+[class*=fc4-7-a]:active {
+  color: var(--color--4-7) !important;
+}
+
+[class*=sc4-7-a]:active {
+  -webkit-text-stroke-color: var(--color--4-7) !important;
+}
+
+[class*=bg4-8-a]:active {
+  background: var(--color--4-8) !important;
+}
+
+[class*=bc4-8-a]:active {
+  border-color: var(--color--4-8) !important;
+}
+
+[class*=oc4-8-a]:active {
+  outline-color: var(--color--4-8) !important;
+}
+
+[class*=fc4-8-a]:active {
+  color: var(--color--4-8) !important;
+}
+
+[class*=sc4-8-a]:active {
+  -webkit-text-stroke-color: var(--color--4-8) !important;
+}
+
+[class*=bg4-9-a]:active {
+  background: var(--color--4-9) !important;
+}
+
+[class*=bc4-9-a]:active {
+  border-color: var(--color--4-9) !important;
+}
+
+[class*=oc4-9-a]:active {
+  outline-color: var(--color--4-9) !important;
+}
+
+[class*=fc4-9-a]:active {
+  color: var(--color--4-9) !important;
+}
+
+[class*=sc4-9-a]:active {
+  -webkit-text-stroke-color: var(--color--4-9) !important;
+}
+
+[class*=bg5-0-a]:active {
+  background: var(--color--5-0) !important;
+}
+
+[class*=bc5-0-a]:active {
+  border-color: var(--color--5-0) !important;
+}
+
+[class*=oc5-0-a]:active {
+  outline-color: var(--color--5-0) !important;
+}
+
+[class*=fc5-0-a]:active {
+  color: var(--color--5-0) !important;
+}
+
+[class*=sc5-0-a]:active {
+  -webkit-text-stroke-color: var(--color--5-0) !important;
+}
+
+[class*=bg5-1-a]:active {
+  background: var(--color--5-1) !important;
+}
+
+[class*=bc5-1-a]:active {
+  border-color: var(--color--5-1) !important;
+}
+
+[class*=oc5-1-a]:active {
+  outline-color: var(--color--5-1) !important;
+}
+
+[class*=fc5-1-a]:active {
+  color: var(--color--5-1) !important;
+}
+
+[class*=sc5-1-a]:active {
+  -webkit-text-stroke-color: var(--color--5-1) !important;
+}
+
+[class*=bg5-2-a]:active {
+  background: var(--color--5-2) !important;
+}
+
+[class*=bc5-2-a]:active {
+  border-color: var(--color--5-2) !important;
+}
+
+[class*=oc5-2-a]:active {
+  outline-color: var(--color--5-2) !important;
+}
+
+[class*=fc5-2-a]:active {
+  color: var(--color--5-2) !important;
+}
+
+[class*=sc5-2-a]:active {
+  -webkit-text-stroke-color: var(--color--5-2) !important;
+}
+
+[class*=bg5-3-a]:active {
+  background: var(--color--5-3) !important;
+}
+
+[class*=bc5-3-a]:active {
+  border-color: var(--color--5-3) !important;
+}
+
+[class*=oc5-3-a]:active {
+  outline-color: var(--color--5-3) !important;
+}
+
+[class*=fc5-3-a]:active {
+  color: var(--color--5-3) !important;
+}
+
+[class*=sc5-3-a]:active {
+  -webkit-text-stroke-color: var(--color--5-3) !important;
+}
+
+[class*=bg5-4-a]:active {
+  background: var(--color--5-4) !important;
+}
+
+[class*=bc5-4-a]:active {
+  border-color: var(--color--5-4) !important;
+}
+
+[class*=oc5-4-a]:active {
+  outline-color: var(--color--5-4) !important;
+}
+
+[class*=fc5-4-a]:active {
+  color: var(--color--5-4) !important;
+}
+
+[class*=sc5-4-a]:active {
+  -webkit-text-stroke-color: var(--color--5-4) !important;
+}
+
+[class*=bg5-5-a]:active {
+  background: var(--color--5-5) !important;
+}
+
+[class*=bc5-5-a]:active {
+  border-color: var(--color--5-5) !important;
+}
+
+[class*=oc5-5-a]:active {
+  outline-color: var(--color--5-5) !important;
+}
+
+[class*=fc5-5-a]:active {
+  color: var(--color--5-5) !important;
+}
+
+[class*=sc5-5-a]:active {
+  -webkit-text-stroke-color: var(--color--5-5) !important;
+}
+
+[class*=bg5-6-a]:active {
+  background: var(--color--5-6) !important;
+}
+
+[class*=bc5-6-a]:active {
+  border-color: var(--color--5-6) !important;
+}
+
+[class*=oc5-6-a]:active {
+  outline-color: var(--color--5-6) !important;
+}
+
+[class*=fc5-6-a]:active {
+  color: var(--color--5-6) !important;
+}
+
+[class*=sc5-6-a]:active {
+  -webkit-text-stroke-color: var(--color--5-6) !important;
+}
+
+[class*=bg5-7-a]:active {
+  background: var(--color--5-7) !important;
+}
+
+[class*=bc5-7-a]:active {
+  border-color: var(--color--5-7) !important;
+}
+
+[class*=oc5-7-a]:active {
+  outline-color: var(--color--5-7) !important;
+}
+
+[class*=fc5-7-a]:active {
+  color: var(--color--5-7) !important;
+}
+
+[class*=sc5-7-a]:active {
+  -webkit-text-stroke-color: var(--color--5-7) !important;
+}
+
+[class*=bg5-8-a]:active {
+  background: var(--color--5-8) !important;
+}
+
+[class*=bc5-8-a]:active {
+  border-color: var(--color--5-8) !important;
+}
+
+[class*=oc5-8-a]:active {
+  outline-color: var(--color--5-8) !important;
+}
+
+[class*=fc5-8-a]:active {
+  color: var(--color--5-8) !important;
+}
+
+[class*=sc5-8-a]:active {
+  -webkit-text-stroke-color: var(--color--5-8) !important;
+}
+
+[class*=bg5-9-a]:active {
+  background: var(--color--5-9) !important;
+}
+
+[class*=bc5-9-a]:active {
+  border-color: var(--color--5-9) !important;
+}
+
+[class*=oc5-9-a]:active {
+  outline-color: var(--color--5-9) !important;
+}
+
+[class*=fc5-9-a]:active {
+  color: var(--color--5-9) !important;
+}
+
+[class*=sc5-9-a]:active {
+  -webkit-text-stroke-color: var(--color--5-9) !important;
+}
+
+[class*=bg6-0-a]:active {
+  background: var(--color--6-0) !important;
+}
+
+[class*=bc6-0-a]:active {
+  border-color: var(--color--6-0) !important;
+}
+
+[class*=oc6-0-a]:active {
+  outline-color: var(--color--6-0) !important;
+}
+
+[class*=fc6-0-a]:active {
+  color: var(--color--6-0) !important;
+}
+
+[class*=sc6-0-a]:active {
+  -webkit-text-stroke-color: var(--color--6-0) !important;
+}
+
+[class*=bg6-1-a]:active {
+  background: var(--color--6-1) !important;
+}
+
+[class*=bc6-1-a]:active {
+  border-color: var(--color--6-1) !important;
+}
+
+[class*=oc6-1-a]:active {
+  outline-color: var(--color--6-1) !important;
+}
+
+[class*=fc6-1-a]:active {
+  color: var(--color--6-1) !important;
+}
+
+[class*=sc6-1-a]:active {
+  -webkit-text-stroke-color: var(--color--6-1) !important;
+}
+
+[class*=bg6-2-a]:active {
+  background: var(--color--6-2) !important;
+}
+
+[class*=bc6-2-a]:active {
+  border-color: var(--color--6-2) !important;
+}
+
+[class*=oc6-2-a]:active {
+  outline-color: var(--color--6-2) !important;
+}
+
+[class*=fc6-2-a]:active {
+  color: var(--color--6-2) !important;
+}
+
+[class*=sc6-2-a]:active {
+  -webkit-text-stroke-color: var(--color--6-2) !important;
+}
+
+[class*=bg6-3-a]:active {
+  background: var(--color--6-3) !important;
+}
+
+[class*=bc6-3-a]:active {
+  border-color: var(--color--6-3) !important;
+}
+
+[class*=oc6-3-a]:active {
+  outline-color: var(--color--6-3) !important;
+}
+
+[class*=fc6-3-a]:active {
+  color: var(--color--6-3) !important;
+}
+
+[class*=sc6-3-a]:active {
+  -webkit-text-stroke-color: var(--color--6-3) !important;
+}
+
+[class*=bg6-4-a]:active {
+  background: var(--color--6-4) !important;
+}
+
+[class*=bc6-4-a]:active {
+  border-color: var(--color--6-4) !important;
+}
+
+[class*=oc6-4-a]:active {
+  outline-color: var(--color--6-4) !important;
+}
+
+[class*=fc6-4-a]:active {
+  color: var(--color--6-4) !important;
+}
+
+[class*=sc6-4-a]:active {
+  -webkit-text-stroke-color: var(--color--6-4) !important;
+}
+
+[class*=bg6-5-a]:active {
+  background: var(--color--6-5) !important;
+}
+
+[class*=bc6-5-a]:active {
+  border-color: var(--color--6-5) !important;
+}
+
+[class*=oc6-5-a]:active {
+  outline-color: var(--color--6-5) !important;
+}
+
+[class*=fc6-5-a]:active {
+  color: var(--color--6-5) !important;
+}
+
+[class*=sc6-5-a]:active {
+  -webkit-text-stroke-color: var(--color--6-5) !important;
+}
+
+[class*=bg6-6-a]:active {
+  background: var(--color--6-6) !important;
+}
+
+[class*=bc6-6-a]:active {
+  border-color: var(--color--6-6) !important;
+}
+
+[class*=oc6-6-a]:active {
+  outline-color: var(--color--6-6) !important;
+}
+
+[class*=fc6-6-a]:active {
+  color: var(--color--6-6) !important;
+}
+
+[class*=sc6-6-a]:active {
+  -webkit-text-stroke-color: var(--color--6-6) !important;
+}
+
+[class*=bg6-7-a]:active {
+  background: var(--color--6-7) !important;
+}
+
+[class*=bc6-7-a]:active {
+  border-color: var(--color--6-7) !important;
+}
+
+[class*=oc6-7-a]:active {
+  outline-color: var(--color--6-7) !important;
+}
+
+[class*=fc6-7-a]:active {
+  color: var(--color--6-7) !important;
+}
+
+[class*=sc6-7-a]:active {
+  -webkit-text-stroke-color: var(--color--6-7) !important;
+}
+
+[class*=bg6-8-a]:active {
+  background: var(--color--6-8) !important;
+}
+
+[class*=bc6-8-a]:active {
+  border-color: var(--color--6-8) !important;
+}
+
+[class*=oc6-8-a]:active {
+  outline-color: var(--color--6-8) !important;
+}
+
+[class*=fc6-8-a]:active {
+  color: var(--color--6-8) !important;
+}
+
+[class*=sc6-8-a]:active {
+  -webkit-text-stroke-color: var(--color--6-8) !important;
+}
+
+[class*=bg6-9-a]:active {
+  background: var(--color--6-9) !important;
+}
+
+[class*=bc6-9-a]:active {
+  border-color: var(--color--6-9) !important;
+}
+
+[class*=oc6-9-a]:active {
+  outline-color: var(--color--6-9) !important;
+}
+
+[class*=fc6-9-a]:active {
+  color: var(--color--6-9) !important;
+}
+
+[class*=sc6-9-a]:active {
+  -webkit-text-stroke-color: var(--color--6-9) !important;
+}
+
+[class*=bg7-0-a]:active {
+  background: var(--color--7-0) !important;
+}
+
+[class*=bc7-0-a]:active {
+  border-color: var(--color--7-0) !important;
+}
+
+[class*=oc7-0-a]:active {
+  outline-color: var(--color--7-0) !important;
+}
+
+[class*=fc7-0-a]:active {
+  color: var(--color--7-0) !important;
+}
+
+[class*=sc7-0-a]:active {
+  -webkit-text-stroke-color: var(--color--7-0) !important;
+}
+
+[class*=bg7-1-a]:active {
+  background: var(--color--7-1) !important;
+}
+
+[class*=bc7-1-a]:active {
+  border-color: var(--color--7-1) !important;
+}
+
+[class*=oc7-1-a]:active {
+  outline-color: var(--color--7-1) !important;
+}
+
+[class*=fc7-1-a]:active {
+  color: var(--color--7-1) !important;
+}
+
+[class*=sc7-1-a]:active {
+  -webkit-text-stroke-color: var(--color--7-1) !important;
+}
+
+[class*=bg7-2-a]:active {
+  background: var(--color--7-2) !important;
+}
+
+[class*=bc7-2-a]:active {
+  border-color: var(--color--7-2) !important;
+}
+
+[class*=oc7-2-a]:active {
+  outline-color: var(--color--7-2) !important;
+}
+
+[class*=fc7-2-a]:active {
+  color: var(--color--7-2) !important;
+}
+
+[class*=sc7-2-a]:active {
+  -webkit-text-stroke-color: var(--color--7-2) !important;
+}
+
+[class*=bg7-3-a]:active {
+  background: var(--color--7-3) !important;
+}
+
+[class*=bc7-3-a]:active {
+  border-color: var(--color--7-3) !important;
+}
+
+[class*=oc7-3-a]:active {
+  outline-color: var(--color--7-3) !important;
+}
+
+[class*=fc7-3-a]:active {
+  color: var(--color--7-3) !important;
+}
+
+[class*=sc7-3-a]:active {
+  -webkit-text-stroke-color: var(--color--7-3) !important;
+}
+
+[class*=bg7-4-a]:active {
+  background: var(--color--7-4) !important;
+}
+
+[class*=bc7-4-a]:active {
+  border-color: var(--color--7-4) !important;
+}
+
+[class*=oc7-4-a]:active {
+  outline-color: var(--color--7-4) !important;
+}
+
+[class*=fc7-4-a]:active {
+  color: var(--color--7-4) !important;
+}
+
+[class*=sc7-4-a]:active {
+  -webkit-text-stroke-color: var(--color--7-4) !important;
+}
+
+[class*=bg7-5-a]:active {
+  background: var(--color--7-5) !important;
+}
+
+[class*=bc7-5-a]:active {
+  border-color: var(--color--7-5) !important;
+}
+
+[class*=oc7-5-a]:active {
+  outline-color: var(--color--7-5) !important;
+}
+
+[class*=fc7-5-a]:active {
+  color: var(--color--7-5) !important;
+}
+
+[class*=sc7-5-a]:active {
+  -webkit-text-stroke-color: var(--color--7-5) !important;
+}
+
+[class*=bg7-6-a]:active {
+  background: var(--color--7-6) !important;
+}
+
+[class*=bc7-6-a]:active {
+  border-color: var(--color--7-6) !important;
+}
+
+[class*=oc7-6-a]:active {
+  outline-color: var(--color--7-6) !important;
+}
+
+[class*=fc7-6-a]:active {
+  color: var(--color--7-6) !important;
+}
+
+[class*=sc7-6-a]:active {
+  -webkit-text-stroke-color: var(--color--7-6) !important;
+}
+
+[class*=bg7-7-a]:active {
+  background: var(--color--7-7) !important;
+}
+
+[class*=bc7-7-a]:active {
+  border-color: var(--color--7-7) !important;
+}
+
+[class*=oc7-7-a]:active {
+  outline-color: var(--color--7-7) !important;
+}
+
+[class*=fc7-7-a]:active {
+  color: var(--color--7-7) !important;
+}
+
+[class*=sc7-7-a]:active {
+  -webkit-text-stroke-color: var(--color--7-7) !important;
+}
+
+[class*=bg7-8-a]:active {
+  background: var(--color--7-8) !important;
+}
+
+[class*=bc7-8-a]:active {
+  border-color: var(--color--7-8) !important;
+}
+
+[class*=oc7-8-a]:active {
+  outline-color: var(--color--7-8) !important;
+}
+
+[class*=fc7-8-a]:active {
+  color: var(--color--7-8) !important;
+}
+
+[class*=sc7-8-a]:active {
+  -webkit-text-stroke-color: var(--color--7-8) !important;
+}
+
+[class*=bg7-9-a]:active {
+  background: var(--color--7-9) !important;
+}
+
+[class*=bc7-9-a]:active {
+  border-color: var(--color--7-9) !important;
+}
+
+[class*=oc7-9-a]:active {
+  outline-color: var(--color--7-9) !important;
+}
+
+[class*=fc7-9-a]:active {
+  color: var(--color--7-9) !important;
+}
+
+[class*=sc7-9-a]:active {
+  -webkit-text-stroke-color: var(--color--7-9) !important;
+}
+
+[class*=bg8-0-a]:active {
+  background: var(--color--8-0) !important;
+}
+
+[class*=bc8-0-a]:active {
+  border-color: var(--color--8-0) !important;
+}
+
+[class*=oc8-0-a]:active {
+  outline-color: var(--color--8-0) !important;
+}
+
+[class*=fc8-0-a]:active {
+  color: var(--color--8-0) !important;
+}
+
+[class*=sc8-0-a]:active {
+  -webkit-text-stroke-color: var(--color--8-0) !important;
+}
+
+[class*=bg8-1-a]:active {
+  background: var(--color--8-1) !important;
+}
+
+[class*=bc8-1-a]:active {
+  border-color: var(--color--8-1) !important;
+}
+
+[class*=oc8-1-a]:active {
+  outline-color: var(--color--8-1) !important;
+}
+
+[class*=fc8-1-a]:active {
+  color: var(--color--8-1) !important;
+}
+
+[class*=sc8-1-a]:active {
+  -webkit-text-stroke-color: var(--color--8-1) !important;
+}
+
+[class*=bg8-2-a]:active {
+  background: var(--color--8-2) !important;
+}
+
+[class*=bc8-2-a]:active {
+  border-color: var(--color--8-2) !important;
+}
+
+[class*=oc8-2-a]:active {
+  outline-color: var(--color--8-2) !important;
+}
+
+[class*=fc8-2-a]:active {
+  color: var(--color--8-2) !important;
+}
+
+[class*=sc8-2-a]:active {
+  -webkit-text-stroke-color: var(--color--8-2) !important;
+}
+
+[class*=bg8-3-a]:active {
+  background: var(--color--8-3) !important;
+}
+
+[class*=bc8-3-a]:active {
+  border-color: var(--color--8-3) !important;
+}
+
+[class*=oc8-3-a]:active {
+  outline-color: var(--color--8-3) !important;
+}
+
+[class*=fc8-3-a]:active {
+  color: var(--color--8-3) !important;
+}
+
+[class*=sc8-3-a]:active {
+  -webkit-text-stroke-color: var(--color--8-3) !important;
+}
+
+[class*=bg8-4-a]:active {
+  background: var(--color--8-4) !important;
+}
+
+[class*=bc8-4-a]:active {
+  border-color: var(--color--8-4) !important;
+}
+
+[class*=oc8-4-a]:active {
+  outline-color: var(--color--8-4) !important;
+}
+
+[class*=fc8-4-a]:active {
+  color: var(--color--8-4) !important;
+}
+
+[class*=sc8-4-a]:active {
+  -webkit-text-stroke-color: var(--color--8-4) !important;
+}
+
+[class*=bg8-5-a]:active {
+  background: var(--color--8-5) !important;
+}
+
+[class*=bc8-5-a]:active {
+  border-color: var(--color--8-5) !important;
+}
+
+[class*=oc8-5-a]:active {
+  outline-color: var(--color--8-5) !important;
+}
+
+[class*=fc8-5-a]:active {
+  color: var(--color--8-5) !important;
+}
+
+[class*=sc8-5-a]:active {
+  -webkit-text-stroke-color: var(--color--8-5) !important;
+}
+
+[class*=bg8-6-a]:active {
+  background: var(--color--8-6) !important;
+}
+
+[class*=bc8-6-a]:active {
+  border-color: var(--color--8-6) !important;
+}
+
+[class*=oc8-6-a]:active {
+  outline-color: var(--color--8-6) !important;
+}
+
+[class*=fc8-6-a]:active {
+  color: var(--color--8-6) !important;
+}
+
+[class*=sc8-6-a]:active {
+  -webkit-text-stroke-color: var(--color--8-6) !important;
+}
+
+[class*=bg8-7-a]:active {
+  background: var(--color--8-7) !important;
+}
+
+[class*=bc8-7-a]:active {
+  border-color: var(--color--8-7) !important;
+}
+
+[class*=oc8-7-a]:active {
+  outline-color: var(--color--8-7) !important;
+}
+
+[class*=fc8-7-a]:active {
+  color: var(--color--8-7) !important;
+}
+
+[class*=sc8-7-a]:active {
+  -webkit-text-stroke-color: var(--color--8-7) !important;
+}
+
+[class*=bg8-8-a]:active {
+  background: var(--color--8-8) !important;
+}
+
+[class*=bc8-8-a]:active {
+  border-color: var(--color--8-8) !important;
+}
+
+[class*=oc8-8-a]:active {
+  outline-color: var(--color--8-8) !important;
+}
+
+[class*=fc8-8-a]:active {
+  color: var(--color--8-8) !important;
+}
+
+[class*=sc8-8-a]:active {
+  -webkit-text-stroke-color: var(--color--8-8) !important;
+}
+
+[class*=bg8-9-a]:active {
+  background: var(--color--8-9) !important;
+}
+
+[class*=bc8-9-a]:active {
+  border-color: var(--color--8-9) !important;
+}
+
+[class*=oc8-9-a]:active {
+  outline-color: var(--color--8-9) !important;
+}
+
+[class*=fc8-9-a]:active {
+  color: var(--color--8-9) !important;
+}
+
+[class*=sc8-9-a]:active {
+  -webkit-text-stroke-color: var(--color--8-9) !important;
+}
+
+[class*=bg9-0-a]:active {
+  background: var(--color--9-0) !important;
+}
+
+[class*=bc9-0-a]:active {
+  border-color: var(--color--9-0) !important;
+}
+
+[class*=oc9-0-a]:active {
+  outline-color: var(--color--9-0) !important;
+}
+
+[class*=fc9-0-a]:active {
+  color: var(--color--9-0) !important;
+}
+
+[class*=sc9-0-a]:active {
+  -webkit-text-stroke-color: var(--color--9-0) !important;
+}
+
+[class*=bg9-1-a]:active {
+  background: var(--color--9-1) !important;
+}
+
+[class*=bc9-1-a]:active {
+  border-color: var(--color--9-1) !important;
+}
+
+[class*=oc9-1-a]:active {
+  outline-color: var(--color--9-1) !important;
+}
+
+[class*=fc9-1-a]:active {
+  color: var(--color--9-1) !important;
+}
+
+[class*=sc9-1-a]:active {
+  -webkit-text-stroke-color: var(--color--9-1) !important;
+}
+
+[class*=bg9-2-a]:active {
+  background: var(--color--9-2) !important;
+}
+
+[class*=bc9-2-a]:active {
+  border-color: var(--color--9-2) !important;
+}
+
+[class*=oc9-2-a]:active {
+  outline-color: var(--color--9-2) !important;
+}
+
+[class*=fc9-2-a]:active {
+  color: var(--color--9-2) !important;
+}
+
+[class*=sc9-2-a]:active {
+  -webkit-text-stroke-color: var(--color--9-2) !important;
+}
+
+[class*=bg9-3-a]:active {
+  background: var(--color--9-3) !important;
+}
+
+[class*=bc9-3-a]:active {
+  border-color: var(--color--9-3) !important;
+}
+
+[class*=oc9-3-a]:active {
+  outline-color: var(--color--9-3) !important;
+}
+
+[class*=fc9-3-a]:active {
+  color: var(--color--9-3) !important;
+}
+
+[class*=sc9-3-a]:active {
+  -webkit-text-stroke-color: var(--color--9-3) !important;
+}
+
+[class*=bg9-4-a]:active {
+  background: var(--color--9-4) !important;
+}
+
+[class*=bc9-4-a]:active {
+  border-color: var(--color--9-4) !important;
+}
+
+[class*=oc9-4-a]:active {
+  outline-color: var(--color--9-4) !important;
+}
+
+[class*=fc9-4-a]:active {
+  color: var(--color--9-4) !important;
+}
+
+[class*=sc9-4-a]:active {
+  -webkit-text-stroke-color: var(--color--9-4) !important;
+}
+
+[class*=bg9-5-a]:active {
+  background: var(--color--9-5) !important;
+}
+
+[class*=bc9-5-a]:active {
+  border-color: var(--color--9-5) !important;
+}
+
+[class*=oc9-5-a]:active {
+  outline-color: var(--color--9-5) !important;
+}
+
+[class*=fc9-5-a]:active {
+  color: var(--color--9-5) !important;
+}
+
+[class*=sc9-5-a]:active {
+  -webkit-text-stroke-color: var(--color--9-5) !important;
+}
+
+[class*=bg9-6-a]:active {
+  background: var(--color--9-6) !important;
+}
+
+[class*=bc9-6-a]:active {
+  border-color: var(--color--9-6) !important;
+}
+
+[class*=oc9-6-a]:active {
+  outline-color: var(--color--9-6) !important;
+}
+
+[class*=fc9-6-a]:active {
+  color: var(--color--9-6) !important;
+}
+
+[class*=sc9-6-a]:active {
+  -webkit-text-stroke-color: var(--color--9-6) !important;
+}
+
+[class*=bg9-7-a]:active {
+  background: var(--color--9-7) !important;
+}
+
+[class*=bc9-7-a]:active {
+  border-color: var(--color--9-7) !important;
+}
+
+[class*=oc9-7-a]:active {
+  outline-color: var(--color--9-7) !important;
+}
+
+[class*=fc9-7-a]:active {
+  color: var(--color--9-7) !important;
+}
+
+[class*=sc9-7-a]:active {
+  -webkit-text-stroke-color: var(--color--9-7) !important;
+}
+
+[class*=bg9-8-a]:active {
+  background: var(--color--9-8) !important;
+}
+
+[class*=bc9-8-a]:active {
+  border-color: var(--color--9-8) !important;
+}
+
+[class*=oc9-8-a]:active {
+  outline-color: var(--color--9-8) !important;
+}
+
+[class*=fc9-8-a]:active {
+  color: var(--color--9-8) !important;
+}
+
+[class*=sc9-8-a]:active {
+  -webkit-text-stroke-color: var(--color--9-8) !important;
+}
+
+[class*=bg9-9-a]:active {
+  background: var(--color--9-9) !important;
+}
+
+[class*=bc9-9-a]:active {
+  border-color: var(--color--9-9) !important;
+}
+
+[class*=oc9-9-a]:active {
+  outline-color: var(--color--9-9) !important;
+}
+
+[class*=fc9-9-a]:active {
+  color: var(--color--9-9) !important;
+}
+
+[class*=sc9-9-a]:active {
+  -webkit-text-stroke-color: var(--color--9-9) !important;
+}
+
+[class*=bg0-0-f]:focus {
+  background: var(--color--0-0) !important;
+}
+
+[class*=bc0-0-f]:focus {
+  border-color: var(--color--0-0) !important;
+}
+
+[class*=oc0-0-f]:focus {
+  outline-color: var(--color--0-0) !important;
+}
+
+[class*=fc0-0-f]:focus {
+  color: var(--color--0-0) !important;
+}
+
+[class*=sc0-0-f]:focus {
+  -webkit-text-stroke-color: var(--color--0-0) !important;
+}
+
+[class*=bg0-1-f]:focus {
+  background: var(--color--0-1) !important;
+}
+
+[class*=bc0-1-f]:focus {
+  border-color: var(--color--0-1) !important;
+}
+
+[class*=oc0-1-f]:focus {
+  outline-color: var(--color--0-1) !important;
+}
+
+[class*=fc0-1-f]:focus {
+  color: var(--color--0-1) !important;
+}
+
+[class*=sc0-1-f]:focus {
+  -webkit-text-stroke-color: var(--color--0-1) !important;
+}
+
+[class*=bg0-2-f]:focus {
+  background: var(--color--0-2) !important;
+}
+
+[class*=bc0-2-f]:focus {
+  border-color: var(--color--0-2) !important;
+}
+
+[class*=oc0-2-f]:focus {
+  outline-color: var(--color--0-2) !important;
+}
+
+[class*=fc0-2-f]:focus {
+  color: var(--color--0-2) !important;
+}
+
+[class*=sc0-2-f]:focus {
+  -webkit-text-stroke-color: var(--color--0-2) !important;
+}
+
+[class*=bg0-3-f]:focus {
+  background: var(--color--0-3) !important;
+}
+
+[class*=bc0-3-f]:focus {
+  border-color: var(--color--0-3) !important;
+}
+
+[class*=oc0-3-f]:focus {
+  outline-color: var(--color--0-3) !important;
+}
+
+[class*=fc0-3-f]:focus {
+  color: var(--color--0-3) !important;
+}
+
+[class*=sc0-3-f]:focus {
+  -webkit-text-stroke-color: var(--color--0-3) !important;
+}
+
+[class*=bg0-4-f]:focus {
+  background: var(--color--0-4) !important;
+}
+
+[class*=bc0-4-f]:focus {
+  border-color: var(--color--0-4) !important;
+}
+
+[class*=oc0-4-f]:focus {
+  outline-color: var(--color--0-4) !important;
+}
+
+[class*=fc0-4-f]:focus {
+  color: var(--color--0-4) !important;
+}
+
+[class*=sc0-4-f]:focus {
+  -webkit-text-stroke-color: var(--color--0-4) !important;
+}
+
+[class*=bg0-5-f]:focus {
+  background: var(--color--0-5) !important;
+}
+
+[class*=bc0-5-f]:focus {
+  border-color: var(--color--0-5) !important;
+}
+
+[class*=oc0-5-f]:focus {
+  outline-color: var(--color--0-5) !important;
+}
+
+[class*=fc0-5-f]:focus {
+  color: var(--color--0-5) !important;
+}
+
+[class*=sc0-5-f]:focus {
+  -webkit-text-stroke-color: var(--color--0-5) !important;
+}
+
+[class*=bg0-6-f]:focus {
+  background: var(--color--0-6) !important;
+}
+
+[class*=bc0-6-f]:focus {
+  border-color: var(--color--0-6) !important;
+}
+
+[class*=oc0-6-f]:focus {
+  outline-color: var(--color--0-6) !important;
+}
+
+[class*=fc0-6-f]:focus {
+  color: var(--color--0-6) !important;
+}
+
+[class*=sc0-6-f]:focus {
+  -webkit-text-stroke-color: var(--color--0-6) !important;
+}
+
+[class*=bg0-7-f]:focus {
+  background: var(--color--0-7) !important;
+}
+
+[class*=bc0-7-f]:focus {
+  border-color: var(--color--0-7) !important;
+}
+
+[class*=oc0-7-f]:focus {
+  outline-color: var(--color--0-7) !important;
+}
+
+[class*=fc0-7-f]:focus {
+  color: var(--color--0-7) !important;
+}
+
+[class*=sc0-7-f]:focus {
+  -webkit-text-stroke-color: var(--color--0-7) !important;
+}
+
+[class*=bg0-8-f]:focus {
+  background: var(--color--0-8) !important;
+}
+
+[class*=bc0-8-f]:focus {
+  border-color: var(--color--0-8) !important;
+}
+
+[class*=oc0-8-f]:focus {
+  outline-color: var(--color--0-8) !important;
+}
+
+[class*=fc0-8-f]:focus {
+  color: var(--color--0-8) !important;
+}
+
+[class*=sc0-8-f]:focus {
+  -webkit-text-stroke-color: var(--color--0-8) !important;
+}
+
+[class*=bg0-9-f]:focus {
+  background: var(--color--0-9) !important;
+}
+
+[class*=bc0-9-f]:focus {
+  border-color: var(--color--0-9) !important;
+}
+
+[class*=oc0-9-f]:focus {
+  outline-color: var(--color--0-9) !important;
+}
+
+[class*=fc0-9-f]:focus {
+  color: var(--color--0-9) !important;
+}
+
+[class*=sc0-9-f]:focus {
+  -webkit-text-stroke-color: var(--color--0-9) !important;
+}
+
+[class*=bg1-0-f]:focus {
+  background: var(--color--1-0) !important;
+}
+
+[class*=bc1-0-f]:focus {
+  border-color: var(--color--1-0) !important;
+}
+
+[class*=oc1-0-f]:focus {
+  outline-color: var(--color--1-0) !important;
+}
+
+[class*=fc1-0-f]:focus {
+  color: var(--color--1-0) !important;
+}
+
+[class*=sc1-0-f]:focus {
+  -webkit-text-stroke-color: var(--color--1-0) !important;
+}
+
+[class*=bg1-1-f]:focus {
+  background: var(--color--1-1) !important;
+}
+
+[class*=bc1-1-f]:focus {
+  border-color: var(--color--1-1) !important;
+}
+
+[class*=oc1-1-f]:focus {
+  outline-color: var(--color--1-1) !important;
+}
+
+[class*=fc1-1-f]:focus {
+  color: var(--color--1-1) !important;
+}
+
+[class*=sc1-1-f]:focus {
+  -webkit-text-stroke-color: var(--color--1-1) !important;
+}
+
+[class*=bg1-2-f]:focus {
+  background: var(--color--1-2) !important;
+}
+
+[class*=bc1-2-f]:focus {
+  border-color: var(--color--1-2) !important;
+}
+
+[class*=oc1-2-f]:focus {
+  outline-color: var(--color--1-2) !important;
+}
+
+[class*=fc1-2-f]:focus {
+  color: var(--color--1-2) !important;
+}
+
+[class*=sc1-2-f]:focus {
+  -webkit-text-stroke-color: var(--color--1-2) !important;
+}
+
+[class*=bg1-3-f]:focus {
+  background: var(--color--1-3) !important;
+}
+
+[class*=bc1-3-f]:focus {
+  border-color: var(--color--1-3) !important;
+}
+
+[class*=oc1-3-f]:focus {
+  outline-color: var(--color--1-3) !important;
+}
+
+[class*=fc1-3-f]:focus {
+  color: var(--color--1-3) !important;
+}
+
+[class*=sc1-3-f]:focus {
+  -webkit-text-stroke-color: var(--color--1-3) !important;
+}
+
+[class*=bg1-4-f]:focus {
+  background: var(--color--1-4) !important;
+}
+
+[class*=bc1-4-f]:focus {
+  border-color: var(--color--1-4) !important;
+}
+
+[class*=oc1-4-f]:focus {
+  outline-color: var(--color--1-4) !important;
+}
+
+[class*=fc1-4-f]:focus {
+  color: var(--color--1-4) !important;
+}
+
+[class*=sc1-4-f]:focus {
+  -webkit-text-stroke-color: var(--color--1-4) !important;
+}
+
+[class*=bg1-5-f]:focus {
+  background: var(--color--1-5) !important;
+}
+
+[class*=bc1-5-f]:focus {
+  border-color: var(--color--1-5) !important;
+}
+
+[class*=oc1-5-f]:focus {
+  outline-color: var(--color--1-5) !important;
+}
+
+[class*=fc1-5-f]:focus {
+  color: var(--color--1-5) !important;
+}
+
+[class*=sc1-5-f]:focus {
+  -webkit-text-stroke-color: var(--color--1-5) !important;
+}
+
+[class*=bg1-6-f]:focus {
+  background: var(--color--1-6) !important;
+}
+
+[class*=bc1-6-f]:focus {
+  border-color: var(--color--1-6) !important;
+}
+
+[class*=oc1-6-f]:focus {
+  outline-color: var(--color--1-6) !important;
+}
+
+[class*=fc1-6-f]:focus {
+  color: var(--color--1-6) !important;
+}
+
+[class*=sc1-6-f]:focus {
+  -webkit-text-stroke-color: var(--color--1-6) !important;
+}
+
+[class*=bg1-7-f]:focus {
+  background: var(--color--1-7) !important;
+}
+
+[class*=bc1-7-f]:focus {
+  border-color: var(--color--1-7) !important;
+}
+
+[class*=oc1-7-f]:focus {
+  outline-color: var(--color--1-7) !important;
+}
+
+[class*=fc1-7-f]:focus {
+  color: var(--color--1-7) !important;
+}
+
+[class*=sc1-7-f]:focus {
+  -webkit-text-stroke-color: var(--color--1-7) !important;
+}
+
+[class*=bg1-8-f]:focus {
+  background: var(--color--1-8) !important;
+}
+
+[class*=bc1-8-f]:focus {
+  border-color: var(--color--1-8) !important;
+}
+
+[class*=oc1-8-f]:focus {
+  outline-color: var(--color--1-8) !important;
+}
+
+[class*=fc1-8-f]:focus {
+  color: var(--color--1-8) !important;
+}
+
+[class*=sc1-8-f]:focus {
+  -webkit-text-stroke-color: var(--color--1-8) !important;
+}
+
+[class*=bg1-9-f]:focus {
+  background: var(--color--1-9) !important;
+}
+
+[class*=bc1-9-f]:focus {
+  border-color: var(--color--1-9) !important;
+}
+
+[class*=oc1-9-f]:focus {
+  outline-color: var(--color--1-9) !important;
+}
+
+[class*=fc1-9-f]:focus {
+  color: var(--color--1-9) !important;
+}
+
+[class*=sc1-9-f]:focus {
+  -webkit-text-stroke-color: var(--color--1-9) !important;
+}
+
+[class*=bg2-0-f]:focus {
+  background: var(--color--2-0) !important;
+}
+
+[class*=bc2-0-f]:focus {
+  border-color: var(--color--2-0) !important;
+}
+
+[class*=oc2-0-f]:focus {
+  outline-color: var(--color--2-0) !important;
+}
+
+[class*=fc2-0-f]:focus {
+  color: var(--color--2-0) !important;
+}
+
+[class*=sc2-0-f]:focus {
+  -webkit-text-stroke-color: var(--color--2-0) !important;
+}
+
+[class*=bg2-1-f]:focus {
+  background: var(--color--2-1) !important;
+}
+
+[class*=bc2-1-f]:focus {
+  border-color: var(--color--2-1) !important;
+}
+
+[class*=oc2-1-f]:focus {
+  outline-color: var(--color--2-1) !important;
+}
+
+[class*=fc2-1-f]:focus {
+  color: var(--color--2-1) !important;
+}
+
+[class*=sc2-1-f]:focus {
+  -webkit-text-stroke-color: var(--color--2-1) !important;
+}
+
+[class*=bg2-2-f]:focus {
+  background: var(--color--2-2) !important;
+}
+
+[class*=bc2-2-f]:focus {
+  border-color: var(--color--2-2) !important;
+}
+
+[class*=oc2-2-f]:focus {
+  outline-color: var(--color--2-2) !important;
+}
+
+[class*=fc2-2-f]:focus {
+  color: var(--color--2-2) !important;
+}
+
+[class*=sc2-2-f]:focus {
+  -webkit-text-stroke-color: var(--color--2-2) !important;
+}
+
+[class*=bg2-3-f]:focus {
+  background: var(--color--2-3) !important;
+}
+
+[class*=bc2-3-f]:focus {
+  border-color: var(--color--2-3) !important;
+}
+
+[class*=oc2-3-f]:focus {
+  outline-color: var(--color--2-3) !important;
+}
+
+[class*=fc2-3-f]:focus {
+  color: var(--color--2-3) !important;
+}
+
+[class*=sc2-3-f]:focus {
+  -webkit-text-stroke-color: var(--color--2-3) !important;
+}
+
+[class*=bg2-4-f]:focus {
+  background: var(--color--2-4) !important;
+}
+
+[class*=bc2-4-f]:focus {
+  border-color: var(--color--2-4) !important;
+}
+
+[class*=oc2-4-f]:focus {
+  outline-color: var(--color--2-4) !important;
+}
+
+[class*=fc2-4-f]:focus {
+  color: var(--color--2-4) !important;
+}
+
+[class*=sc2-4-f]:focus {
+  -webkit-text-stroke-color: var(--color--2-4) !important;
+}
+
+[class*=bg2-5-f]:focus {
+  background: var(--color--2-5) !important;
+}
+
+[class*=bc2-5-f]:focus {
+  border-color: var(--color--2-5) !important;
+}
+
+[class*=oc2-5-f]:focus {
+  outline-color: var(--color--2-5) !important;
+}
+
+[class*=fc2-5-f]:focus {
+  color: var(--color--2-5) !important;
+}
+
+[class*=sc2-5-f]:focus {
+  -webkit-text-stroke-color: var(--color--2-5) !important;
+}
+
+[class*=bg2-6-f]:focus {
+  background: var(--color--2-6) !important;
+}
+
+[class*=bc2-6-f]:focus {
+  border-color: var(--color--2-6) !important;
+}
+
+[class*=oc2-6-f]:focus {
+  outline-color: var(--color--2-6) !important;
+}
+
+[class*=fc2-6-f]:focus {
+  color: var(--color--2-6) !important;
+}
+
+[class*=sc2-6-f]:focus {
+  -webkit-text-stroke-color: var(--color--2-6) !important;
+}
+
+[class*=bg2-7-f]:focus {
+  background: var(--color--2-7) !important;
+}
+
+[class*=bc2-7-f]:focus {
+  border-color: var(--color--2-7) !important;
+}
+
+[class*=oc2-7-f]:focus {
+  outline-color: var(--color--2-7) !important;
+}
+
+[class*=fc2-7-f]:focus {
+  color: var(--color--2-7) !important;
+}
+
+[class*=sc2-7-f]:focus {
+  -webkit-text-stroke-color: var(--color--2-7) !important;
+}
+
+[class*=bg2-8-f]:focus {
+  background: var(--color--2-8) !important;
+}
+
+[class*=bc2-8-f]:focus {
+  border-color: var(--color--2-8) !important;
+}
+
+[class*=oc2-8-f]:focus {
+  outline-color: var(--color--2-8) !important;
+}
+
+[class*=fc2-8-f]:focus {
+  color: var(--color--2-8) !important;
+}
+
+[class*=sc2-8-f]:focus {
+  -webkit-text-stroke-color: var(--color--2-8) !important;
+}
+
+[class*=bg2-9-f]:focus {
+  background: var(--color--2-9) !important;
+}
+
+[class*=bc2-9-f]:focus {
+  border-color: var(--color--2-9) !important;
+}
+
+[class*=oc2-9-f]:focus {
+  outline-color: var(--color--2-9) !important;
+}
+
+[class*=fc2-9-f]:focus {
+  color: var(--color--2-9) !important;
+}
+
+[class*=sc2-9-f]:focus {
+  -webkit-text-stroke-color: var(--color--2-9) !important;
+}
+
+[class*=bg3-0-f]:focus {
+  background: var(--color--3-0) !important;
+}
+
+[class*=bc3-0-f]:focus {
+  border-color: var(--color--3-0) !important;
+}
+
+[class*=oc3-0-f]:focus {
+  outline-color: var(--color--3-0) !important;
+}
+
+[class*=fc3-0-f]:focus {
+  color: var(--color--3-0) !important;
+}
+
+[class*=sc3-0-f]:focus {
+  -webkit-text-stroke-color: var(--color--3-0) !important;
+}
+
+[class*=bg3-1-f]:focus {
+  background: var(--color--3-1) !important;
+}
+
+[class*=bc3-1-f]:focus {
+  border-color: var(--color--3-1) !important;
+}
+
+[class*=oc3-1-f]:focus {
+  outline-color: var(--color--3-1) !important;
+}
+
+[class*=fc3-1-f]:focus {
+  color: var(--color--3-1) !important;
+}
+
+[class*=sc3-1-f]:focus {
+  -webkit-text-stroke-color: var(--color--3-1) !important;
+}
+
+[class*=bg3-2-f]:focus {
+  background: var(--color--3-2) !important;
+}
+
+[class*=bc3-2-f]:focus {
+  border-color: var(--color--3-2) !important;
+}
+
+[class*=oc3-2-f]:focus {
+  outline-color: var(--color--3-2) !important;
+}
+
+[class*=fc3-2-f]:focus {
+  color: var(--color--3-2) !important;
+}
+
+[class*=sc3-2-f]:focus {
+  -webkit-text-stroke-color: var(--color--3-2) !important;
+}
+
+[class*=bg3-3-f]:focus {
+  background: var(--color--3-3) !important;
+}
+
+[class*=bc3-3-f]:focus {
+  border-color: var(--color--3-3) !important;
+}
+
+[class*=oc3-3-f]:focus {
+  outline-color: var(--color--3-3) !important;
+}
+
+[class*=fc3-3-f]:focus {
+  color: var(--color--3-3) !important;
+}
+
+[class*=sc3-3-f]:focus {
+  -webkit-text-stroke-color: var(--color--3-3) !important;
+}
+
+[class*=bg3-4-f]:focus {
+  background: var(--color--3-4) !important;
+}
+
+[class*=bc3-4-f]:focus {
+  border-color: var(--color--3-4) !important;
+}
+
+[class*=oc3-4-f]:focus {
+  outline-color: var(--color--3-4) !important;
+}
+
+[class*=fc3-4-f]:focus {
+  color: var(--color--3-4) !important;
+}
+
+[class*=sc3-4-f]:focus {
+  -webkit-text-stroke-color: var(--color--3-4) !important;
+}
+
+[class*=bg3-5-f]:focus {
+  background: var(--color--3-5) !important;
+}
+
+[class*=bc3-5-f]:focus {
+  border-color: var(--color--3-5) !important;
+}
+
+[class*=oc3-5-f]:focus {
+  outline-color: var(--color--3-5) !important;
+}
+
+[class*=fc3-5-f]:focus {
+  color: var(--color--3-5) !important;
+}
+
+[class*=sc3-5-f]:focus {
+  -webkit-text-stroke-color: var(--color--3-5) !important;
+}
+
+[class*=bg3-6-f]:focus {
+  background: var(--color--3-6) !important;
+}
+
+[class*=bc3-6-f]:focus {
+  border-color: var(--color--3-6) !important;
+}
+
+[class*=oc3-6-f]:focus {
+  outline-color: var(--color--3-6) !important;
+}
+
+[class*=fc3-6-f]:focus {
+  color: var(--color--3-6) !important;
+}
+
+[class*=sc3-6-f]:focus {
+  -webkit-text-stroke-color: var(--color--3-6) !important;
+}
+
+[class*=bg3-7-f]:focus {
+  background: var(--color--3-7) !important;
+}
+
+[class*=bc3-7-f]:focus {
+  border-color: var(--color--3-7) !important;
+}
+
+[class*=oc3-7-f]:focus {
+  outline-color: var(--color--3-7) !important;
+}
+
+[class*=fc3-7-f]:focus {
+  color: var(--color--3-7) !important;
+}
+
+[class*=sc3-7-f]:focus {
+  -webkit-text-stroke-color: var(--color--3-7) !important;
+}
+
+[class*=bg3-8-f]:focus {
+  background: var(--color--3-8) !important;
+}
+
+[class*=bc3-8-f]:focus {
+  border-color: var(--color--3-8) !important;
+}
+
+[class*=oc3-8-f]:focus {
+  outline-color: var(--color--3-8) !important;
+}
+
+[class*=fc3-8-f]:focus {
+  color: var(--color--3-8) !important;
+}
+
+[class*=sc3-8-f]:focus {
+  -webkit-text-stroke-color: var(--color--3-8) !important;
+}
+
+[class*=bg3-9-f]:focus {
+  background: var(--color--3-9) !important;
+}
+
+[class*=bc3-9-f]:focus {
+  border-color: var(--color--3-9) !important;
+}
+
+[class*=oc3-9-f]:focus {
+  outline-color: var(--color--3-9) !important;
+}
+
+[class*=fc3-9-f]:focus {
+  color: var(--color--3-9) !important;
+}
+
+[class*=sc3-9-f]:focus {
+  -webkit-text-stroke-color: var(--color--3-9) !important;
+}
+
+[class*=bg4-0-f]:focus {
+  background: var(--color--4-0) !important;
+}
+
+[class*=bc4-0-f]:focus {
+  border-color: var(--color--4-0) !important;
+}
+
+[class*=oc4-0-f]:focus {
+  outline-color: var(--color--4-0) !important;
+}
+
+[class*=fc4-0-f]:focus {
+  color: var(--color--4-0) !important;
+}
+
+[class*=sc4-0-f]:focus {
+  -webkit-text-stroke-color: var(--color--4-0) !important;
+}
+
+[class*=bg4-1-f]:focus {
+  background: var(--color--4-1) !important;
+}
+
+[class*=bc4-1-f]:focus {
+  border-color: var(--color--4-1) !important;
+}
+
+[class*=oc4-1-f]:focus {
+  outline-color: var(--color--4-1) !important;
+}
+
+[class*=fc4-1-f]:focus {
+  color: var(--color--4-1) !important;
+}
+
+[class*=sc4-1-f]:focus {
+  -webkit-text-stroke-color: var(--color--4-1) !important;
+}
+
+[class*=bg4-2-f]:focus {
+  background: var(--color--4-2) !important;
+}
+
+[class*=bc4-2-f]:focus {
+  border-color: var(--color--4-2) !important;
+}
+
+[class*=oc4-2-f]:focus {
+  outline-color: var(--color--4-2) !important;
+}
+
+[class*=fc4-2-f]:focus {
+  color: var(--color--4-2) !important;
+}
+
+[class*=sc4-2-f]:focus {
+  -webkit-text-stroke-color: var(--color--4-2) !important;
+}
+
+[class*=bg4-3-f]:focus {
+  background: var(--color--4-3) !important;
+}
+
+[class*=bc4-3-f]:focus {
+  border-color: var(--color--4-3) !important;
+}
+
+[class*=oc4-3-f]:focus {
+  outline-color: var(--color--4-3) !important;
+}
+
+[class*=fc4-3-f]:focus {
+  color: var(--color--4-3) !important;
+}
+
+[class*=sc4-3-f]:focus {
+  -webkit-text-stroke-color: var(--color--4-3) !important;
+}
+
+[class*=bg4-4-f]:focus {
+  background: var(--color--4-4) !important;
+}
+
+[class*=bc4-4-f]:focus {
+  border-color: var(--color--4-4) !important;
+}
+
+[class*=oc4-4-f]:focus {
+  outline-color: var(--color--4-4) !important;
+}
+
+[class*=fc4-4-f]:focus {
+  color: var(--color--4-4) !important;
+}
+
+[class*=sc4-4-f]:focus {
+  -webkit-text-stroke-color: var(--color--4-4) !important;
+}
+
+[class*=bg4-5-f]:focus {
+  background: var(--color--4-5) !important;
+}
+
+[class*=bc4-5-f]:focus {
+  border-color: var(--color--4-5) !important;
+}
+
+[class*=oc4-5-f]:focus {
+  outline-color: var(--color--4-5) !important;
+}
+
+[class*=fc4-5-f]:focus {
+  color: var(--color--4-5) !important;
+}
+
+[class*=sc4-5-f]:focus {
+  -webkit-text-stroke-color: var(--color--4-5) !important;
+}
+
+[class*=bg4-6-f]:focus {
+  background: var(--color--4-6) !important;
+}
+
+[class*=bc4-6-f]:focus {
+  border-color: var(--color--4-6) !important;
+}
+
+[class*=oc4-6-f]:focus {
+  outline-color: var(--color--4-6) !important;
+}
+
+[class*=fc4-6-f]:focus {
+  color: var(--color--4-6) !important;
+}
+
+[class*=sc4-6-f]:focus {
+  -webkit-text-stroke-color: var(--color--4-6) !important;
+}
+
+[class*=bg4-7-f]:focus {
+  background: var(--color--4-7) !important;
+}
+
+[class*=bc4-7-f]:focus {
+  border-color: var(--color--4-7) !important;
+}
+
+[class*=oc4-7-f]:focus {
+  outline-color: var(--color--4-7) !important;
+}
+
+[class*=fc4-7-f]:focus {
+  color: var(--color--4-7) !important;
+}
+
+[class*=sc4-7-f]:focus {
+  -webkit-text-stroke-color: var(--color--4-7) !important;
+}
+
+[class*=bg4-8-f]:focus {
+  background: var(--color--4-8) !important;
+}
+
+[class*=bc4-8-f]:focus {
+  border-color: var(--color--4-8) !important;
+}
+
+[class*=oc4-8-f]:focus {
+  outline-color: var(--color--4-8) !important;
+}
+
+[class*=fc4-8-f]:focus {
+  color: var(--color--4-8) !important;
+}
+
+[class*=sc4-8-f]:focus {
+  -webkit-text-stroke-color: var(--color--4-8) !important;
+}
+
+[class*=bg4-9-f]:focus {
+  background: var(--color--4-9) !important;
+}
+
+[class*=bc4-9-f]:focus {
+  border-color: var(--color--4-9) !important;
+}
+
+[class*=oc4-9-f]:focus {
+  outline-color: var(--color--4-9) !important;
+}
+
+[class*=fc4-9-f]:focus {
+  color: var(--color--4-9) !important;
+}
+
+[class*=sc4-9-f]:focus {
+  -webkit-text-stroke-color: var(--color--4-9) !important;
+}
+
+[class*=bg5-0-f]:focus {
+  background: var(--color--5-0) !important;
+}
+
+[class*=bc5-0-f]:focus {
+  border-color: var(--color--5-0) !important;
+}
+
+[class*=oc5-0-f]:focus {
+  outline-color: var(--color--5-0) !important;
+}
+
+[class*=fc5-0-f]:focus {
+  color: var(--color--5-0) !important;
+}
+
+[class*=sc5-0-f]:focus {
+  -webkit-text-stroke-color: var(--color--5-0) !important;
+}
+
+[class*=bg5-1-f]:focus {
+  background: var(--color--5-1) !important;
+}
+
+[class*=bc5-1-f]:focus {
+  border-color: var(--color--5-1) !important;
+}
+
+[class*=oc5-1-f]:focus {
+  outline-color: var(--color--5-1) !important;
+}
+
+[class*=fc5-1-f]:focus {
+  color: var(--color--5-1) !important;
+}
+
+[class*=sc5-1-f]:focus {
+  -webkit-text-stroke-color: var(--color--5-1) !important;
+}
+
+[class*=bg5-2-f]:focus {
+  background: var(--color--5-2) !important;
+}
+
+[class*=bc5-2-f]:focus {
+  border-color: var(--color--5-2) !important;
+}
+
+[class*=oc5-2-f]:focus {
+  outline-color: var(--color--5-2) !important;
+}
+
+[class*=fc5-2-f]:focus {
+  color: var(--color--5-2) !important;
+}
+
+[class*=sc5-2-f]:focus {
+  -webkit-text-stroke-color: var(--color--5-2) !important;
+}
+
+[class*=bg5-3-f]:focus {
+  background: var(--color--5-3) !important;
+}
+
+[class*=bc5-3-f]:focus {
+  border-color: var(--color--5-3) !important;
+}
+
+[class*=oc5-3-f]:focus {
+  outline-color: var(--color--5-3) !important;
+}
+
+[class*=fc5-3-f]:focus {
+  color: var(--color--5-3) !important;
+}
+
+[class*=sc5-3-f]:focus {
+  -webkit-text-stroke-color: var(--color--5-3) !important;
+}
+
+[class*=bg5-4-f]:focus {
+  background: var(--color--5-4) !important;
+}
+
+[class*=bc5-4-f]:focus {
+  border-color: var(--color--5-4) !important;
+}
+
+[class*=oc5-4-f]:focus {
+  outline-color: var(--color--5-4) !important;
+}
+
+[class*=fc5-4-f]:focus {
+  color: var(--color--5-4) !important;
+}
+
+[class*=sc5-4-f]:focus {
+  -webkit-text-stroke-color: var(--color--5-4) !important;
+}
+
+[class*=bg5-5-f]:focus {
+  background: var(--color--5-5) !important;
+}
+
+[class*=bc5-5-f]:focus {
+  border-color: var(--color--5-5) !important;
+}
+
+[class*=oc5-5-f]:focus {
+  outline-color: var(--color--5-5) !important;
+}
+
+[class*=fc5-5-f]:focus {
+  color: var(--color--5-5) !important;
+}
+
+[class*=sc5-5-f]:focus {
+  -webkit-text-stroke-color: var(--color--5-5) !important;
+}
+
+[class*=bg5-6-f]:focus {
+  background: var(--color--5-6) !important;
+}
+
+[class*=bc5-6-f]:focus {
+  border-color: var(--color--5-6) !important;
+}
+
+[class*=oc5-6-f]:focus {
+  outline-color: var(--color--5-6) !important;
+}
+
+[class*=fc5-6-f]:focus {
+  color: var(--color--5-6) !important;
+}
+
+[class*=sc5-6-f]:focus {
+  -webkit-text-stroke-color: var(--color--5-6) !important;
+}
+
+[class*=bg5-7-f]:focus {
+  background: var(--color--5-7) !important;
+}
+
+[class*=bc5-7-f]:focus {
+  border-color: var(--color--5-7) !important;
+}
+
+[class*=oc5-7-f]:focus {
+  outline-color: var(--color--5-7) !important;
+}
+
+[class*=fc5-7-f]:focus {
+  color: var(--color--5-7) !important;
+}
+
+[class*=sc5-7-f]:focus {
+  -webkit-text-stroke-color: var(--color--5-7) !important;
+}
+
+[class*=bg5-8-f]:focus {
+  background: var(--color--5-8) !important;
+}
+
+[class*=bc5-8-f]:focus {
+  border-color: var(--color--5-8) !important;
+}
+
+[class*=oc5-8-f]:focus {
+  outline-color: var(--color--5-8) !important;
+}
+
+[class*=fc5-8-f]:focus {
+  color: var(--color--5-8) !important;
+}
+
+[class*=sc5-8-f]:focus {
+  -webkit-text-stroke-color: var(--color--5-8) !important;
+}
+
+[class*=bg5-9-f]:focus {
+  background: var(--color--5-9) !important;
+}
+
+[class*=bc5-9-f]:focus {
+  border-color: var(--color--5-9) !important;
+}
+
+[class*=oc5-9-f]:focus {
+  outline-color: var(--color--5-9) !important;
+}
+
+[class*=fc5-9-f]:focus {
+  color: var(--color--5-9) !important;
+}
+
+[class*=sc5-9-f]:focus {
+  -webkit-text-stroke-color: var(--color--5-9) !important;
+}
+
+[class*=bg6-0-f]:focus {
+  background: var(--color--6-0) !important;
+}
+
+[class*=bc6-0-f]:focus {
+  border-color: var(--color--6-0) !important;
+}
+
+[class*=oc6-0-f]:focus {
+  outline-color: var(--color--6-0) !important;
+}
+
+[class*=fc6-0-f]:focus {
+  color: var(--color--6-0) !important;
+}
+
+[class*=sc6-0-f]:focus {
+  -webkit-text-stroke-color: var(--color--6-0) !important;
+}
+
+[class*=bg6-1-f]:focus {
+  background: var(--color--6-1) !important;
+}
+
+[class*=bc6-1-f]:focus {
+  border-color: var(--color--6-1) !important;
+}
+
+[class*=oc6-1-f]:focus {
+  outline-color: var(--color--6-1) !important;
+}
+
+[class*=fc6-1-f]:focus {
+  color: var(--color--6-1) !important;
+}
+
+[class*=sc6-1-f]:focus {
+  -webkit-text-stroke-color: var(--color--6-1) !important;
+}
+
+[class*=bg6-2-f]:focus {
+  background: var(--color--6-2) !important;
+}
+
+[class*=bc6-2-f]:focus {
+  border-color: var(--color--6-2) !important;
+}
+
+[class*=oc6-2-f]:focus {
+  outline-color: var(--color--6-2) !important;
+}
+
+[class*=fc6-2-f]:focus {
+  color: var(--color--6-2) !important;
+}
+
+[class*=sc6-2-f]:focus {
+  -webkit-text-stroke-color: var(--color--6-2) !important;
+}
+
+[class*=bg6-3-f]:focus {
+  background: var(--color--6-3) !important;
+}
+
+[class*=bc6-3-f]:focus {
+  border-color: var(--color--6-3) !important;
+}
+
+[class*=oc6-3-f]:focus {
+  outline-color: var(--color--6-3) !important;
+}
+
+[class*=fc6-3-f]:focus {
+  color: var(--color--6-3) !important;
+}
+
+[class*=sc6-3-f]:focus {
+  -webkit-text-stroke-color: var(--color--6-3) !important;
+}
+
+[class*=bg6-4-f]:focus {
+  background: var(--color--6-4) !important;
+}
+
+[class*=bc6-4-f]:focus {
+  border-color: var(--color--6-4) !important;
+}
+
+[class*=oc6-4-f]:focus {
+  outline-color: var(--color--6-4) !important;
+}
+
+[class*=fc6-4-f]:focus {
+  color: var(--color--6-4) !important;
+}
+
+[class*=sc6-4-f]:focus {
+  -webkit-text-stroke-color: var(--color--6-4) !important;
+}
+
+[class*=bg6-5-f]:focus {
+  background: var(--color--6-5) !important;
+}
+
+[class*=bc6-5-f]:focus {
+  border-color: var(--color--6-5) !important;
+}
+
+[class*=oc6-5-f]:focus {
+  outline-color: var(--color--6-5) !important;
+}
+
+[class*=fc6-5-f]:focus {
+  color: var(--color--6-5) !important;
+}
+
+[class*=sc6-5-f]:focus {
+  -webkit-text-stroke-color: var(--color--6-5) !important;
+}
+
+[class*=bg6-6-f]:focus {
+  background: var(--color--6-6) !important;
+}
+
+[class*=bc6-6-f]:focus {
+  border-color: var(--color--6-6) !important;
+}
+
+[class*=oc6-6-f]:focus {
+  outline-color: var(--color--6-6) !important;
+}
+
+[class*=fc6-6-f]:focus {
+  color: var(--color--6-6) !important;
+}
+
+[class*=sc6-6-f]:focus {
+  -webkit-text-stroke-color: var(--color--6-6) !important;
+}
+
+[class*=bg6-7-f]:focus {
+  background: var(--color--6-7) !important;
+}
+
+[class*=bc6-7-f]:focus {
+  border-color: var(--color--6-7) !important;
+}
+
+[class*=oc6-7-f]:focus {
+  outline-color: var(--color--6-7) !important;
+}
+
+[class*=fc6-7-f]:focus {
+  color: var(--color--6-7) !important;
+}
+
+[class*=sc6-7-f]:focus {
+  -webkit-text-stroke-color: var(--color--6-7) !important;
+}
+
+[class*=bg6-8-f]:focus {
+  background: var(--color--6-8) !important;
+}
+
+[class*=bc6-8-f]:focus {
+  border-color: var(--color--6-8) !important;
+}
+
+[class*=oc6-8-f]:focus {
+  outline-color: var(--color--6-8) !important;
+}
+
+[class*=fc6-8-f]:focus {
+  color: var(--color--6-8) !important;
+}
+
+[class*=sc6-8-f]:focus {
+  -webkit-text-stroke-color: var(--color--6-8) !important;
+}
+
+[class*=bg6-9-f]:focus {
+  background: var(--color--6-9) !important;
+}
+
+[class*=bc6-9-f]:focus {
+  border-color: var(--color--6-9) !important;
+}
+
+[class*=oc6-9-f]:focus {
+  outline-color: var(--color--6-9) !important;
+}
+
+[class*=fc6-9-f]:focus {
+  color: var(--color--6-9) !important;
+}
+
+[class*=sc6-9-f]:focus {
+  -webkit-text-stroke-color: var(--color--6-9) !important;
+}
+
+[class*=bg7-0-f]:focus {
+  background: var(--color--7-0) !important;
+}
+
+[class*=bc7-0-f]:focus {
+  border-color: var(--color--7-0) !important;
+}
+
+[class*=oc7-0-f]:focus {
+  outline-color: var(--color--7-0) !important;
+}
+
+[class*=fc7-0-f]:focus {
+  color: var(--color--7-0) !important;
+}
+
+[class*=sc7-0-f]:focus {
+  -webkit-text-stroke-color: var(--color--7-0) !important;
+}
+
+[class*=bg7-1-f]:focus {
+  background: var(--color--7-1) !important;
+}
+
+[class*=bc7-1-f]:focus {
+  border-color: var(--color--7-1) !important;
+}
+
+[class*=oc7-1-f]:focus {
+  outline-color: var(--color--7-1) !important;
+}
+
+[class*=fc7-1-f]:focus {
+  color: var(--color--7-1) !important;
+}
+
+[class*=sc7-1-f]:focus {
+  -webkit-text-stroke-color: var(--color--7-1) !important;
+}
+
+[class*=bg7-2-f]:focus {
+  background: var(--color--7-2) !important;
+}
+
+[class*=bc7-2-f]:focus {
+  border-color: var(--color--7-2) !important;
+}
+
+[class*=oc7-2-f]:focus {
+  outline-color: var(--color--7-2) !important;
+}
+
+[class*=fc7-2-f]:focus {
+  color: var(--color--7-2) !important;
+}
+
+[class*=sc7-2-f]:focus {
+  -webkit-text-stroke-color: var(--color--7-2) !important;
+}
+
+[class*=bg7-3-f]:focus {
+  background: var(--color--7-3) !important;
+}
+
+[class*=bc7-3-f]:focus {
+  border-color: var(--color--7-3) !important;
+}
+
+[class*=oc7-3-f]:focus {
+  outline-color: var(--color--7-3) !important;
+}
+
+[class*=fc7-3-f]:focus {
+  color: var(--color--7-3) !important;
+}
+
+[class*=sc7-3-f]:focus {
+  -webkit-text-stroke-color: var(--color--7-3) !important;
+}
+
+[class*=bg7-4-f]:focus {
+  background: var(--color--7-4) !important;
+}
+
+[class*=bc7-4-f]:focus {
+  border-color: var(--color--7-4) !important;
+}
+
+[class*=oc7-4-f]:focus {
+  outline-color: var(--color--7-4) !important;
+}
+
+[class*=fc7-4-f]:focus {
+  color: var(--color--7-4) !important;
+}
+
+[class*=sc7-4-f]:focus {
+  -webkit-text-stroke-color: var(--color--7-4) !important;
+}
+
+[class*=bg7-5-f]:focus {
+  background: var(--color--7-5) !important;
+}
+
+[class*=bc7-5-f]:focus {
+  border-color: var(--color--7-5) !important;
+}
+
+[class*=oc7-5-f]:focus {
+  outline-color: var(--color--7-5) !important;
+}
+
+[class*=fc7-5-f]:focus {
+  color: var(--color--7-5) !important;
+}
+
+[class*=sc7-5-f]:focus {
+  -webkit-text-stroke-color: var(--color--7-5) !important;
+}
+
+[class*=bg7-6-f]:focus {
+  background: var(--color--7-6) !important;
+}
+
+[class*=bc7-6-f]:focus {
+  border-color: var(--color--7-6) !important;
+}
+
+[class*=oc7-6-f]:focus {
+  outline-color: var(--color--7-6) !important;
+}
+
+[class*=fc7-6-f]:focus {
+  color: var(--color--7-6) !important;
+}
+
+[class*=sc7-6-f]:focus {
+  -webkit-text-stroke-color: var(--color--7-6) !important;
+}
+
+[class*=bg7-7-f]:focus {
+  background: var(--color--7-7) !important;
+}
+
+[class*=bc7-7-f]:focus {
+  border-color: var(--color--7-7) !important;
+}
+
+[class*=oc7-7-f]:focus {
+  outline-color: var(--color--7-7) !important;
+}
+
+[class*=fc7-7-f]:focus {
+  color: var(--color--7-7) !important;
+}
+
+[class*=sc7-7-f]:focus {
+  -webkit-text-stroke-color: var(--color--7-7) !important;
+}
+
+[class*=bg7-8-f]:focus {
+  background: var(--color--7-8) !important;
+}
+
+[class*=bc7-8-f]:focus {
+  border-color: var(--color--7-8) !important;
+}
+
+[class*=oc7-8-f]:focus {
+  outline-color: var(--color--7-8) !important;
+}
+
+[class*=fc7-8-f]:focus {
+  color: var(--color--7-8) !important;
+}
+
+[class*=sc7-8-f]:focus {
+  -webkit-text-stroke-color: var(--color--7-8) !important;
+}
+
+[class*=bg7-9-f]:focus {
+  background: var(--color--7-9) !important;
+}
+
+[class*=bc7-9-f]:focus {
+  border-color: var(--color--7-9) !important;
+}
+
+[class*=oc7-9-f]:focus {
+  outline-color: var(--color--7-9) !important;
+}
+
+[class*=fc7-9-f]:focus {
+  color: var(--color--7-9) !important;
+}
+
+[class*=sc7-9-f]:focus {
+  -webkit-text-stroke-color: var(--color--7-9) !important;
+}
+
+[class*=bg8-0-f]:focus {
+  background: var(--color--8-0) !important;
+}
+
+[class*=bc8-0-f]:focus {
+  border-color: var(--color--8-0) !important;
+}
+
+[class*=oc8-0-f]:focus {
+  outline-color: var(--color--8-0) !important;
+}
+
+[class*=fc8-0-f]:focus {
+  color: var(--color--8-0) !important;
+}
+
+[class*=sc8-0-f]:focus {
+  -webkit-text-stroke-color: var(--color--8-0) !important;
+}
+
+[class*=bg8-1-f]:focus {
+  background: var(--color--8-1) !important;
+}
+
+[class*=bc8-1-f]:focus {
+  border-color: var(--color--8-1) !important;
+}
+
+[class*=oc8-1-f]:focus {
+  outline-color: var(--color--8-1) !important;
+}
+
+[class*=fc8-1-f]:focus {
+  color: var(--color--8-1) !important;
+}
+
+[class*=sc8-1-f]:focus {
+  -webkit-text-stroke-color: var(--color--8-1) !important;
+}
+
+[class*=bg8-2-f]:focus {
+  background: var(--color--8-2) !important;
+}
+
+[class*=bc8-2-f]:focus {
+  border-color: var(--color--8-2) !important;
+}
+
+[class*=oc8-2-f]:focus {
+  outline-color: var(--color--8-2) !important;
+}
+
+[class*=fc8-2-f]:focus {
+  color: var(--color--8-2) !important;
+}
+
+[class*=sc8-2-f]:focus {
+  -webkit-text-stroke-color: var(--color--8-2) !important;
+}
+
+[class*=bg8-3-f]:focus {
+  background: var(--color--8-3) !important;
+}
+
+[class*=bc8-3-f]:focus {
+  border-color: var(--color--8-3) !important;
+}
+
+[class*=oc8-3-f]:focus {
+  outline-color: var(--color--8-3) !important;
+}
+
+[class*=fc8-3-f]:focus {
+  color: var(--color--8-3) !important;
+}
+
+[class*=sc8-3-f]:focus {
+  -webkit-text-stroke-color: var(--color--8-3) !important;
+}
+
+[class*=bg8-4-f]:focus {
+  background: var(--color--8-4) !important;
+}
+
+[class*=bc8-4-f]:focus {
+  border-color: var(--color--8-4) !important;
+}
+
+[class*=oc8-4-f]:focus {
+  outline-color: var(--color--8-4) !important;
+}
+
+[class*=fc8-4-f]:focus {
+  color: var(--color--8-4) !important;
+}
+
+[class*=sc8-4-f]:focus {
+  -webkit-text-stroke-color: var(--color--8-4) !important;
+}
+
+[class*=bg8-5-f]:focus {
+  background: var(--color--8-5) !important;
+}
+
+[class*=bc8-5-f]:focus {
+  border-color: var(--color--8-5) !important;
+}
+
+[class*=oc8-5-f]:focus {
+  outline-color: var(--color--8-5) !important;
+}
+
+[class*=fc8-5-f]:focus {
+  color: var(--color--8-5) !important;
+}
+
+[class*=sc8-5-f]:focus {
+  -webkit-text-stroke-color: var(--color--8-5) !important;
+}
+
+[class*=bg8-6-f]:focus {
+  background: var(--color--8-6) !important;
+}
+
+[class*=bc8-6-f]:focus {
+  border-color: var(--color--8-6) !important;
+}
+
+[class*=oc8-6-f]:focus {
+  outline-color: var(--color--8-6) !important;
+}
+
+[class*=fc8-6-f]:focus {
+  color: var(--color--8-6) !important;
+}
+
+[class*=sc8-6-f]:focus {
+  -webkit-text-stroke-color: var(--color--8-6) !important;
+}
+
+[class*=bg8-7-f]:focus {
+  background: var(--color--8-7) !important;
+}
+
+[class*=bc8-7-f]:focus {
+  border-color: var(--color--8-7) !important;
+}
+
+[class*=oc8-7-f]:focus {
+  outline-color: var(--color--8-7) !important;
+}
+
+[class*=fc8-7-f]:focus {
+  color: var(--color--8-7) !important;
+}
+
+[class*=sc8-7-f]:focus {
+  -webkit-text-stroke-color: var(--color--8-7) !important;
+}
+
+[class*=bg8-8-f]:focus {
+  background: var(--color--8-8) !important;
+}
+
+[class*=bc8-8-f]:focus {
+  border-color: var(--color--8-8) !important;
+}
+
+[class*=oc8-8-f]:focus {
+  outline-color: var(--color--8-8) !important;
+}
+
+[class*=fc8-8-f]:focus {
+  color: var(--color--8-8) !important;
+}
+
+[class*=sc8-8-f]:focus {
+  -webkit-text-stroke-color: var(--color--8-8) !important;
+}
+
+[class*=bg8-9-f]:focus {
+  background: var(--color--8-9) !important;
+}
+
+[class*=bc8-9-f]:focus {
+  border-color: var(--color--8-9) !important;
+}
+
+[class*=oc8-9-f]:focus {
+  outline-color: var(--color--8-9) !important;
+}
+
+[class*=fc8-9-f]:focus {
+  color: var(--color--8-9) !important;
+}
+
+[class*=sc8-9-f]:focus {
+  -webkit-text-stroke-color: var(--color--8-9) !important;
+}
+
+[class*=bg9-0-f]:focus {
+  background: var(--color--9-0) !important;
+}
+
+[class*=bc9-0-f]:focus {
+  border-color: var(--color--9-0) !important;
+}
+
+[class*=oc9-0-f]:focus {
+  outline-color: var(--color--9-0) !important;
+}
+
+[class*=fc9-0-f]:focus {
+  color: var(--color--9-0) !important;
+}
+
+[class*=sc9-0-f]:focus {
+  -webkit-text-stroke-color: var(--color--9-0) !important;
+}
+
+[class*=bg9-1-f]:focus {
+  background: var(--color--9-1) !important;
+}
+
+[class*=bc9-1-f]:focus {
+  border-color: var(--color--9-1) !important;
+}
+
+[class*=oc9-1-f]:focus {
+  outline-color: var(--color--9-1) !important;
+}
+
+[class*=fc9-1-f]:focus {
+  color: var(--color--9-1) !important;
+}
+
+[class*=sc9-1-f]:focus {
+  -webkit-text-stroke-color: var(--color--9-1) !important;
+}
+
+[class*=bg9-2-f]:focus {
+  background: var(--color--9-2) !important;
+}
+
+[class*=bc9-2-f]:focus {
+  border-color: var(--color--9-2) !important;
+}
+
+[class*=oc9-2-f]:focus {
+  outline-color: var(--color--9-2) !important;
+}
+
+[class*=fc9-2-f]:focus {
+  color: var(--color--9-2) !important;
+}
+
+[class*=sc9-2-f]:focus {
+  -webkit-text-stroke-color: var(--color--9-2) !important;
+}
+
+[class*=bg9-3-f]:focus {
+  background: var(--color--9-3) !important;
+}
+
+[class*=bc9-3-f]:focus {
+  border-color: var(--color--9-3) !important;
+}
+
+[class*=oc9-3-f]:focus {
+  outline-color: var(--color--9-3) !important;
+}
+
+[class*=fc9-3-f]:focus {
+  color: var(--color--9-3) !important;
+}
+
+[class*=sc9-3-f]:focus {
+  -webkit-text-stroke-color: var(--color--9-3) !important;
+}
+
+[class*=bg9-4-f]:focus {
+  background: var(--color--9-4) !important;
+}
+
+[class*=bc9-4-f]:focus {
+  border-color: var(--color--9-4) !important;
+}
+
+[class*=oc9-4-f]:focus {
+  outline-color: var(--color--9-4) !important;
+}
+
+[class*=fc9-4-f]:focus {
+  color: var(--color--9-4) !important;
+}
+
+[class*=sc9-4-f]:focus {
+  -webkit-text-stroke-color: var(--color--9-4) !important;
+}
+
+[class*=bg9-5-f]:focus {
+  background: var(--color--9-5) !important;
+}
+
+[class*=bc9-5-f]:focus {
+  border-color: var(--color--9-5) !important;
+}
+
+[class*=oc9-5-f]:focus {
+  outline-color: var(--color--9-5) !important;
+}
+
+[class*=fc9-5-f]:focus {
+  color: var(--color--9-5) !important;
+}
+
+[class*=sc9-5-f]:focus {
+  -webkit-text-stroke-color: var(--color--9-5) !important;
+}
+
+[class*=bg9-6-f]:focus {
+  background: var(--color--9-6) !important;
+}
+
+[class*=bc9-6-f]:focus {
+  border-color: var(--color--9-6) !important;
+}
+
+[class*=oc9-6-f]:focus {
+  outline-color: var(--color--9-6) !important;
+}
+
+[class*=fc9-6-f]:focus {
+  color: var(--color--9-6) !important;
+}
+
+[class*=sc9-6-f]:focus {
+  -webkit-text-stroke-color: var(--color--9-6) !important;
+}
+
+[class*=bg9-7-f]:focus {
+  background: var(--color--9-7) !important;
+}
+
+[class*=bc9-7-f]:focus {
+  border-color: var(--color--9-7) !important;
+}
+
+[class*=oc9-7-f]:focus {
+  outline-color: var(--color--9-7) !important;
+}
+
+[class*=fc9-7-f]:focus {
+  color: var(--color--9-7) !important;
+}
+
+[class*=sc9-7-f]:focus {
+  -webkit-text-stroke-color: var(--color--9-7) !important;
+}
+
+[class*=bg9-8-f]:focus {
+  background: var(--color--9-8) !important;
+}
+
+[class*=bc9-8-f]:focus {
+  border-color: var(--color--9-8) !important;
+}
+
+[class*=oc9-8-f]:focus {
+  outline-color: var(--color--9-8) !important;
+}
+
+[class*=fc9-8-f]:focus {
+  color: var(--color--9-8) !important;
+}
+
+[class*=sc9-8-f]:focus {
+  -webkit-text-stroke-color: var(--color--9-8) !important;
+}
+
+[class*=bg9-9-f]:focus {
+  background: var(--color--9-9) !important;
+}
+
+[class*=bc9-9-f]:focus {
+  border-color: var(--color--9-9) !important;
+}
+
+[class*=oc9-9-f]:focus {
+  outline-color: var(--color--9-9) !important;
+}
+
+[class*=fc9-9-f]:focus {
+  color: var(--color--9-9) !important;
+}
+
+[class*=sc9-9-f]:focus {
+  -webkit-text-stroke-color: var(--color--9-9) !important;
+}
+
+[class*=xs_ed0] {
+  display: none;
+}
+
+[class*=xs_ed1] {
+  display: block;
+}
+
+[class*=xs_ed2] {
+  display: flex;
+}
+
+[class*=xs_ed3] {
+  display: grid;
+}
+
+[class*=xs_ed4] {
+  display: inline-block;
+}
+
+[class*=xs_ed5] {
+  display: inline;
+}
+
+[class*=xs_ed6] {
+  display: inline-flex;
+}
+
+[class*=xs_ep0] {
+  position: static;
+}
+
+[class*=xs_ep1] {
+  position: relative;
+}
+
+[class*=xs_ep2] {
+  position: absolute;
+}
+
+[class*=xs_ep3] {
+  position: fixed;
+}
+
+[class*=xs_ep4] {
+  position: sticky;
+}
+
+[class*=xs_of0] {
+  overflow: visible;
+}
+
+[class*=xs_of1] {
+  overflow: scroll;
+}
+
+[class*=xs_of2] {
+  overflow: auto;
+}
+
+[class*=xs_of3] {
+  overflow: hidden;
+}
+
+[class*=xs_ox0] {
+  overflow-x: visible;
+}
+
+[class*=xs_ox1] {
+  overflow-x: scroll;
+}
+
+[class*=xs_ox2] {
+  overflow-x: auto;
+}
+
+[class*=xs_ox3] {
+  overflow-x: hidden;
+}
+
+[class*=xs_oy0] {
+  overflow-y: visible;
+}
+
+[class*=xs_oy1] {
+  overflow-y: scroll;
+}
+
+[class*=xs_oy2] {
+  overflow-y: auto;
+}
+
+[class*=xs_oy3] {
+  overflow-y: hidden;
+}
+
+@media (min-width: 480px) {
+  [class*=sm_ed0] {
+    display: none;
+  }
+  [class*=sm_ed1] {
+    display: block;
+  }
+  [class*=sm_ed2] {
+    display: flex;
+  }
+  [class*=sm_ed3] {
+    display: grid;
+  }
+  [class*=sm_ed4] {
+    display: inline-block;
+  }
+  [class*=sm_ed5] {
+    display: inline;
+  }
+  [class*=sm_ed6] {
+    display: inline-flex;
+  }
+  [class*=sm_ep0] {
+    position: static;
+  }
+  [class*=sm_ep1] {
+    position: relative;
+  }
+  [class*=sm_ep2] {
+    position: absolute;
+  }
+  [class*=sm_ep3] {
+    position: fixed;
+  }
+  [class*=sm_ep4] {
+    position: sticky;
+  }
+  [class*=sm_of0] {
+    overflow: visible;
+  }
+  [class*=sm_of1] {
+    overflow: scroll;
+  }
+  [class*=sm_of2] {
+    overflow: auto;
+  }
+  [class*=sm_of3] {
+    overflow: hidden;
+  }
+  [class*=sm_ox0] {
+    overflow-x: visible;
+  }
+  [class*=sm_ox1] {
+    overflow-x: scroll;
+  }
+  [class*=sm_ox2] {
+    overflow-x: auto;
+  }
+  [class*=sm_ox3] {
+    overflow-x: hidden;
+  }
+  [class*=sm_oy0] {
+    overflow-y: visible;
+  }
+  [class*=sm_oy1] {
+    overflow-y: scroll;
+  }
+  [class*=sm_oy2] {
+    overflow-y: auto;
+  }
+  [class*=sm_oy3] {
+    overflow-y: hidden;
+  }
+}
+@media (min-width: 768px) {
+  [class*=md_ed0] {
+    display: none;
+  }
+  [class*=md_ed1] {
+    display: block;
+  }
+  [class*=md_ed2] {
+    display: flex;
+  }
+  [class*=md_ed3] {
+    display: grid;
+  }
+  [class*=md_ed4] {
+    display: inline-block;
+  }
+  [class*=md_ed5] {
+    display: inline;
+  }
+  [class*=md_ed6] {
+    display: inline-flex;
+  }
+  [class*=md_ep0] {
+    position: static;
+  }
+  [class*=md_ep1] {
+    position: relative;
+  }
+  [class*=md_ep2] {
+    position: absolute;
+  }
+  [class*=md_ep3] {
+    position: fixed;
+  }
+  [class*=md_ep4] {
+    position: sticky;
+  }
+  [class*=md_of0] {
+    overflow: visible;
+  }
+  [class*=md_of1] {
+    overflow: scroll;
+  }
+  [class*=md_of2] {
+    overflow: auto;
+  }
+  [class*=md_of3] {
+    overflow: hidden;
+  }
+  [class*=md_ox0] {
+    overflow-x: visible;
+  }
+  [class*=md_ox1] {
+    overflow-x: scroll;
+  }
+  [class*=md_ox2] {
+    overflow-x: auto;
+  }
+  [class*=md_ox3] {
+    overflow-x: hidden;
+  }
+  [class*=md_oy0] {
+    overflow-y: visible;
+  }
+  [class*=md_oy1] {
+    overflow-y: scroll;
+  }
+  [class*=md_oy2] {
+    overflow-y: auto;
+  }
+  [class*=md_oy3] {
+    overflow-y: hidden;
+  }
+}
+@media (min-width: 992px) {
+  [class*=lg_ed0] {
+    display: none;
+  }
+  [class*=lg_ed1] {
+    display: block;
+  }
+  [class*=lg_ed2] {
+    display: flex;
+  }
+  [class*=lg_ed3] {
+    display: grid;
+  }
+  [class*=lg_ed4] {
+    display: inline-block;
+  }
+  [class*=lg_ed5] {
+    display: inline;
+  }
+  [class*=lg_ed6] {
+    display: inline-flex;
+  }
+  [class*=lg_ep0] {
+    position: static;
+  }
+  [class*=lg_ep1] {
+    position: relative;
+  }
+  [class*=lg_ep2] {
+    position: absolute;
+  }
+  [class*=lg_ep3] {
+    position: fixed;
+  }
+  [class*=lg_ep4] {
+    position: sticky;
+  }
+  [class*=lg_of0] {
+    overflow: visible;
+  }
+  [class*=lg_of1] {
+    overflow: scroll;
+  }
+  [class*=lg_of2] {
+    overflow: auto;
+  }
+  [class*=lg_of3] {
+    overflow: hidden;
+  }
+  [class*=lg_ox0] {
+    overflow-x: visible;
+  }
+  [class*=lg_ox1] {
+    overflow-x: scroll;
+  }
+  [class*=lg_ox2] {
+    overflow-x: auto;
+  }
+  [class*=lg_ox3] {
+    overflow-x: hidden;
+  }
+  [class*=lg_oy0] {
+    overflow-y: visible;
+  }
+  [class*=lg_oy1] {
+    overflow-y: scroll;
+  }
+  [class*=lg_oy2] {
+    overflow-y: auto;
+  }
+  [class*=lg_oy3] {
+    overflow-y: hidden;
+  }
+}
+[class*=tw0] {
+  font-weight: var(--font-weight--0);
+}
+
+[class*=tw1] {
+  font-weight: var(--font-weight--1);
+}
+
+[class*=tw2] {
+  font-weight: var(--font-weight--2);
+}
+
+[class*=tw3] {
+  font-weight: var(--font-weight--3);
+}
+
+[class*=tw4] {
+  font-weight: var(--font-weight--4);
+}
+
+[class*=tw5] {
+  font-weight: var(--font-weight--5);
+}
+
+[class*=tw6] {
+  font-weight: var(--font-weight--6);
+}
+
+[class*=tw7] {
+  font-weight: var(--font-weight--7);
+}
+
+[class*=tw8] {
+  font-weight: var(--font-weight--8);
+}
+
+[class*=tw9] {
+  font-weight: var(--font-weight--9);
+}
+
+[class*=th0] {
+  line-height: var(--line-height--0);
+}
+
+[class*=th1] {
+  line-height: var(--line-height--1);
+}
+
+[class*=th2] {
+  line-height: var(--line-height--2);
+}
+
+[class*=th3] {
+  line-height: var(--line-height--3);
+}
+
+[class*=th4] {
+  line-height: var(--line-height--4);
+}
+
+[class*=th5] {
+  line-height: var(--line-height--5);
+}
+
+[class*=th6] {
+  line-height: var(--line-height--6);
+}
+
+[class*=th7] {
+  line-height: var(--line-height--7);
+}
+
+[class*=th8] {
+  line-height: var(--line-height--8);
+}
+
+[class*=th9] {
+  line-height: var(--line-height--9);
+}
+
+[class*=ts0] {
+  letter-spacing: var(--letter-spacing--0);
+}
+
+[class*=ts1] {
+  letter-spacing: var(--letter-spacing--1);
+}
+
+[class*=ts2] {
+  letter-spacing: var(--letter-spacing--2);
+}
+
+[class*=ts3] {
+  letter-spacing: var(--letter-spacing--3);
+}
+
+[class*=ts4] {
+  letter-spacing: var(--letter-spacing--4);
+}
+
+[class*=ts5] {
+  letter-spacing: var(--letter-spacing--5);
+}
+
+[class*=ts6] {
+  letter-spacing: var(--letter-spacing--6);
+}
+
+[class*=ts7] {
+  letter-spacing: var(--letter-spacing--7);
+}
+
+[class*=ts8] {
+  letter-spacing: var(--letter-spacing--8);
+}
+
+[class*=ts9] {
+  letter-spacing: var(--letter-spacing--9);
+}
+
+[class*=ff0] {
+  font-family: var(--font-family--0);
+}
+
+[class*=ff1] {
+  font-family: var(--font-family--1);
+}
+
+[class*=ff2] {
+  font-family: var(--font-family--2);
+}
+
+[class*=ff3] {
+  font-family: var(--font-family--3);
+}
+
+[class*=ff4] {
+  font-family: var(--font-family--4);
+}
+
+[class*=ff5] {
+  font-family: var(--font-family--5);
+}
+
+[class*=ff6] {
+  font-family: var(--font-family--6);
+}
+
+[class*=ff7] {
+  font-family: var(--font-family--7);
+}
+
+[class*=ff8] {
+  font-family: var(--font-family--8);
+}
+
+[class*=ff9] {
+  font-family: var(--font-family--9);
+}
+
+[class*=tt0] {
+  text-transform: lowercase;
+}
+
+[class*=tt1] {
+  text-transform: capitalize;
+}
+
+[class*=tt2] {
+  text-transform: uppercase;
+}
+
+[class*=xs_ta0] {
+  text-align: left;
+}
+
+[class*=xs_ta1] {
+  text-align: center;
+}
+
+[class*=xs_ta2] {
+  text-align: right;
+}
+
+[class*=xs_ta3] {
+  text-align: justify;
+}
+
+[class*=xs_ta4] {
+  text-align: start;
+}
+
+[class*=xs_ta5] {
+  text-align: end;
+}
+
+@media (min-width: 480px) {
+  [class*=sm_ta0] {
+    text-align: left;
+  }
+  [class*=sm_ta1] {
+    text-align: center;
+  }
+  [class*=sm_ta2] {
+    text-align: right;
+  }
+  [class*=sm_ta3] {
+    text-align: justify;
+  }
+  [class*=sm_ta4] {
+    text-align: start;
+  }
+  [class*=sm_ta5] {
+    text-align: end;
+  }
+}
+@media (min-width: 768px) {
+  [class*=md_ta0] {
+    text-align: left;
+  }
+  [class*=md_ta1] {
+    text-align: center;
+  }
+  [class*=md_ta2] {
+    text-align: right;
+  }
+  [class*=md_ta3] {
+    text-align: justify;
+  }
+  [class*=md_ta4] {
+    text-align: start;
+  }
+  [class*=md_ta5] {
+    text-align: end;
+  }
+}
+@media (min-width: 992px) {
+  [class*=lg_ta0] {
+    text-align: left;
+  }
+  [class*=lg_ta1] {
+    text-align: center;
+  }
+  [class*=lg_ta2] {
+    text-align: right;
+  }
+  [class*=lg_ta3] {
+    text-align: justify;
+  }
+  [class*=lg_ta4] {
+    text-align: start;
+  }
+  [class*=lg_ta5] {
+    text-align: end;
+  }
+}
