@@ -1,5 +1,11 @@
 @use "variables" as v;
 
+@each $key, $val in v.$font {
+  [class*="--x#{$key}"] {
+    background: $val;
+  }
+}
+
 $txt-properties: (
   "font-weight": "tw",
   "line-height": "th",

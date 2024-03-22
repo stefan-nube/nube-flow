@@ -2,18 +2,18 @@
 
 @each $key, $val in v.$colors {
   [class*="bg#{$key}"] {
-    background: $val !important;
+    background: $val;
   }
   [class*="bc#{$key}"] {
-    border-color: $val !important;
+    border-color: $val;
   }
   [class*="oc#{$key}"] {
-    outline-color: $val !important;
+    outline-color: $val;
   }
   [class*="fc#{$key}"] {
-    color: $val !important;
+    color: $val;
   }
   [class*="sc#{$key}"] {
-    -webkit-text-stroke-color: $val !important;
+    -webkit-text-stroke-color: $val;
   }
 }
