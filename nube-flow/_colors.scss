@@ -17,3 +17,9 @@
     -webkit-text-stroke-color: $val;
   }
 }
+
+@each $key, $val in v.$specials {
+  [class*="bg#{$key}"] {
+    background: $val;
+  }
+}

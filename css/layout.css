@@ -1,6 +1,6 @@
 :root {
-  --primitives-size-grid-gutter: var(--grid--base-gutter);
-  --primitives-size-row-gap: var(--grid--base-row-gap);
+  --grid-gutter: var(--grid--base-gutter);
+  --grid-gap: var(--grid--base-row-gap);
 }
 
 [class*=cnt] {
@@ -13,22 +13,22 @@
 [class*=rw] {
   display: flex;
   flex-wrap: wrap;
-  margin-right: calc(-1 * var(--primitives-size-grid-gutter));
-  margin-left: calc(-1 * var(--primitives-size-grid-gutter));
-  grid-row-gap: var(--primitives-size-row-gap);
+  margin-right: calc(-1 * var(--grid-gutter));
+  margin-left: calc(-1 * var(--grid-gutter));
+  grid-row-gap: var(--grid-gap);
 }
 
 [class*=clm] {
-  padding-right: var(--primitives-size-grid-gutter);
-  padding-left: var(--primitives-size-grid-gutter);
+  padding-right: var(--grid-gutter);
+  padding-left: var(--grid-gutter);
   flex-basis: 100%;
   flex-grow: 1;
   max-width: 100%;
 }
 
 [class*=rw-x] > [class*=clm] {
-  padding-right: var(--primitives-size-grid-gutter);
-  padding-left: var(--primitives-size-grid-gutter);
+  padding-right: var(--grid-gutter);
+  padding-left: var(--grid-gutter);
   flex-basis: auto;
   flex-grow: 1;
   max-width: 100%;
@@ -341,89 +341,89 @@
   }
 }
 [class*=rw][class*=hg0] {
-  --primitives-size-grid-gutter: calc(var(--size--0) / 2);
+  --grid-gutter: calc(var(--size--0) / 2);
 }
 
 [class*=rw][class*=hg1] {
-  --primitives-size-grid-gutter: calc(var(--size--1) / 2);
+  --grid-gutter: calc(var(--size--1) / 2);
 }
 
 [class*=rw][class*=hg2] {
-  --primitives-size-grid-gutter: calc(var(--size--2) / 2);
+  --grid-gutter: calc(var(--size--2) / 2);
 }
 
 [class*=rw][class*=hg3] {
-  --primitives-size-grid-gutter: calc(var(--size--3) / 2);
+  --grid-gutter: calc(var(--size--3) / 2);
 }
 
 [class*=rw][class*=hg4] {
-  --primitives-size-grid-gutter: calc(var(--size--4) / 2);
+  --grid-gutter: calc(var(--size--4) / 2);
 }
 
 [class*=rw][class*=hg5] {
-  --primitives-size-grid-gutter: calc(var(--size--5) / 2);
+  --grid-gutter: calc(var(--size--5) / 2);
 }
 
 [class*=rw][class*=hg6] {
-  --primitives-size-grid-gutter: calc(var(--size--6) / 2);
+  --grid-gutter: calc(var(--size--6) / 2);
 }
 
 [class*=rw][class*=hg7] {
-  --primitives-size-grid-gutter: calc(var(--size--7) / 2);
+  --grid-gutter: calc(var(--size--7) / 2);
 }
 
 [class*=rw][class*=hg8] {
-  --primitives-size-grid-gutter: calc(var(--size--8) / 2);
+  --grid-gutter: calc(var(--size--8) / 2);
 }
 
 [class*=rw][class*=hg9] {
-  --primitives-size-grid-gutter: calc(var(--size--9) / 2);
+  --grid-gutter: calc(var(--size--9) / 2);
 }
 
 [class*=rw][class*=hg10] {
-  --primitives-size-grid-gutter: calc(var(--size--10) / 2);
+  --grid-gutter: calc(var(--size--10) / 2);
 }
 
 [class*=rw][class*=vg0] {
-  --primitives-size-row-gap: var(--size--0);
+  --grid-gap: var(--size--0);
 }
 
 [class*=rw][class*=vg1] {
-  --primitives-size-row-gap: var(--size--1);
+  --grid-gap: var(--size--1);
 }
 
 [class*=rw][class*=vg2] {
-  --primitives-size-row-gap: var(--size--2);
+  --grid-gap: var(--size--2);
 }
 
 [class*=rw][class*=vg3] {
-  --primitives-size-row-gap: var(--size--3);
+  --grid-gap: var(--size--3);
 }
 
 [class*=rw][class*=vg4] {
-  --primitives-size-row-gap: var(--size--4);
+  --grid-gap: var(--size--4);
 }
 
 [class*=rw][class*=vg5] {
-  --primitives-size-row-gap: var(--size--5);
+  --grid-gap: var(--size--5);
 }
 
 [class*=rw][class*=vg6] {
-  --primitives-size-row-gap: var(--size--6);
+  --grid-gap: var(--size--6);
 }
 
 [class*=rw][class*=vg7] {
-  --primitives-size-row-gap: var(--size--7);
+  --grid-gap: var(--size--7);
 }
 
 [class*=rw][class*=vg8] {
-  --primitives-size-row-gap: var(--size--8);
+  --grid-gap: var(--size--8);
 }
 
 [class*=rw][class*=vg9] {
-  --primitives-size-row-gap: var(--size--9);
+  --grid-gap: var(--size--9);
 }
 
 [class*=rw][class*=vg10] {
-  --primitives-size-row-gap: var(--size--10);
+  --grid-gap: var(--size--10);
 }
