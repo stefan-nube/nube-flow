@@ -3,6 +3,7 @@
 :root {
   --grid-gutter: var(--grid--base-gutter);
   --grid-gap: var(--grid--base-row-gap);
+  --grid-main-width: 90rem;
 }
 
 [class*="cnt"] {
@@ -164,3 +165,36 @@ $row-gap: (
 
 @include generate-values($grid-gutter, $h-values);
 @include generate-values($row-gap, $v-values);
+
+$columns-max: (
+  "flex-basis": (
+    "values": (
+      "1": calc(var(--grid-main-width) * 0.0833),
+      "2": calc(var(--grid-main-width) * 0.1666),
+      "3": calc(var(--grid-main-width) * 0.25),
+      "4": calc(var(--grid-main-width) * 0.3333),
+      "5": calc(var(--grid-main-width) * 0.4166),
+      "6": calc(var(--grid-main-width) * 0.5),
+      "7": calc(var(--grid-main-width) * 0.5833),
+      "8": calc(var(--grid-main-width) * 0.6666),
+      "9": calc(var(--grid-main-width) * 0.75),
+      "10": calc(var(--grid-main-width) * 0.8333),
+      "11": calc(var(--grid-main-width) * 0.9166),
+      "12": calc(var(--grid-main-width) * 1),
+    ),
+  ),
+);
+
+@each $property, $map in $columns-max {
+  $values: map-get($map, "values");
+
+  @each $k, $v in $values {
+    [class*="clm"][class*="fx_#{$k}"] {
+      #{$property}: $v;
+      width: 100%;
+      max-width: $v;
+      flex-grow: 1;
+      flex-shrink: 1;
+    }
+  }
+}
